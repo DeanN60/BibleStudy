@@ -1,0 +1,13 @@
+@use "color";
+@use "side-menu-panel";
+@import "page";
+
+.page-content-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 80vh;
+
+  .page-content {
+    @include mix-page-content;
+  }
+}

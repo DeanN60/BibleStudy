@@ -1,0 +1,6 @@
+@mixin mix-page-content {
+  padding-top: 0.01em;
+  color: var(--color-content-text);
+  background-color: var(--color-content-background-color);
+  min-height: 80vh;
+}

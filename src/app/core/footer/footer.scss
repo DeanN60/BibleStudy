@@ -1,0 +1,8 @@
+@use "color";
+
+.page-footer {
+  padding: 0.8em;
+  text-align: center;
+  color: var(--color-footer-text);
+  background-color: var(--color-footer-background);
+}

@@ -1,0 +1,34 @@
+<div class="page-content-container">
+  <app-doctrine-sub-menu/>
+
+  <div class="page-content">
+    <h1>Salvation</h1>
+
+    <div>
+      Salvation is by grace alone and not of any works.
+      Salvation is a gift of God freely given to all who receive it.
+    </div>
+
+    <p-panel #eph289 style="width: 500px">
+      <ng-template #header>
+        <div class="verse-reference">
+          Ephesians 2:8-10
+        </div>
+      </ng-template>
+      <div class="verse-text">
+        8 For it is by grace you have been saved, through faith-and this is not form yourselves, it is the gift of God-
+        9
+        not by works, so that no one can boast. 10 For we are God's handiwork, created in Christ Jesus to do good works,
+        which God prepared in advance for us to do.
+      </div>
+      <ng-template #footer>
+        <div class="verse-source">
+          NIV, Holy Bible (p. 3211). Zondervan. Kindle Edition.
+        </div>
+      </ng-template>
+    </p-panel>
+
+    Salvation is a gift from God. It can not be earned as seen in <span (mouseover)="eph289.toggle($event)"
+                                                                        class="verse-text">Ephesians 2:8-10</span>
+  </div>
+</div>

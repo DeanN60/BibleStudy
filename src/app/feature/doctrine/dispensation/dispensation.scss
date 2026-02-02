@@ -1,0 +1,35 @@
+@use "color";
+@use "side-menu-panel";
+@import "page";
+
+.page-content-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 80vh;
+
+  .page-content {
+    @include mix-page-content;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0.5rem;
+  padding: 0;
+  line-height: 1.5em;
+
+  li {
+    letter-spacing: 1px;
+
+    a {
+      cursor: pointer;
+      text-decoration: none;
+      &:hover {
+        background-color: #BFDBFE;
+        border-radius: 4px;
+        padding: 2px;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,34 @@
+@use "color";
+@use "base";
+@use "menu-base";
+
+.side-menu-panel {
+  width: var(--side-panel-menu-width);
+  height: 80vh;
+  background-color: var(--color-side-menu-background);
+  margin-right: 1em;
+  padding: 1em 0;
+  text-align: right;
+  line-height: 1.5em;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    a {
+      color: var(--color-side-menu-text);
+      padding: 6px 10px;
+      text-decoration: none;
+
+      &:hover {
+        background-color: var(--color-menu-hover-background);
+        color: var(--color-menu-hover-text);
+      }
+    }
+
+    > li {
+      list-style-type: none;
+      padding: 6px;
+    }
+  }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Adam",
+    "birthYear": 0,
+    "yearsLived": 930
+  },
+  {
+    "name": "Seth",
+    "birthYear": 130,
+    "yearsLived": 912
+  },
+  {
+    "name": "Enosh",
+    "birthYear": 235,
+    "yearsLived": 905
+  },
+  {
+    "name": "Keran",
+    "birthYear": 325,
+    "yearsLived": 910
+  },
+  {
+    "name": "Mahalalel",
+    "birthYear": 395,
+    "yearsLived": 895
+  },
+  {
+    "name": "Jared",
+    "birthYear": 460,
+    "yearsLived": 962
+  },
+  {
+    "name": "Enoch",
+    "birthYear": 622,
+    "yearsLived": 365
+  },
+  {
+    "name": "Methuselah",
+    "birthYear": 687,
+    "yearsLived": 969
+  },
+  {
+    "name": "Lamech",
+    "birthYear": 874,
+    "yearsLived": 777
+  },
+  {
+    "name": "Noah",
+    "birthYear": 1056,
+    "yearsLived": 950
+  },
+  {
+    "name": "Shem",
+    "birthYear": 1558,
+    "yearsLived": 600
+  },
+  {
+    "name": "Flood",
+    "birthYear": 1658,
+    "yearsLived": 1
+  },
+  {
+    "name": "Arphaxad",
+    "birthYear": 1658,
+    "yearsLived": 438
+  },
+  {
+    "name": "Shelah",
+    "birthYear": 1693,
+    "yearsLived": 433
+  },
+  {
+    "name": "Eber",
+    "birthYear": 1723,
+    "yearsLived": 464
+  },
+  {
+    "name": "Peleg",
+    "birthYear": 1757,
+    "yearsLived": 239
+  },
+  {
+    "name": "Reu",
+    "birthYear": 1787,
+    "yearsLived": 239
+  },
+  {
+    "name": "Serug",
+    "birthYear": 1819,
+    "yearsLived": 230
+  },
+  {
+    "name": "Nahor",
+    "birthYear": 1849,
+    "yearsLived": 148
+  },
+  {
+    "name": "Terah",
+    "birthYear": 1878,
+    "yearsLived": 205
+  },
+  {
+    "name": "Abram",
+    "birthYear": 1948,
+    "yearsLived": 175
+  },
+  {
+    "name": "Isaac",
+    "birthYear": 2048,
+    "yearsLived": 180
+  },
+  {
+    "name": "Jacob",
+    "birthYear": 2108,
+    "yearsLived": 147
+  },
+  {
+    "name": "Judah",
+    "birthYear": 2108,
+    "yearsLived": 100
+  }
+]

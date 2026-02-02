@@ -1,0 +1,45 @@
+.p-overlaypanel {
+  background: var(--color-overlay-panel-background);
+  color: var(--color-overlay-panel-text);
+  border: 0 none;
+  border-radius: 6px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+  max-width: 70%;
+}
+
+.p-overlaypanel .p-overlaypanel-content {
+  padding: 1.25rem;
+}
+
+.p-overlaypanel .p-overlaypanel-close {
+  background: #3B82F6;
+  color: #ffffff;
+  width: 2rem;
+  height: 2rem;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+  border-radius: 50%;
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+}
+
+.p-overlaypanel .p-overlaypanel-close:enabled:hover {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.p-overlaypanel:after {
+  border-bottom-color: var(--color-overlay-panel-background);
+}
+
+.p-overlaypanel:before {
+  border-bottom-color: var(--color-overlay-panel-background);
+}
+
+.p-overlaypanel.p-overlaypanel-flipped:after {
+  border-top-color: var(--color-overlay-panel-background);
+}
+
+.p-overlaypanel.p-overlaypanel-flipped:before {
+  border-top-color: var(--color-overlay-panel-background);
+}
