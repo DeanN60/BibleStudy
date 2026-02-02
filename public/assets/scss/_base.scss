@@ -1,3 +1,9 @@
+@forward 'color';
+@forward 'menu-base';
+@forward 'menubar';
+@forward 'overlaypanel';
+@forward 'side-menu-panel';
+
 :root {
   --content-height: 80vh;
   --side-panel-menu-width: 9em;

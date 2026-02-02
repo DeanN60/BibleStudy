@@ -1,7 +1,5 @@
-@use "color";
-@use "menubar";
-@use "overlaypanel";
-@import "page";
+@use 'base';
+@use 'mixins';
 
 body {
   font-family: sans-serif;
@@ -18,7 +16,7 @@ body {
     }
 
     .page-content {
-      @include mix-page-content;
+      @include mixins.mix-page-content;
     }
   }
 }
