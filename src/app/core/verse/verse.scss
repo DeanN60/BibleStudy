@@ -1,0 +1,36 @@
+@use 'mixins';
+
+.verse-container {
+  background-color: var(--color-verse-background);
+  margin: 1em 0;
+  border-radius: 6px;
+  max-width: 600px;
+  letter-spacing: 0.05em;
+  @include mixins.mix-drop-shadow;
+
+  .verse-reference,
+  .verse-text,
+  .verse-source {
+    padding: 0.5em;
+  }
+
+  .verse-reference {
+    background-color: var(--color-verse-header-background);
+    color: var(--color-verse-reference);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+
+  .verse-text {
+    color: var(--color-verse-text);
+    margin: 0.5em 0;
+  }
+
+  .verse-source {
+    font-size: 0.5em;
+    color: var(--color-verse-source);
+    background-color: var(--color-footer-background);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+}

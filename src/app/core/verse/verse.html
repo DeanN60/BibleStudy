@@ -1,1 +1,7 @@
-<p>verse works!</p>
+<div class="verse-container">
+  <div class="verse-reference">{{ data().reference }}</div>
+  <div class="verse-text">{{ data().verse }}</div>
+  @if (data().source) {
+    <div class="verse-source">{{ data().source }}</div>
+  }
+</div>
