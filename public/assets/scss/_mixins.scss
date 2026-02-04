@@ -4,3 +4,7 @@
   background-color: var(--color-content-background-color);
   min-height: 80vh;
 }
+
+@mixin mix-drop-shadow {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
