@@ -1,1 +1,8 @@
-<p>tribe works!</p>
+<div class="tribe-container">
+  <div>Name: {{ name() }}</div>
+  <div>
+    <p-select
+      [options]="this.meanings"
+      [(ngModel)]="selectedMeaning"/>
+  </div>
+</div>

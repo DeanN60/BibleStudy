@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { Tribe } from './tribe';
+import {Tribe} from './tribe';
+import {provideHttpClient} from '@angular/common/http';
+import {provideZonelessChangeDetection} from '@angular/core';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 describe('Tribe', () => {
   let component: Tribe;
@@ -8,12 +11,19 @@ describe('Tribe', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Tribe]
-    })
-    .compileComponents();
+      imports: [
+        Tribe
+      ],
+      providers: [
+        provideHttpClient(),
+        provideHttpClientTesting(),
+        provideZonelessChangeDetection()
+      ]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(Tribe);
     component = fixture.componentInstance;
+    fixture.componentRef.setInput('name', 'Ruben');
     await fixture.whenStable();
   });
 
