@@ -21,8 +21,8 @@ export const doctrines_routes: Routes = [
   },
   {
     path: 'salvation',
-    loadComponent: () => import('./salvation/salvation')
-      .then(m => m.Salvation),
+    loadChildren: () => import('./salvation/salvation-routes')
+      .then(m => m.salvation_routes),
     title: 'Salvation'
   },
   {
