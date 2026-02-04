@@ -1,10 +1,12 @@
 import {Component} from '@angular/core';
 import {SubMenu} from "../../doctrine-sub-menu/sub-menu";
+import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 
 @Component({
   selector: 'app-conscience',
   imports: [
-    SubMenu
+    SubMenu,
+    RightSubMenu
   ],
   templateUrl: './conscience.html',
   styleUrl: '../dispensation.scss',

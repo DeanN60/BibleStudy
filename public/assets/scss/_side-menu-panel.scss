@@ -1,10 +1,24 @@
 .left-side-menu-panel {
   width: var(--left-side-panel-menu-width);
+  margin-right: 1em;
+  text-align: right;
+}
+
+.right-side-menu-panel {
+  position: absolute;
+  right: 0;
+  font-size: 0.7em;
+  width: var(--right-side-panel-menu-width);
+  margin-left: 1em;
+  text-align: left;
+  border-left: 8px solid var(--color-side-menu-border);
+}
+
+.left-side-menu-panel,
+.right-side-menu-panel {
   height: 80vh;
   background-color: var(--color-side-menu-background);
-  margin-right: 1em;
   padding: 1em 0;
-  text-align: right;
   line-height: 1.5em;
 
   ul {
@@ -25,6 +39,12 @@
     > li {
       list-style-type: none;
       padding: 6px;
+      font-size: 0.9em;
+
+      &.primary-menu-item {
+        font-size: 1.2em;
+      }
+
     }
   }
 }
