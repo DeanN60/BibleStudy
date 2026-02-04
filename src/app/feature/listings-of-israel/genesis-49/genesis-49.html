@@ -4,18 +4,60 @@
   <div class="page-content">
     <h1>Genesis 49 Listing</h1>
 
-    <div>Order of tribes listed</div>
-    Reuben
-    Simeon
-    Levi
-    Judah
-    Zebulum
-    Issachar
-    Dan
-    Gad
-    Asher
-    Naphtali
-    Joseph
-    Benjamin
+    <div class="tribe-container">
+      <div class="tribe-list">
+        <div>
+          <app-tribe [name]="'Ruben'" (selectedMeaning)="rubenMeaning"/>
+        </div>
+        <div>
+          <app-tribe [name]="'Simeon'" (selectedMeaning)="simeonMeaning"/>
+        </div>
+        <div>
+          <app-tribe [name]="'Levi'" (selectedMeaning)="leviMeaning"/>
+        </div>
+        <div>
+          <app-tribe [name]="'Judah'" (selectedMeaning)="judahMeaning"/>
+        </div>
+        <div>
+          <app-tribe [name]="'Zebulun'" (selectedMeaning)="zebulunMeaning"/>
+        </div>
+        <div>
+          <app-tribe [name]="'Issachar'" (selectedMeaning)="issacharMeaning"/>
+        </div>
+        <div>
+          <app-tribe [name]="'Dan'" (selectedMeaning)="danMeaning"/>
+        </div>
+        <div>
+          <app-tribe [name]="'Gad'" (selectedMeaning)="gadMeaning"/>
+        </div>
+        <div>
+          <app-tribe [name]="'Asher'" (selectedMeaning)="asherMeaning"/>
+        </div>
+        <div>
+          <app-tribe [name]="'Naphtali'" (selectedMeaning)="naphtaliMeaning"/>
+        </div>
+        <div>
+          <app-tribe [name]="'Joseph'" (selectedMeaning)="josephMeaning"/>
+        </div>
+        <div>
+          <app-tribe [name]="'Benjamin'" (selectedMeaning)="benjaminMeaning"/>
+        </div>
+      </div>
+
+      <div class="meaning-container">
+        {{ rubenMeaning }}
+        {{ simeonMeaning }}
+        {{ leviMeaning }}
+        {{ judahMeaning }}
+        {{ zebulunMeaning }}
+        {{ issacharMeaning }}
+        {{ danMeaning }}
+        {{ gadMeaning }}
+        {{ asherMeaning }}
+        {{ naphtaliMeaning }}
+        {{ josephMeaning }}
+        {{ benjaminMeaning }}
+      </div>
+    </div>
   </div>
 </div>
