@@ -1,4 +1,4 @@
-import {Component, EventEmitter, input, OnInit, Output, output} from '@angular/core';
+import {Component, EventEmitter, input, OnInit, Output} from '@angular/core';
 import {TribeInfo} from '../model/tribe-info';
 import {tribesData} from './tribes-data';
 import {Select} from 'primeng/select';
