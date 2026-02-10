@@ -6,12 +6,18 @@
   border-radius: 6px;
   max-width: 600px;
   letter-spacing: 0.05em;
-  @include mixins.mix-drop-shadow;
+  line-height: 1.1em;
+  @include mixins.mix-box-shadow;
 
   .verse-reference,
   .verse-text,
   .verse-source {
     padding: 0.5em;
+  }
+
+  .verse-reference,
+  .verse-text {
+    font-size: 0.8em;
   }
 
   .verse-reference {
