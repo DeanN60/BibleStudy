@@ -18,10 +18,25 @@ body {
 
     .page-content {
       @include mixins.mix-page-content;
+
+      .dictionary-definition {
+        margin: 0.2em 0;
+
+        .definition {
+          font-style: italic;
+        }
+      }
     }
   }
 }
 
 h1 {
   color: var(--color-h1);
+}
+
+.highlight {
+  background-color: var(--color-highlight-background);
+  color: var(--color-highlight-text);
+  font-weight: bold;
+  padding: 0 0.2em;
 }
