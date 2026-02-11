@@ -5,14 +5,37 @@
   margin: 1em 0;
   border-radius: 6px;
   max-width: 600px;
+  width: fit-content;
   letter-spacing: 0.05em;
   line-height: 1.1em;
+  position: relative;
+  transition: all 2s ease;
   @include mixins.mix-box-shadow;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:hover {
+    width: 600px;
+
+    .verse-reference {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    .verse-block {
+      display: block;
+      background-color: var(--color-verse-text-background);
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+  }
 
   .verse-reference,
   .verse-text,
   .verse-source {
-    padding: 0.5em;
+    padding: 0.1em 0.5em;
   }
 
   .verse-reference,
@@ -23,12 +46,18 @@
   .verse-reference {
     background-color: var(--color-verse-header-background);
     color: var(--color-verse-reference);
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+    border-radius: 6px;
+  }
+
+  .verse-block {
+    display: none;
+    position: absolute;
+    z-index: 10;
   }
 
   .verse-text {
     color: var(--color-verse-text);
+    background-color: var(--color-verse-text-background);
     margin: 0.5em 0;
   }
 
