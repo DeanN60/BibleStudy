@@ -1,4 +1,4 @@
-import {TribeInfo} from '../../core/tribes/model/tribe-info';
+import {TribeInfo} from '@core/model/tribe-info';
 
 export const tribesData: TribeInfo[] = [
   {

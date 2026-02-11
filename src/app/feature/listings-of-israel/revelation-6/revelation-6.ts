@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {LoiSubMenu} from '../loi-sub-menu/loi-sub-menu';
-import {Tribe} from '../../../core/tribes/tribe/tribe';
+import {Tribe} from '@core/tribe/tribe';
 
 @Component({
   selector: 'app-revelation-6',
