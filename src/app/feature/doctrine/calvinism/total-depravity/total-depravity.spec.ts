@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { TotalDepravity } from './total-depravity';
+import {TotalDepravity} from './total-depravity';
+import {provideRouter} from '@angular/router';
+import {provideHttpClient} from '@angular/common/http';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 describe('TotalDepravity', () => {
   let component: TotalDepravity;
@@ -8,9 +11,15 @@ describe('TotalDepravity', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TotalDepravity]
-    })
-    .compileComponents();
+      imports: [
+        TotalDepravity
+      ],
+      providers: [
+        provideRouter([]),
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(TotalDepravity);
     component = fixture.componentInstance;

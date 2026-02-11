@@ -26,8 +26,8 @@ export const routes: Routes = [
   },
   {
     path: 'time-lines',
-    loadComponent: () => import('./feature/time-lines/time-lines')
-      .then(m => m.TimeLines),
+    loadChildren: () => import('./feature/time-lines/time-lines-routes')
+      .then(m => m.time_lines_routes),
     title: 'Time Lines'
   },
   {

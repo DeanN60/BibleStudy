@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { Generations } from './generations';
+import {Generations} from './generations';
+import {provideRouter} from '@angular/router';
+import {provideHttpClient} from '@angular/common/http';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 describe('Generations', () => {
   let component: Generations;
@@ -8,9 +11,15 @@ describe('Generations', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Generations]
-    })
-    .compileComponents();
+      imports: [
+        Generations
+      ],
+      providers: [
+        provideRouter([]),
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(Generations);
     component = fixture.componentInstance;

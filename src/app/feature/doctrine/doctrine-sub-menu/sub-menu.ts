@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {RouterLink} from '@angular/router';
 
 @Component({
@@ -7,7 +7,7 @@ import {RouterLink} from '@angular/router';
     RouterLink
   ],
   templateUrl: './sub-menu.html',
-  styleUrl: './sub-menu.scss',
+  styleUrl: '../doctrine.scss',
 })
 export class SubMenu {
 

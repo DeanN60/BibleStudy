@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { NotOfWorks } from './not-of-works';
+import {NotOfWorks} from './not-of-works';
+import {provideRouter} from '@angular/router';
+import {provideHttpClient} from '@angular/common/http';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 describe('NotOfWorks', () => {
   let component: NotOfWorks;
@@ -8,9 +11,15 @@ describe('NotOfWorks', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NotOfWorks]
-    })
-    .compileComponents();
+      imports: [
+        NotOfWorks
+      ],
+      providers: [
+        provideRouter([]),
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(NotOfWorks);
     component = fixture.componentInstance;

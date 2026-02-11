@@ -1,18 +1,18 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import {JesusSubMenu} from './jesus-sub-menu';
+import {TimeLinesSubMenu} from './time-lines-sub-menu';
 import {provideRouter} from '@angular/router';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
 
-describe('JesusSubMenu', () => {
-  let component: JesusSubMenu;
-  let fixture: ComponentFixture<JesusSubMenu>;
+describe('TimeLinesSubMenu', () => {
+  let component: TimeLinesSubMenu;
+  let fixture: ComponentFixture<TimeLinesSubMenu>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [
-        JesusSubMenu
+        TimeLinesSubMenu
       ],
       providers: [
         provideRouter([]),
@@ -21,7 +21,7 @@ describe('JesusSubMenu', () => {
       ]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(JesusSubMenu);
+    fixture = TestBed.createComponent(TimeLinesSubMenu);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

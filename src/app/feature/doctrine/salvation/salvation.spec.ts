@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { Salvation } from './salvation';
+import {Salvation} from './salvation';
+import {provideRouter} from '@angular/router';
+import {provideHttpClient} from '@angular/common/http';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 describe('Salvation', () => {
   let component: Salvation;
@@ -8,9 +11,15 @@ describe('Salvation', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Salvation]
-    })
-    .compileComponents();
+      imports: [
+        Salvation
+      ],
+      providers: [
+        provideRouter([]),
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(Salvation);
     component = fixture.componentInstance;

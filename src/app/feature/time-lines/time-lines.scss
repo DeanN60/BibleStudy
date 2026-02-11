@@ -1,0 +1,11 @@
+@use 'mixins';
+
+.page-content-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 80vh;
+
+  .page-content {
+    @include mixins.mix-page-content;
+  }
+}

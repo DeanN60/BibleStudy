@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { LimitedAtonement } from './limited-atonement';
+import {LimitedAtonement} from './limited-atonement';
+import {provideRouter} from '@angular/router';
+import {provideHttpClient} from '@angular/common/http';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 describe('LimitedAtonement', () => {
   let component: LimitedAtonement;
@@ -8,9 +11,15 @@ describe('LimitedAtonement', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [LimitedAtonement]
-    })
-    .compileComponents();
+      imports: [
+        LimitedAtonement
+      ],
+      providers: [
+        provideRouter([]),
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(LimitedAtonement);
     component = fixture.componentInstance;

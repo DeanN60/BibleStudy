@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {RouterLink} from '@angular/router';
 
 @Component({
@@ -7,7 +7,7 @@ import {RouterLink} from '@angular/router';
     RouterLink
   ],
   templateUrl: './jesus-sub-menu.html',
-  styleUrl: './jesus-sub-menu.scss',
+  styleUrl: '../jesus.scss',
 })
 export class JesusSubMenu {
 

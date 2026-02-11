@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { Dispensation } from './dispensation';
+import {Dispensation} from './dispensation';
+import {provideRouter} from '@angular/router';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
+import {provideHttpClient} from '@angular/common/http';
 
 describe('Dispensation', () => {
   let component: Dispensation;
@@ -8,9 +11,15 @@ describe('Dispensation', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Dispensation]
-    })
-    .compileComponents();
+      imports: [
+        Dispensation
+      ],
+      providers: [
+        provideRouter([]),
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(Dispensation);
     component = fixture.componentInstance;

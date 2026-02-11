@@ -19,5 +19,5 @@ export class GiftOfGod {
     'Ephesians 2:8',
     '8 For by grace you have been saved through faith, and this not of yourselves, it is the gift of God;',
     'Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3918). 316 Publishing, Inc.. Kindle Edition.'
-  )
+  );
 }

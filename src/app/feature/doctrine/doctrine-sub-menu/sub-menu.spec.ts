@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { SubMenu } from './sub-menu';
+import {SubMenu} from './sub-menu';
+import {provideRouter} from '@angular/router';
+import {provideHttpClient} from '@angular/common/http';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 describe('SubMenu', () => {
   let component: SubMenu;
@@ -8,9 +11,15 @@ describe('SubMenu', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SubMenu]
-    })
-    .compileComponents();
+      imports: [
+        SubMenu
+      ],
+      providers: [
+        provideRouter([]),
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(SubMenu);
     component = fixture.componentInstance;

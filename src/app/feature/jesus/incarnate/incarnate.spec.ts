@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { Incarnate } from './incarnate';
+import {Incarnate} from './incarnate';
+import {provideRouter} from '@angular/router';
+import {provideHttpClient} from '@angular/common/http';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 describe('Incarnate', () => {
   let component: Incarnate;
@@ -8,9 +11,15 @@ describe('Incarnate', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Incarnate]
-    })
-    .compileComponents();
+      imports: [
+        Incarnate
+      ],
+      providers: [
+        provideRouter([]),
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(Incarnate);
     component = fixture.componentInstance;

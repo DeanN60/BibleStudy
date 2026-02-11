@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { Doctrine } from './doctrine';
+import {Doctrine} from './doctrine';
+import {provideRouter} from '@angular/router';
+import {provideHttpClient} from '@angular/common/http';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 describe('Doctrine', () => {
   let component: Doctrine;
@@ -8,9 +11,15 @@ describe('Doctrine', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Doctrine]
-    })
-    .compileComponents();
+      imports: [
+        Doctrine
+      ],
+      providers: [
+        provideRouter([]),
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(Doctrine);
     component = fixture.componentInstance;
