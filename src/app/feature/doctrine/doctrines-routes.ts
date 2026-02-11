@@ -20,6 +20,12 @@ export const doctrines_routes: Routes = [
     title: 'Dispensation'
   },
   {
+    path: 'infallibility',
+    loadChildren: () => import('./infallibility-of-scripture/infallibility-of-scripture-routes')
+      .then(m => m.infallibility_of_scriptureRoutes),
+    title: 'Infallibility'
+  },
+  {
     path: 'salvation',
     loadChildren: () => import('./salvation/salvation-routes')
       .then(m => m.salvation_routes),
