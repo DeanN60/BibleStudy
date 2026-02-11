@@ -26,6 +26,12 @@ export const doctrines_routes: Routes = [
     title: 'Salvation'
   },
   {
+    path: 'resurrection',
+    loadComponent: () => import('./resurrection/resurrection')
+      .then(m => m.Resurrection),
+    title: 'Resurrection'
+  },
+  {
     path: 'trinity',
     loadComponent: () => import('./trinity/trinity')
       .then(m => m.Trinity),
