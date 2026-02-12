@@ -10,8 +10,6 @@
   --header-height: 3em;
   --nav-bar-height: 63px;
   --footer-height: 3em;
-  --content-top: calc(var(--header-height) + var(--base-line-height) + var(--nav-bar-height));
-  //--content-height: calc(100vh - var(--content-height) - var(--footer-height));
   --content-height: calc(100vh - var(--header-height) - var(--base-line-height) - var(--nav-bar-height) - var(--footer-height));
   --left-side-panel-menu-width: 12em;
   --right-side-panel-menu-width: 17em;
