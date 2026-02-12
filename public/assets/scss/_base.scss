@@ -5,7 +5,12 @@
 @forward 'side-menu-panel';
 
 :root {
-  --content-height: 80vh;
+  --header-padding: 25px;
+  --base-line-height: 1em;
+  --header-height: 3em;
+  --nav-bar-height: 63px;
+  --footer-height: 3em;
+  --content-height: calc(100vh - var(--header-height) - var(--base-line-height) - var(--nav-bar-height) - var(--footer-height));
   --left-side-panel-menu-width: 11em;
   --right-side-panel-menu-width: 17em;
   --p-select-padding-y: 0.1em !important;

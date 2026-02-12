@@ -16,7 +16,7 @@
 
 .left-side-menu-panel,
 .right-side-menu-panel {
-  height: 80vh;
+  height: var(--content-height);
   background-color: var(--color-side-menu-background);
   padding: 1em 0;
   line-height: 1.5em;

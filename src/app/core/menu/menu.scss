@@ -2,6 +2,7 @@
   display: flex;
   color: var(--color-menu-text);
   background-color: var(--color-menu-background);
+  max-height: var(--nav-bar-height);
 
   ul {
     display: flex;

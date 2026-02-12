@@ -2,7 +2,7 @@
   padding-top: 0.01em;
   color: var(--color-content-text);
   background-color: var(--color-content-background-color);
-  min-height: 80vh;
+  min-height: var(--content-height);
   letter-spacing: 0.05em;
   line-height: 1.5em;
 }
