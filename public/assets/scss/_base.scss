@@ -1,8 +1,10 @@
 @forward 'color';
+@forward 'highlight';
 @forward 'menu-base';
 @forward 'menubar';
 @forward 'overlaypanel';
 @forward 'side-menu-panel';
+@forward 'layout';
 
 :root {
   --header-padding: 25px;
@@ -14,4 +16,8 @@
   --left-side-panel-menu-width: 12em;
   --right-side-panel-menu-width: 17em;
   --p-select-padding-y: 0.1em !important;
+}
+
+h1 {
+  color: var(--color-h1);
 }

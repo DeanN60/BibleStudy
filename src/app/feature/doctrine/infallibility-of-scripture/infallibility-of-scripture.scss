@@ -1,15 +1,3 @@
-@use 'mixins';
-
-.page-content-container {
-  display: flex;
-  flex-direction: row;
-  min-height: var(--content-height);
-
-  .page-content {
-    @include mixins.mix-page-content;
-  }
-}
-
 ul {
   list-style-type: none;
   margin-left: 0.5rem;

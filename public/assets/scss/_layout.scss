@@ -1,0 +1,28 @@
+@use 'mixins';
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.05em;
+
+  .page-container {
+    .page-content-container {
+      display: flex;
+      flex-direction: row;
+      min-height: var(--content-height);
+
+      .page-content {
+        @include mixins.mix-page-content;
+
+        .dictionary-definition {
+          margin: 0.2em 0;
+
+          .definition {
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+}

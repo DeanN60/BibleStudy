@@ -1,27 +1,13 @@
-@use 'mixins';
-
-.page-content-container {
+.tribe-container {
   display: flex;
   flex-direction: row;
-  min-height: var(--content-height);
 
-  .page-content {
-    @include mixins.mix-page-content;
-    //display: flex;
-    //flex-direction: row;
+  .tribe-list {
+    width: 475px;
+  }
 
-    .tribe-container {
-      display: flex;
-      flex-direction: row;
-
-      .tribe-list {
-        width: 475px;
-      }
-
-      .meaning-container {
-        min-width: 5em;
-        border: 1px solid #ccc;
-      }
-    }
+  .meaning-container {
+    min-width: 5em;
+    border: 1px solid #ccc;
   }
 }
