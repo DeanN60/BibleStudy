@@ -1,0 +1,7 @@
+import {VerseData} from '@core/verse-data';
+
+export const iCor_9_17 = new VerseData(
+  "I Corinthians 9:17",
+  "17 For if I do this thing willingly, I have a reward: but if against my will, a dispensation of the gospel is committed unto me.",
+  "King James Version"
+);

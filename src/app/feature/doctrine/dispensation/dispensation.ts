@@ -1,8 +1,11 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {SubMenu} from "../doctrine-sub-menu/sub-menu";
 import {RightSubMenu} from './right-sub-menu/right-sub-menu';
-import {VerseData} from '@core/verse-data';
 import {Verse} from '@core/verse';
+import {iCor_9_17} from '@core/books/I Corinthians/iCor_9';
+import {eph_1_10} from '@core/books/Ephesians/eph_1';
+import {eph_3_2} from '@core/books/Ephesians/eph_2';
+import {col_1_25} from '@core/books/Colossians/col_1';
 
 @Component({
   selector: 'app-dispensation',
@@ -15,24 +18,8 @@ import {Verse} from '@core/verse';
   styleUrl: './dispensation.scss',
 })
 export class Dispensation {
-  iCor_9_17 = new VerseData(
-    "I Corinthians 9:17",
-    "17 For if I do this thing willingly, I have a reward: but if against my will, a dispensation of the gospel is committed unto me.",
-    "King James Version"
-  );
-  eph_1_10 = new VerseData(
-    "Ephesians 1:10",
-    "10 That in the dispensation of the fulness of times he might gather together in one all things in Christ, both which are in heaven, and which are on earth; even in him:",
-    "King James Version"
-  );
-  eph_3_2 = new VerseData(
-    "Ephesians 3:2",
-    "2 If ye have heard of the dispensation of the grace of God which is given me to you-ward:",
-    "King James Version"
-  );
-  col_1_25 = new VerseData(
-    "Colossians 1:25",
-    "25 Whereof I am made a minister, according to the dispensation of God which is given to me for you, to fulfil the word of God;",
-    "King James Version"
-  )
+  protected readonly iCor_9_17 = iCor_9_17;
+  protected readonly eph_1_10 = eph_1_10;
+  protected readonly eph_3_2 = eph_3_2;
+  protected readonly col_1_25 = col_1_25;
 }
