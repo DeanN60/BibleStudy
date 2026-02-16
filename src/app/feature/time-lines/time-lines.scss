@@ -1,7 +1,23 @@
-@use 'geneology';
+@use 'genealogy';
 
 .age {
   font-size: 0.6em;
+}
+
+.page-content-container {
+  display: grid;
+  grid-template-areas:
+    "left-menu-panel page-content";
+  grid-template-columns: var(--left-side-panel-menu-width) auto;
+  background-color: var(--color-page-background);
+
+  app-time-lines-sub-menu {
+    grid-area: left-menu-panel;
+  }
+
+  .page-content {
+    grid-area: page-content;
+  }
 }
 
 .page-content {

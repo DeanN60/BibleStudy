@@ -24,5 +24,11 @@ export const salvation_routes: Routes = [
     loadComponent: () => import('./not-of-works/not-of-works')
       .then(m => m.NotOfWorks),
     title: 'Not of Works'
+  },
+  {
+    path: 'eternal-salvation',
+    loadComponent: () => import('./eternal-salvation/eternal-salvation')
+      .then(m => m.EternalSalvation),
+    title: 'Eternal Salvation'
   }
 ];

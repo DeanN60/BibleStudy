@@ -1,3 +1,17 @@
+@use 'mixins';
+
+.page-content-container {
+  @include mixins.mix-left-and-right-side-menu();
+}
+
+.page-content {
+  grid-area: sub-main-content-panel;
+}
+
+app-right-sub-menu {
+  grid-area: right-menu-panel;
+}
+
 ul {
   list-style-type: none;
   margin-left: 0.5rem;

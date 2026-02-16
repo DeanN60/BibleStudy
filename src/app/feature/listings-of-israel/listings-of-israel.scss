@@ -1,3 +1,19 @@
+.page-content-container {
+  display: grid;
+  grid-template-areas:
+    "left-menu-panel page-content";
+  grid-template-columns: var(--left-side-panel-menu-width) auto;
+  background-color: var(--color-page-background);
+
+  app-loi-sub-menu {
+    grid-area: left-menu-panel;
+  }
+
+  .page-content {
+    grid-area: page-content;
+  }
+}
+
 .tribe-container {
   display: flex;
   flex-direction: row;

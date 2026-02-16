@@ -7,10 +7,30 @@ body {
   letter-spacing: 0.05em;
 
   .page-container {
-    .page-content-container {
-      display: flex;
-      flex-direction: row;
+    display: grid;
+    grid-template-areas:
+        "header-panel"
+        "menu-panel"
+        "page-content"
+        "footer-panel";
+
+    app-header {
+      grid-area: header-panel;
+    }
+
+    app-menu {
+      grid-area: menu-panel;
+    }
+
+    .router-container {
+      grid-area: page-content;
+      color: var(--color-content-text);
+      background-color: var(--color-content-background-color);
       min-height: var(--content-height);
+    }
+
+    .page-content-container {
+      grid-area: page-content;
 
       .page-content {
         @include mixins.mix-page-content;
@@ -23,6 +43,10 @@ body {
           }
         }
       }
+    }
+
+    app-footer {
+      grid-area: footer-panel;
     }
   }
 }
