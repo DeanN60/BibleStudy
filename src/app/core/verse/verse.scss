@@ -5,7 +5,7 @@
   background-color: var(--color-verse-background);
   margin: 1em 0;
   border-radius: 6px;
-  max-width: 600px;
+  max-width: var(--verse-width);
   width: fit-content;
   letter-spacing: 0.05em;
   line-height: 1.1em;
@@ -18,17 +18,17 @@
   }
 
   &:hover {
-    width: 600px;
+    width: var(--verse-width);
 
     .verse-reference {
-      width: 600px;
+      width: var(--verse-width);
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
     }
 
     .verse-block {
       display: block;
-      width: 600px;
+      width: var(--verse-width);
       background-color: var(--color-verse-text-background);
       border-bottom-left-radius: 6px;
       border-bottom-right-radius: 6px;
