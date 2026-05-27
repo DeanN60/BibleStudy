@@ -1,0 +1,13 @@
+:root {
+  //--background-color: #324447;
+}
+
+.p-accordionpanel:first-child > .p-accordionheader {
+  border-start-start-radius: 10px !important;
+  border-start-end-radius: 10px !important;
+}
+
+.p-accordionpanel:last-child > .p-accordionheader {
+  border-end-start-radius: 10px !important;
+  border-end-end-radius: 10px !important;
+}

@@ -1,10 +1,12 @@
 @forward 'color';
+@forward 'accordion';
 @forward 'highlight';
 @forward 'menu-base';
 @forward 'menubar';
 @forward 'overlaypanel';
 @forward 'side-menu-panel';
 @forward 'layout';
+@forward 'versepanel';
 
 :root {
   --header-padding: 25px;
