@@ -13,6 +13,12 @@ export const routes: Routes = [
     title: 'Home'
   },
   {
+    path: 'about',
+    loadComponent:() => import('./feature/about/about')
+      .then(m => m.About),
+    title: 'About'
+  },
+  {
     path: 'doctrine',
     loadChildren: () => import('./feature/doctrine/doctrines-routes')
       .then(m => m.doctrines_routes),
