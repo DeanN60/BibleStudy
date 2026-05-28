@@ -1,16 +1,20 @@
 import {Component} from '@angular/core';
 import {SubMenu} from '../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from './right-sub-menu/right-sub-menu';
+import {Verse} from '@core/verse';
+import {iiTim_3_16_17} from '@core/books/II Timothy/iiTim_3';
 
 @Component({
   selector: 'app-infallibility-of-scripture',
   imports: [
     SubMenu,
-    RightSubMenu
+    RightSubMenu,
+    Verse
   ],
   templateUrl: './infallibility-of-scripture.html',
   styleUrl: './infallibility-of-scripture.scss',
 })
 export class InfallibilityOfScripture {
 
+  protected readonly iiTimothy_3_16_17 = iiTim_3_16_17;
 }
