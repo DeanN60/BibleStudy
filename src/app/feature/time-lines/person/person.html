@@ -1,0 +1,18 @@
+<div [style.margin-left.px]="per().birthYear"
+     [style.width.px]="per().age"
+     class="time-line"
+     style="border-top: 5px solid hsl(188, 52%, 42%);">
+  {{ per().name }} <span class="age">(age {{ per().age }})</span>
+  <div class="detail-info">
+    <div class="header">{{ per().name }}</div>
+    <div>Born: {{ per().birthYear }}</div>
+    <div>Died: {{ getDeathYear() }}</div>
+    <div>Age: {{ per().age }}</div>
+    @if (per().reference) {
+      <div>
+        Reference:
+        <app-verse [data]="per().reference"/>
+      </div>
+    }
+  </div>
+</div>

@@ -1,0 +1,42 @@
+.time-line {
+  position: relative;
+  border-top: 5px solid var(--color-time-line-bar);
+  margin-bottom: 25px;
+  padding-left: 8px;
+  height: 0.6em;
+  font-size: 0.8em;
+
+  &:hover {
+    .detail-info {
+      display: block;
+      z-index: 1000;
+    }
+  }
+}
+
+.age {
+  font-size: 0.6em;
+}
+
+.detail-info {
+  display: none;
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid var(--color-time-line-info-border);
+  background-color: var(--color-time-line-info-background);
+  border-radius: 6px;
+  font-size: 0.8em;
+  padding: 8px;
+  position: absolute;
+  z-index: 100;
+
+  div {
+    line-height: 1.3em;
+
+    &.header {
+      font-weight: bold;
+      border-bottom: 1px solid var(--color-time-line-info-border);
+      margin-bottom: 5px;
+    }
+  }
+}
