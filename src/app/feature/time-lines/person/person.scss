@@ -12,16 +12,24 @@
       z-index: 1000;
     }
   }
+
+  .person-name {
+    display: inline-flex;
+    background-color: var(--color-content-background-color);
+    white-space: nowrap;
+  }
 }
 
 .age {
   font-size: 0.6em;
+  margin-left: 3px;
 }
 
 .detail-info {
   display: none;
   height: fit-content;
   width: fit-content;
+  min-width: 10em;
   border: 1px solid var(--color-time-line-info-border);
   background-color: var(--color-time-line-info-background);
   border-radius: 6px;
