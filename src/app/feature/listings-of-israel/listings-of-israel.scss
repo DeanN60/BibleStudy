@@ -3,7 +3,7 @@
   grid-template-areas:
     "left-menu-panel page-content";
   grid-template-columns: var(--left-side-panel-menu-width) auto;
-  background-color: var(--color-page-background);
+  background-color: var(--color-content-background-color);
 
   app-loi-sub-menu {
     grid-area: left-menu-panel;
