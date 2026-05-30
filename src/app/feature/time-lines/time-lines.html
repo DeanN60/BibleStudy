@@ -5,35 +5,13 @@
     <h1>Time Lines</h1>
 
     <div class="time-lines-container">
-      <app-person [per]="adam"/>
-      <app-person [per]="seth"/>
-      <app-person [per]="enosh"/>
-      <app-person [per]="keran"/>
-      <app-person [per]="mahalael"/>
-      <app-person [per]="jared"/>
-      <app-person [per]="enoch"/>
-      <app-person [per]="methuselah"/>
-      <app-person [per]="lamech"/>
-      <app-person [per]="noah"/>
-      <app-person [per]="shem"/>
-      <app-person [per]="arphaxad"/>
-      <app-person [per]="shelah"/>
-      <app-person [per]="eber"/>
-      <app-person [per]="peleg"/>
-      <app-person [per]="reu"/>
-      <app-person [per]="serug"/>
-      <app-person [per]="nahor"/>
-      <app-person [per]="terah"/>
-      <app-person [per]="abraham"/>
-      <app-person [per]="isaac"/>
-      <app-person [per]="jacob"/>
-      <app-person [per]="judah"/>
+      @for (person of personList; track person.name) {
+        <app-person [per]=person />
+      }
     </div>
 
-    <div class="tl-grid">
-      <div class="tl-flood">
-        <span class="tl-label">Flood</span>
-      </div>
-    </div>
+    @for (marker of markerList; track marker.name) {
+      <app-tl-marker [marker]=marker />
+    }
   </div>
 </div>
