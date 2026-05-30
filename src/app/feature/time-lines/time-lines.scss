@@ -7,7 +7,7 @@
   grid-template-areas:
     "left-menu-panel page-content";
   grid-template-columns: var(--left-side-panel-menu-width) auto;
-  background-color: var(--color-page-background);
+  background-color: var(--color-content-background-color);
 
   app-time-lines-sub-menu {
     grid-area: left-menu-panel;
@@ -15,33 +15,13 @@
 
   .page-content {
     grid-area: page-content;
+    width: 100%;
+    position: relative;
+    overflow-y: auto;
+    scale: 100%;
   }
 }
 
-.page-content {
-  width: 100%;
-  position: relative;
-  overflow-y: auto;
-  scale: 100%;
-
-  .tl-grid {
-    position: fixed;
-    z-index: 200;
-    top: 70px;
-
-    .tl-flood {
-      position: relative;
-      left: 1656px;
-      width: 1px;
-      height: 850px;
-      background-color: var(--color-time-line-grid);
-
-      .tl-label {
-        position: relative;
-        top: -1.4em;
-        left: -1.5em;
-        border-bottom: 1px solid var(--color-time-line-grid);
-      }
-    }
-  }
+.time-lines-container {
+  margin-top: 3em;
 }
