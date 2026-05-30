@@ -1,0 +1,12 @@
+<div class="tl-marker">
+  <div class="tl-marker-event"
+       [style.left.px]="marker().eventYear"
+       [style.height.px]="marker().height">
+    <div class="tl-marker-label"
+         [style.left.em]="marker().left"
+         [style.top.em]="marker().top"
+         [style.color]="marker().labelColor">
+      {{ marker().name }}
+    </div>
+  </div>
+</div>

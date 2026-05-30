@@ -1,0 +1,18 @@
+.tl-marker {
+  position: fixed;
+  z-index: -200;
+  top: 5.5em;
+
+  .tl-marker-event {
+    position: relative;
+    width: 1px;
+    background-color: var(--color-time-line-grid);
+
+    .tl-marker-label {
+      position: absolute;
+      font-size: 0.8em;
+      white-space: nowrap;
+      rotate: -90deg;
+    }
+  }
+}
