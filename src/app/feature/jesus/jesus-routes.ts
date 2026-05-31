@@ -8,6 +8,12 @@ export const jesus_routes: Routes = [
     title: "Jesus"
   },
   {
+    path: "deity",
+    loadComponent: () => import('./deity/deity')
+      .then(m => m.Deity),
+    title: "Deity of Christ"
+  },
+  {
     path: "incarnate",
     loadComponent: () => import('./incarnate/incarnate')
       .then(m => m.Incarnate),
