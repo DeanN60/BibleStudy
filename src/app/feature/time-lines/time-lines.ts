@@ -65,7 +65,7 @@ export class TimeLines implements OnInit {
     // this.markerList.push({name: "YOL", eventYear: 3925, left: -1.1, top: -2.5, height: this.markerHeight, labelColor: "white"});
     this.markerList.push({name: "4000 AM", eventYear: 4000, left: -2, top: -3.6, height: this.markerHeight, labelColor: "white"});
     this.markerList.push({name: "5000 AM", eventYear: 5000, left: -2, top: -3.6, height: this.markerHeight, labelColor: "white"});
-    // this.markerList.push({name: "2000 AD", eventYear: 5925, left: -2, top: -3.6, height: this.markerHeight, labelColor: "white"});
+    this.markerList.push({name: "1948 AD", eventYear: 5837, left: -2, top: -3.6, height: this.markerHeight, labelColor: "#abe587"});
     const year = new Date().getFullYear();
     const amYear = year + 3925;
     this.markerList.push({name: "" + year + " AD", eventYear: amYear, left: -2, top: -3.6, height: this.markerHeight, labelColor: "#cd87e5"});
