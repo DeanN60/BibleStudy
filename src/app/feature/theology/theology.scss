@@ -1,0 +1,9 @@
+@use "mixins";
+
+.page-content-container {
+  @include mixins.mix-left-side-menu();
+}
+
+app-theology-sub-menu {
+  grid-area: left-menu-panel;
+}
