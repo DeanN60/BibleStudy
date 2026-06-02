@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {JesusSubMenu} from '../jesus-sub-menu/jesus-sub-menu';
 import {Verse} from '@core/verse';
-import {john_1_14} from '@core/books/John/john_1_14';
+import {john_1_14} from '@core/books/John/john_1';
 
 @Component({
   selector: 'app-incarnate',
