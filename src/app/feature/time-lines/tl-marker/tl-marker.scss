@@ -1,7 +1,7 @@
 .tl-marker {
   position: fixed;
   z-index: -200;
-  top: 5.5em;
+  //top: 5.5em;
 
   .tl-marker-event {
     position: relative;
@@ -10,9 +10,36 @@
 
     .tl-marker-label {
       position: absolute;
-      font-size: 0.8em;
+      font-size: 0.5em;
       white-space: nowrap;
       rotate: -90deg;
+
+      &:hover {
+        .detail-info {
+          display: block;
+        }
+      }
     }
+  }
+}
+
+.detail-info {
+  display: none;
+  position: absolute;
+  color: var(--color-time-line-info-font);
+  z-index: 9999;
+  font-size: 0.65em;
+  line-height: 1.2em;
+  padding: 3px;
+  height: fit-content;
+  width: fit-content;
+  min-width: 10em;
+  border: 1px solid var(--color-time-line-info-border);
+  background: var(--color-time-line-info-background);
+  border-radius: 5px;
+  white-space: wrap;
+
+  .note {
+    padding-left: 5px;
   }
 }

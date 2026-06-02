@@ -1,12 +1,19 @@
-<div class="tl-marker">
+<div class="tl-marker"
+     [style.margin-top.em]="marker().top">
   <div class="tl-marker-event"
        [style.left.px]="marker().eventYear"
        [style.height.px]="marker().height">
     <div class="tl-marker-label"
-         [style.left.em]="marker().left"
-         [style.top.em]="marker().top"
-         [style.color]="marker().labelColor">
+         [style.left.em]="marker().label.left"
+         [style.top.em]="marker().label.top"
+         [style.color]="marker().label.labelColor">
       {{ marker().name }}
+      @if (marker().label.note) {
+        <div class="detail-info"
+             [style.left.em]="marker().label.left">
+          <div class="note">{{ marker().label.note }}</div>
+        </div>
+      }
     </div>
   </div>
 </div>

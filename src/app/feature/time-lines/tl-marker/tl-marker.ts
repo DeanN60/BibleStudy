@@ -3,10 +3,14 @@ import {Component, input} from '@angular/core';
 export interface iMarker {
   name: string;
   eventYear: number;
-  left: number;
   top: number;
   height: number;
-  labelColor: string;
+  label: {
+    left: number;
+    top: number;
+    labelColor: string;
+    note?: string;
+  }
 }
 
 @Component({
@@ -16,5 +20,16 @@ export interface iMarker {
   styleUrl: './tl-marker.scss',
 })
 export class TlMarker {
-  marker = input<iMarker>({name: "unknown", eventYear: 1000, left: -1.5, top: -4.2, height: 800, labelColor: "white"});
+  default: iMarker = {
+    name: "unknown",
+    eventYear: 1000,
+    top: 5,
+    height: 800,
+    label: {
+      left: -1.5,
+      top: -4.2,
+      labelColor: "white"
+    }
+  };
+  marker = input<iMarker>(this.default);
 }
