@@ -1,4 +1,5 @@
 @use "mixins";
+@use "card";
 
 .page-content-container {
   @include mixins.mix-left-and-right-side-menu();
