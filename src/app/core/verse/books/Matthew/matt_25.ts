@@ -1,7 +1,7 @@
 import {VerseData} from '@core/verse-data';
 
 export const matt_25_1_13 = new VerseData(
-  "Matthew 25:1-13",
+  "Matthew 25:1-13 LSB",
   "1 “Then the kingdom of heaven may be compared to ten virgins, who took their lamps and went out to meet the " +
   "bridegroom. 2 Now five of them were foolish, and five were prudent. 3 For when the foolish took their lamps, " +
   "they took no oil with them, 4 but the prudent took oil in flasks along with their lamps. 5 Now while the " +
@@ -17,7 +17,7 @@ export const matt_25_1_13 = new VerseData(
 );
 
 export const matt_25_14_29 = new VerseData(
-  "Matthew 25:14-29",
+  "Matthew 25:14-29 LSB",
   "14 “For it is just like a man about to go on a journey, who called his own slaves and handed over his" +
   " possessions to them. 15 And to one he gave five talents, to another, two, and to another, one, each " +
   "according to his own ability; and he went on his journey. 16 Immediately the one who had received the " +
@@ -43,7 +43,7 @@ export const matt_25_14_29 = new VerseData(
 );
 
 export const matt_25_19_21 = new VerseData(
-  "Matthew 25:19-21",
+  "Matthew 25:19-21 LSB",
   "19 “Now after a long time the master of those slaves came and settled accounts with them. 20 And the one who " +
   "had received the five talents came up and brought five more talents, saying, ‘Master, you handed five talents " +
   "over to me. See, I have gained five more talents.’ 21 His master said to him, ‘Well done, good and faithful " +
@@ -52,7 +52,7 @@ export const matt_25_19_21 = new VerseData(
 );
 
 export const matt_25_22_23 = new VerseData(
-  "Matthew 25:22-23",
+  "Matthew 25:22-23 LSB",
   "22 “Also the one who had received the two talents came up and said, ‘Master, you handed two talents over to me. " +
   "See, I have gained two more talents.’ 23 His master said to him, ‘Well done, good and faithful slave. You were " +
   "faithful with a few things, I will put you in charge of many things; enter into the joy of your master.’",
@@ -60,7 +60,7 @@ export const matt_25_22_23 = new VerseData(
 );
 
 export const matt_25_24_25 = new VerseData(
-  "Matthew 25:24-25",
+  "Matthew 25:24-25 LSB",
   "24 “And the one also who had received the one talent came up and said, ‘Master, I knew you to be a hard man, " +
   "reaping where you did not sow and gathering where you scattered no seed. 25 And I was afraid, and went away and " +
   "hid your talent in the ground. See, you have what is yours.’",
@@ -68,7 +68,7 @@ export const matt_25_24_25 = new VerseData(
 );
 
 export const matt_25_26_28 = new VerseData(
-  "Matthew 25:26-28",
+  "Matthew 25:26-28 LSB",
   "26 “But his master answered and said to him, ‘You wicked, lazy slave, you knew that I reap where I did not " +
   "sow and gather where I scattered no seed. 27 Therefore, you ought to have put my money ain the bank, and on my " +
   "arrival I would have received my money back with interest. 28 Therefore take away the talent from him, and give " +
@@ -77,7 +77,7 @@ export const matt_25_26_28 = new VerseData(
 );
 
 export const matt_25_29_30 = new VerseData(
-  "Matthew 25:29-30",
+  "Matthew 25:29-30 LSB",
   "29 “For to everyone who has, more shall be given, and he will have an abundance; but from the one who does not " +
   "have, even what he does have shall be taken away. 30 And throw out the worthless slave into the outer darkness; " +
   "in that place there will be weeping and gnashing of teeth.",
