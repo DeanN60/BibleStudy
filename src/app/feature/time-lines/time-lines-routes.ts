@@ -8,9 +8,9 @@ export const time_lines_routes: Routes = [
     title: 'Time Lines'
   },
   {
-    path: 'generations',
-    loadComponent: () => import('./generations/generations')
-      .then(m => m.Generations),
-    title: 'Generations'
+    path: 'life-of-jesus',
+    loadComponent: () => import('./life-of-jesus/life-of-jesus')
+      .then(m => m.LifeOfJesus),
+    title: 'Life of Jesus'
   }
 ];
