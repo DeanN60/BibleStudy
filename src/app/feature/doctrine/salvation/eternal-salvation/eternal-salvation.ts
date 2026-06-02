@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 import {SubMenu} from '../../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
-import {rev_3_5} from '@core/books/Revelation/rev_3_5';
+import {rev_3_5} from '@core/books/Revelation/rev_3';
 
 @Component({
   selector: 'app-eternal-salvation',
