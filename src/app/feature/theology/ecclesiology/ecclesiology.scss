@@ -1,0 +1,35 @@
+@use 'mixins';
+
+.page-content-container {
+  @include mixins.mix-left-and-right-side-menu();
+}
+
+.page-content {
+  grid-area: sub-main-content-panel;
+}
+
+app-right-sub-menu {
+  grid-area: right-menu-panel;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0.5rem;
+  padding: 0;
+  line-height: 1.5em;
+
+  li {
+    letter-spacing: 1px;
+
+    a {
+      cursor: pointer;
+      text-decoration: none;
+      &:hover {
+        background-color: #BFDBFE;
+        border-radius: 4px;
+        padding: 2px;
+      }
+    }
+  }
+}
+
