@@ -1,0 +1,17 @@
+<div class="page-content-container">
+  <app-time-lines-sub-menu/>
+
+  <div class="page-content">
+    <h1>Life of Jesus</h1>
+
+    <div [style.margin-top.em]="marginTop">
+      @for (person of personList; track person.name) {
+        <app-person [per]=person></app-person>
+      }
+    </div>
+
+    @for (marker of markerList; track marker.name) {
+      <app-tl-marker [marker]=marker></app-tl-marker>
+    }
+  </div>
+</div>
