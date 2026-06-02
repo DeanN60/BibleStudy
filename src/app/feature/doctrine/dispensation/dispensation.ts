@@ -4,7 +4,7 @@ import {RightSubMenu} from './right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
 import {iCor_9_17} from '@core/books/I Corinthians/iCor_9';
 import {eph_1_10} from '@core/books/Ephesians/eph_1';
-import {eph_3_2} from '@core/books/Ephesians/eph_2';
+import {eph_3_2} from '@core/books/Ephesians/eph_3';
 import {col_1_25} from '@core/books/Colossians/col_1';
 
 @Component({

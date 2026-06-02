@@ -1,10 +1,10 @@
 import {VerseData} from '@core/verse-data';
 
-export const eph_3_2 = new VerseData(
-  "Ephesians 3:2",
-  "2 If ye have heard of the dispensation of the grace of God which is given me to you-ward:",
-  "King James Version"
-);
+export const eph_2_1_3 = new VerseData(
+  "Ephesians 2:1-3",
+  "1 And you were dead in your transgressions and sins, 2 in which you formerly walked according to the course of this world, according to the ruler of the power of the air, the spirit that is now working in the sons of disobedience, 3 among whom we all also formerly conducted ourselves in the lusts of our flesh, doing the desires of the flesh and of the mind, and were by nature children of wrath, even as the rest.",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3918). 316 Publishing, Inc.. Kindle Edition."
+)
 
 export const eph_2_8 = new VerseData(
   'Ephesians 2:8',
