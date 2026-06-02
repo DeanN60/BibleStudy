@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {SubMenu} from "../doctrine-sub-menu/sub-menu";
 import {Verse} from '@core/verse';
-import {john_1_1_5} from '@core/books/John/john_1_1_5';
+import {john_1} from '@core/books/John/john_1';
 
 @Component({
   selector: 'app-trinity',
@@ -14,5 +14,5 @@ import {john_1_1_5} from '@core/books/John/john_1_1_5';
 })
 export class Trinity {
 
-  protected readonly john_1_1_5 = john_1_1_5;
+  protected readonly john_1_1_5 = john_1;
 }
