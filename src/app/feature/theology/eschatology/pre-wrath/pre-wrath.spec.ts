@@ -1,6 +1,7 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { PreWrath } from './pre-wrath';
+import {PreWrath} from './pre-wrath';
+import {provideRouter} from '@angular/router';
 
 describe('PreWrath', () => {
   let component: PreWrath;
@@ -8,9 +9,9 @@ describe('PreWrath', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PreWrath]
-    })
-    .compileComponents();
+      imports: [PreWrath],
+      providers: [provideRouter([])]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(PreWrath);
     component = fixture.componentInstance;

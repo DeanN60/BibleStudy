@@ -1,6 +1,7 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { MissingTheKingdom } from './missing-the-kingdom';
+import {MissingTheKingdom} from './missing-the-kingdom';
+import {provideRouter} from '@angular/router';
 
 describe('MissingTheKingdom', () => {
   let component: MissingTheKingdom;
@@ -8,9 +9,9 @@ describe('MissingTheKingdom', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MissingTheKingdom]
-    })
-    .compileComponents();
+      imports: [MissingTheKingdom],
+      providers: [provideRouter([])]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(MissingTheKingdom);
     component = fixture.componentInstance;

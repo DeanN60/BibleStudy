@@ -1,6 +1,7 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { Ecclesiology } from './ecclesiology';
+import {Ecclesiology} from './ecclesiology';
+import {provideRouter} from '@angular/router';
 
 describe('Ecclesiology', () => {
   let component: Ecclesiology;
@@ -8,9 +9,9 @@ describe('Ecclesiology', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Ecclesiology]
-    })
-    .compileComponents();
+      imports: [Ecclesiology],
+      providers: [provideRouter([])]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(Ecclesiology);
     component = fixture.componentInstance;

@@ -1,6 +1,7 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { TheologySubMenu } from './theology-sub-menu';
+import {TheologySubMenu} from './theology-sub-menu';
+import {provideRouter} from '@angular/router';
 
 describe('TheologySubMenu', () => {
   let component: TheologySubMenu;
@@ -8,9 +9,9 @@ describe('TheologySubMenu', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TheologySubMenu]
-    })
-    .compileComponents();
+      imports: [TheologySubMenu],
+      providers: [provideRouter([])]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(TheologySubMenu);
     component = fixture.componentInstance;
