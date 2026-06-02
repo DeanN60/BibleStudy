@@ -9,9 +9,9 @@
 @forward 'versepanel';
 
 :root {
-  --header-padding: 25px;
+  --header-padding: 15px;
   --base-line-height: 1em;
-  --header-height: 3em;
+  --header-height: 2em;
   --nav-bar-height: 63px;
   --footer-height: 3em;
   --content-height: calc(100vh - var(--header-height) - var(--base-line-height) - var(--nav-bar-height) - var(--footer-height));
