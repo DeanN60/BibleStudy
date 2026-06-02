@@ -1,5 +1,5 @@
-<div [style.margin-left.px]="per().birthYear"
-     [style.width.px]="per().age"
+<div [style.margin-left.px]="(per().birthYear * per().scale)"
+     [style.width.px]="(per().age * per().scale)"
      class="time-line"
      style="border-top: 5px solid hsl(188, 52%, 42%);">
   <span class="person-name">

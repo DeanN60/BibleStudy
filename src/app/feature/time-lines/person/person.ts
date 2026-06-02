@@ -6,6 +6,7 @@ export interface iPerson {
   name: string;
   birthYear: number;
   age: number;
+  scale: number;
   reference?: VerseData;
 }
 
@@ -18,9 +19,15 @@ export interface iPerson {
   styleUrl: './person.scss'
 })
 export class Person {
-  per = input<iPerson>({name: 'Test', age: 950, birthYear: 0});
+  default = {
+    name: 'Test',
+    age: 950,
+    birthYear: 0,
+    scale: 1
+  };
+  per = input<iPerson>(this.default);
 
   getDeathYear(): number {
-    return this.per().birthYear + this.per().age;
+    return (this.per().birthYear * this.per().scale) + (this.per().age * this.per().scale);
   }
 }
