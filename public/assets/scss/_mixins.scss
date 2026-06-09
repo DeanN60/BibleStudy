@@ -5,6 +5,7 @@
   letter-spacing: 0.05em;
   line-height: 1.5em;
   max-height: 78vh;
+  overflow: auto;
 }
 
 @mixin mix-page-content {
