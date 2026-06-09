@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, inject, OnDestroy, OnInit} from '@angular/core';
 import {SubMenu} from '../../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
@@ -12,6 +12,7 @@ import {
 } from '@core/books/Matthew/matt_25';
 import {Accordion, AccordionContent, AccordionHeader, AccordionPanel} from 'primeng/accordion';
 import {matt_7_21_23} from '@core/books/Matthew/matt_7';
+import {HeaderService} from '@core/header.service';
 
 @Component({
   selector: 'app-missing-the-kingdom',
@@ -27,7 +28,15 @@ import {matt_7_21_23} from '@core/books/Matthew/matt_7';
   templateUrl: './missing-the-kingdom.html',
   styleUrl: '../salvation.scss',
 })
-export class MissingTheKingdom {
+export class MissingTheKingdom implements OnInit, OnDestroy {
+  private headerService = inject(HeaderService);
+
+  ngOnInit(): void {
+      this.headerService.setSubtitle('Missing The Kingdom');
+  }
+  ngOnDestroy(): void {
+      this.headerService.clearSubtitle();
+  }
 
   protected readonly matt_25_14_29 = matt_25_14_29;
   protected readonly matt_25_19_21 = matt_25_19_21;

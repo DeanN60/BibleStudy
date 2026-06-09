@@ -5,4 +5,12 @@
   background-color: var(--color-header-background);
   font-size: 1.8em;
   max-height: var(--header-height);
+
+  .title {
+    //font-size: 1.8em;
+  }
+
+  .sub-title {
+    font-size: 0.8em;
+  }
 }

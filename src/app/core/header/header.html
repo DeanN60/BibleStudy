@@ -1,3 +1,7 @@
 <div class="page-header">
-  Bible Study Notes
+  <span class="title">Bible Study Notes</span>
+
+  @if (headerService.subtitle()) {
+    (<span class="sub-title">{{ headerService.subtitle() }}</span>)
+  }
 </div>
