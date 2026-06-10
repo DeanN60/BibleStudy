@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {TimeLinesSubMenu} from './time-lines-sub-menu/time-lines-sub-menu';
 import {iPerson, Person} from './person/person';
 import {iMarker, TlMarker} from './tl-marker/tl-marker';
+import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 
 @Component({
   selector: 'app-time-lines',
@@ -13,7 +14,8 @@ import {iMarker, TlMarker} from './tl-marker/tl-marker';
   templateUrl: './time-lines.html',
   styleUrl: './time-lines.scss',
 })
-export class TimeLines implements OnInit {
+export class TimeLines extends BasePageWithSubtitle {
+  override pageSubtitle = "Time Lines";
   personList: iPerson[] | undefined;
   markerList: iMarker[] | undefined;
   markerHeight = 950;
@@ -21,7 +23,7 @@ export class TimeLines implements OnInit {
   markerTop = -47;
   scale = 1;
 
-  ngOnInit(): void {
+  override init(): void {
     this.personList = [];
     this.personList.push({name: "Adam", birthYear: 0, age: 950, scale: this.scale});
     this.personList.push({name: "Seth", birthYear: 130, age: 912, scale: this.scale});

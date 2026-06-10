@@ -2,8 +2,6 @@
   <app-time-lines-sub-menu/>
 
   <div class="page-content">
-    <h1>Time Lines</h1>
-
     <div [style.margin-top.em]="marginTop">
       @for (person of personList; track person.name) {
         <app-person [per]=person></app-person>

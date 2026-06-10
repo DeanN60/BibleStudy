@@ -1,16 +1,20 @@
 .page-header {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   padding: var(--header-padding);
-  text-align: center;
   color: var(--color-header-text);
   background-color: var(--color-header-background);
   font-size: 1.8em;
   max-height: var(--header-height);
 
   .title {
-    //font-size: 1.8em;
+    text-shadow: 2px 1px 0 #717171;
   }
 
   .sub-title {
-    font-size: 0.8em;
+    font-size: 0.7em;
+    text-shadow: 2px 1px 0 #717171;
   }
 }

@@ -13,6 +13,7 @@ import {
 import {Accordion, AccordionContent, AccordionHeader, AccordionPanel} from 'primeng/accordion';
 import {matt_7_21_23} from '@core/books/Matthew/matt_7';
 import {HeaderService} from '@core/header.service';
+import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 
 @Component({
   selector: 'app-missing-the-kingdom',
@@ -28,15 +29,8 @@ import {HeaderService} from '@core/header.service';
   templateUrl: './missing-the-kingdom.html',
   styleUrl: '../salvation.scss',
 })
-export class MissingTheKingdom implements OnInit, OnDestroy {
-  private headerService = inject(HeaderService);
-
-  ngOnInit(): void {
-      this.headerService.setSubtitle('Missing The Kingdom');
-  }
-  ngOnDestroy(): void {
-      this.headerService.clearSubtitle();
-  }
+export class MissingTheKingdom extends BasePageWithSubtitle {
+  readonly pageSubtitle = 'Missing The Kingdom';
 
   protected readonly matt_25_14_29 = matt_25_14_29;
   protected readonly matt_25_19_21 = matt_25_19_21;

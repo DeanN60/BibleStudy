@@ -11,6 +11,10 @@
 
   .page-content {
     grid-area: page-content;
+
+    div {
+      padding: 2px 0;
+    }
   }
 }
 

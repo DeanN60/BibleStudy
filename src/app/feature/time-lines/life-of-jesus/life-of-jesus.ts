@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {iPerson, Person} from '../person/person';
 import {TimeLinesSubMenu} from '../time-lines-sub-menu/time-lines-sub-menu';
 import {iMarker, TlMarker} from '../tl-marker/tl-marker';
+import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 
 @Component({
   selector: 'app-life-of-jesus',
@@ -13,7 +14,9 @@ import {iMarker, TlMarker} from '../tl-marker/tl-marker';
   templateUrl: './life-of-jesus.html',
   styleUrl: '../time-lines.scss',
 })
-export class LifeOfJesus implements OnInit {
+export class LifeOfJesus extends BasePageWithSubtitle implements OnInit {
+  override pageSubtitle = "Life of Jesus";
+
   personList: iPerson[] | undefined;
   markerList: iMarker[] | undefined;
   markerHeight = 50;
@@ -21,7 +24,7 @@ export class LifeOfJesus implements OnInit {
   markerTop = -2;
   scale = 50;
 
-  ngOnInit(): void {
+  override init(): void {
     this.personList = [];
     this.personList.push({name: "Jesus", birthYear: 0, age: 33, scale: this.scale});
     // this.personList.push({name: "Resurrection", birthYear: 33, age: 0.15, scale: this.scale});

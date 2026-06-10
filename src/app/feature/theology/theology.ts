@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {TheologySubMenu} from './theology-sub-menu/theology-sub-menu';
+import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 
 @Component({
   selector: 'app-theology',
@@ -9,6 +10,7 @@ import {TheologySubMenu} from './theology-sub-menu/theology-sub-menu';
   templateUrl: './theology.html',
   styleUrl: './theology.scss',
 })
-export class Theology {
+export class Theology extends BasePageWithSubtitle {
+    override pageSubtitle = "Theology";
 
 }

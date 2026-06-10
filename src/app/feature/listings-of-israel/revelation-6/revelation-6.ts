@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {LoiSubMenu} from '../loi-sub-menu/loi-sub-menu';
 import {Tribe} from '@core/tribe/tribe';
+import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 
 @Component({
   selector: 'app-revelation-6',
@@ -11,6 +12,7 @@ import {Tribe} from '@core/tribe/tribe';
   templateUrl: './revelation-6.html',
   styleUrl: '../listings-of-israel.scss',
 })
-export class Revelation6 {
+export class Revelation6 extends BasePageWithSubtitle {
+    override pageSubtitle = "Revelation 6 Listing";
 
 }
