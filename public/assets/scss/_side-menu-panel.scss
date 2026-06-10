@@ -5,12 +5,8 @@
 
 .right-side-menu-panel {
   position: absolute;
-  //right: 0;
-  //font-size: 0.7em;
   width: var(--right-side-panel-menu-width);
-  //margin-left: 1em;
   text-align: left;
-  //border-left: 8px solid var(--color-side-menu-border);
 }
 
 .left-side-menu-panel,
@@ -32,6 +28,7 @@
       &:hover {
         background-color: var(--color-menu-hover-background);
         color: var(--color-menu-hover-text);
+        border-radius: 5px;
       }
     }
 
@@ -43,7 +40,6 @@
       &.primary-menu-item {
         font-size: 1.2em;
       }
-
     }
   }
 }
