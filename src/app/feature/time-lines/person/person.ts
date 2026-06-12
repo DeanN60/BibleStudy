@@ -8,6 +8,7 @@ export interface iPerson {
   age: number;
   scale: number;
   reference?: VerseData;
+  note?: string;
 }
 
 @Component({

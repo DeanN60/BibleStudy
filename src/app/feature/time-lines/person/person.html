@@ -12,10 +12,14 @@
     <div>Died: {{ getDeathYear() }} AM</div>
     <div>Age: {{ per().age }}</div>
     @if (per().reference) {
+      <div>Reference:</div>
       <div>
-        Reference:
         <app-verse [data]="per().reference"/>
       </div>
+    }
+    @if (per().note) {
+      <div>Note:</div>
+      <div class="person-note">{{ per().note }}</div>
     }
   </div>
 </div>

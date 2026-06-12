@@ -15,8 +15,14 @@
 
   .person-name {
     display: inline-flex;
+    position: absolute;
+    z-index: 1;
     background-color: var(--color-content-background-color);
     white-space: nowrap;
+  }
+
+  .person-note {
+    margin-left: 8px;
   }
 }
 
