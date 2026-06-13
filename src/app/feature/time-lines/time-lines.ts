@@ -67,16 +67,16 @@ export class TimeLines extends BasePageWithSubtitle {
     this.personList.push({name: "Abraham", birthYear: 1948, age: 175, scale: this.scale, reference: gen_21_5});
     this.personList.push({name: "Isaac", birthYear: 2048, age: 180, scale: this.scale, reference: gen_25_24_26});
     this.personList.push({name: "Jacob", birthYear: 2108, age: 147, scale: this.scale, note: "Issac was about 86 when Judah was born. This is an estimation."});
-    this.personList.push({name: "Judah", birthYear: 2192, age: 119, scale: this.scale});
-    this.personList.push({name: "Moses", birthYear: 2368, age: 120, scale: this.scale});
-    this.personList.push({name: "David", birthYear: 2861, age: 70, scale: this.scale});
-    this.personList.push({name: "Hosea", birthYear: 3080, age: 60, scale: this.scale});
-    this.personList.push({name: "Isaiah", birthYear: 3110, age: 90, scale: this.scale});
-    this.personList.push({name: "Jeremiah", birthYear: 3280, age: 80, scale: this.scale});
-    this.personList.push({name: "Ezekiel", birthYear: 3302, age: 55, scale: this.scale});
-    this.personList.push({name: "Daniel", birthYear: 3304, age: 95, scale: this.scale});
-    this.personList.push({name: "Alexander The Great", birthYear: 3648, age: 33, scale: this.scale});
-    this.personList.push({name: "Jesus", birthYear: 3922, age: 33, scale: this.scale});
+    this.personList.push({name: "Judah", birthYear: 2192, age: 119, scale: this.scale, note: "Estimate based upon Google search"});
+    this.personList.push({name: "Moses", birthYear: 2368, age: 120, scale: this.scale, note: "Estimate based upon Google search"});
+    this.personList.push({name: "David", birthYear: 2861, age: 70, scale: this.scale, note: "Estimate based upon Google search"});
+    this.personList.push({name: "Hosea", birthYear: 3080, age: 60, scale: this.scale, note: "Estimate based upon Google search"});
+    this.personList.push({name: "Isaiah", birthYear: 3110, age: 90, scale: this.scale, note: "Estimate based upon Google search"});
+    this.personList.push({name: "Jeremiah", birthYear: 3280, age: 80, scale: this.scale, note: "Estimate based upon Google search"});
+    this.personList.push({name: "Ezekiel", birthYear: 3302, age: 55, scale: this.scale, note: "Estimate based upon Google search"});
+    this.personList.push({name: "Daniel", birthYear: 3304, age: 95, scale: this.scale, note: "Estimate based upon Google search"});
+    this.personList.push({name: "Alexander The Great", birthYear: 3648, age: 33, scale: this.scale, note: "Estimate based upon Google search"});
+    this.personList.push({name: "Jesus", birthYear: 3922, age: 33, scale: this.scale, note: "Estimate based upon dates from the DSSCalendar.com"});
 
     this.markerList = [];
     this.markerList.push({
