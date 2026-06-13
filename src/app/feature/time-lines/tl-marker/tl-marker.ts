@@ -1,9 +1,8 @@
-import {Component, input} from '@angular/core';
+import {Component, HostBinding, HostListener, input} from '@angular/core';
 
 export interface iMarker {
   name: string;
   eventYear: number;
-  top: number;
   height: number;
   label: {
     left: number;
@@ -15,7 +14,6 @@ export interface iMarker {
 
 @Component({
   selector: 'app-tl-marker',
-  imports: [],
   templateUrl: './tl-marker.html',
   styleUrl: './tl-marker.scss',
 })
@@ -23,7 +21,6 @@ export class TlMarker {
   default: iMarker = {
     name: "unknown",
     eventYear: 1000,
-    top: 5,
     height: 800,
     label: {
       left: -1.5,
@@ -32,4 +29,20 @@ export class TlMarker {
     }
   };
   marker = input<iMarker>(this.default);
+
+  @HostBinding('class.hovered') isHovered = false;
+
+  @HostListener('mouseenter')
+  onMouseEnter() {
+    this.handleHoverChange(true);
+  }
+
+  @HostListener('mouseleave')
+  onMouseLeave() {
+    this.handleHoverChange(false);
+  }
+
+  private handleHoverChange(hovered: boolean) {
+    this.isHovered = hovered;
+  }
 }

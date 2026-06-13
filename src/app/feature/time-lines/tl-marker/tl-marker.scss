@@ -1,10 +1,8 @@
 .tl-marker {
-  position: fixed;
-  z-index: -200;
-  //top: 5.5em;
+  position: absolute;
+  top: 4.5em;
 
   .tl-marker-event {
-    position: relative;
     width: 1px;
     background-color: var(--color-time-line-grid);
 
@@ -12,34 +10,39 @@
       position: absolute;
       font-size: 0.5em;
       white-space: nowrap;
+      text-align: center;
       rotate: -90deg;
-
-      &:hover {
-        .detail-info {
-          display: block;
-        }
-      }
     }
   }
 }
 
 .detail-info {
-  display: none;
+  display: block;
   position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 20;
   color: var(--color-time-line-info-font);
-  z-index: 9999;
-  font-size: 0.65em;
+  font-size: 9pt;
   line-height: 1.2em;
   padding: 3px;
   height: fit-content;
   width: fit-content;
-  min-width: 10em;
+  min-width: 4em;
   border: 1px solid var(--color-time-line-info-border);
-  background: var(--color-time-line-info-background);
+  background-color: var(--color-time-line-info-background);
   border-radius: 5px;
-  white-space: wrap;
+
+  .name {
+    padding: 3px;
+    text-align: center;
+    white-space: nowrap;
+    min-width: 11em;
+  }
 
   .note {
-    padding-left: 5px;
+    padding: 5px;
+    font-size: 8pt;
+    max-width: 20em;
   }
 }
