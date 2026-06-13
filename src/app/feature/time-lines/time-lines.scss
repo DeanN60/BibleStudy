@@ -18,10 +18,14 @@
     width: 100%;
     position: relative;
     overflow-y: auto;
-    scale: 100%;
   }
 }
 
 .time-lines-container {
   margin-top: 3em;
+}
+
+.marker-layer {
+  position: absolute;
+  top: 0;
 }
