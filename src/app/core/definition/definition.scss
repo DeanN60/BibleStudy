@@ -1,0 +1,49 @@
+@use "card";
+
+.card {
+  width: fit-content;
+  font-size: 12pt;
+
+  &-header {
+    padding: 5px;
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+  }
+
+  .source {
+    font-size: 11pt;
+    padding-left: 5em;
+
+    .label {
+      font-weight: bold;
+    }
+  }
+
+  .term {
+    .term-type {
+      color: #5a948e;
+      font-weight: bolder;
+    }
+  }
+
+  .definition-list {
+    padding-left: 2em;
+    list-style-type: lower-alpha;
+    line-height: 1.5em;
+    font-size: 10pt;
+  }
+}
+
+.definition-type {
+  font-weight: bold;
+  background-color: #c2c1c1;
+  padding: 2px 5px;
+  border-radius: 6px;
+}
+
+.definition-sub {
+  color: #666666;
+  border-left: 2px solid #666666;
+  padding-left: 4px;
+}
