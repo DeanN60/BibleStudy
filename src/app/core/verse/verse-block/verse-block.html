@@ -1,0 +1,11 @@
+<div class="verse-block-container">
+  <div class="verse-block-reference">
+    {{ data().reference }}
+  </div>
+  <div class="verse-text">
+    {{ data().verse }}
+  </div>
+  @if (data().source) {
+    <div class="verse-source">{{ data().source }}</div>
+  }
+</div>
