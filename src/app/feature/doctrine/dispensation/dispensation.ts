@@ -37,7 +37,6 @@ export class Dispensation extends BasePageWithSubtitle {
     ]
   } as iDefinition;
 
-
   protected readonly iCor_9_17 = iCor_9_17;
   protected readonly eph_1_10 = eph_1_10;
   protected readonly eph_3_2 = eph_3_2;

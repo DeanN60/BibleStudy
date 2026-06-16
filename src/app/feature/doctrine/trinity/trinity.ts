@@ -5,18 +5,31 @@ import {john_1_1_5, john_1_14} from '@core/books/John/john_1';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {psalms_33_6} from '@core/books/Psalms/psalms_33';
 import {john_14_16_17, john_14_25_26, john_14_9_14} from '@core/books/John/john_14';
+import {Definition, iDefinition} from '@core/definition/definition';
 
 @Component({
   selector: 'app-trinity',
   imports: [
     SubMenu,
-    Verse
+    Verse,
+    Definition
   ],
   templateUrl: './trinity.html',
   styleUrl: './trinity.scss',
 })
 export class Trinity extends BasePageWithSubtitle {
   override pageSubtitle = "Trinity";
+
+  trinityDefinition = {
+    source: "Merriam-Webster",
+    term: "Trinity",
+    type: "noun",
+    definitions: [
+      {def: "the unity of Father, Son, and Holy Spirit as three persons in one Godhead according to Christian dogma"},
+      {type: "trinity", def: "a group of three closely related persons or things"},
+      {type: "or Trinity Sunday", def: "the Sunday after Whitsunday observed as a feast in honor of the Trinity"}
+    ]
+  } as iDefinition;
 
   protected readonly john_1_1_5 = john_1_1_5;
   protected readonly john_1_14 = john_1_14;
