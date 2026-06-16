@@ -6,7 +6,7 @@
     <span class="name">{{ per().name }}</span>
     <span class="age">(age {{ per().age }})</span>
   </span>
-  <div class="detail-info">
+  <div class="detail-info" appKeepInViewport>
     <div class="header">{{ per().name }}</div>
     <div>Born: {{ per().birthYear }} AM</div>
     <div>Died: {{ getDeathYear() }} AM</div>
