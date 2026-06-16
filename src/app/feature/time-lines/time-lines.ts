@@ -8,7 +8,9 @@ import {
   gen_5_15_17,
   gen_5_18_20,
   gen_5_21_24,
-  gen_5_25_27, gen_5_28_31, gen_5_32,
+  gen_5_25_27,
+  gen_5_28_31,
+  gen_5_32,
   gen_5_3_5,
   gen_5_6_8,
   gen_5_9_11
@@ -19,7 +21,10 @@ import {
   gen_11_14_15,
   gen_11_16_17,
   gen_11_18_19,
-  gen_11_20_21, gen_11_22_23, gen_11_24_25, gen_11_26_32
+  gen_11_20_21,
+  gen_11_22_23,
+  gen_11_24_25,
+  gen_11_26_32
 } from '@core/books/Genesis/gen_11';
 import {gen_21_5} from '@core/books/Genesis/gen_21';
 import {gen_25_24_26} from '@core/books/Genesis/gen_25';
@@ -66,32 +71,102 @@ export class TimeLines extends BasePageWithSubtitle {
     this.personList.push({name: "Terah", birthYear: 1878, age: 205, scale: this.scale, reference: gen_11_26_32});
     this.personList.push({name: "Abraham", birthYear: 1948, age: 175, scale: this.scale, reference: gen_21_5});
     this.personList.push({name: "Isaac", birthYear: 2048, age: 180, scale: this.scale, reference: gen_25_24_26});
-    this.personList.push({name: "Jacob", birthYear: 2108, age: 147, scale: this.scale, note: "Issac was about 86 when Judah was born. This is an estimation."});
-    this.personList.push({name: "Judah", birthYear: 2192, age: 119, scale: this.scale, note: "Estimate based upon Google search"});
-    this.personList.push({name: "Moses", birthYear: 2368, age: 120, scale: this.scale, note: "Estimate based upon Google search"});
-    this.personList.push({name: "David", birthYear: 2861, age: 70, scale: this.scale, note: "Estimate based upon Google search"});
-    this.personList.push({name: "Hosea", birthYear: 3080, age: 60, scale: this.scale, note: "Estimate based upon Google search"});
-    this.personList.push({name: "Isaiah", birthYear: 3110, age: 90, scale: this.scale, note: "Estimate based upon Google search"});
-    this.personList.push({name: "Jeremiah", birthYear: 3280, age: 80, scale: this.scale, note: "Estimate based upon Google search"});
-    this.personList.push({name: "Ezekiel", birthYear: 3302, age: 55, scale: this.scale, note: "Estimate based upon Google search"});
-    this.personList.push({name: "Daniel", birthYear: 3304, age: 95, scale: this.scale, note: "Estimate based upon Google search"});
-    this.personList.push({name: "Alexander The Great", birthYear: 3648, age: 33, scale: this.scale, note: "Estimate based upon Google search"});
-    this.personList.push({name: "Jesus", birthYear: 3922, age: 33, scale: this.scale, note: "Estimate based upon dates from the DSSCalendar.com"});
+    this.personList.push({
+      name: "Jacob",
+      birthYear: 2108,
+      age: 147,
+      scale: this.scale,
+      note: "Issac was about 86 when Judah was born. This is an estimation."
+    });
+    this.personList.push({
+      name: "Judah",
+      birthYear: 2192,
+      age: 119,
+      scale: this.scale,
+      note: "Estimate based upon Google search"
+    });
+    this.personList.push({
+      name: "Moses",
+      birthYear: 2368,
+      age: 120,
+      scale: this.scale,
+      note: "Estimate based upon Google search"
+    });
+    this.personList.push({
+      name: "David",
+      birthYear: 2861,
+      age: 70,
+      scale: this.scale,
+      note: "Estimate based upon Google search"
+    });
+    this.personList.push({
+      name: "Hosea",
+      birthYear: 3080,
+      age: 60,
+      scale: this.scale,
+      note: "Estimate based upon Google search"
+    });
+    this.personList.push({
+      name: "Isaiah",
+      birthYear: 3110,
+      age: 90,
+      scale: this.scale,
+      note: "Estimate based upon Google search"
+    });
+    this.personList.push({
+      name: "Jeremiah",
+      birthYear: 3280,
+      age: 80,
+      scale: this.scale,
+      note: "Estimate based upon Google search"
+    });
+    this.personList.push({
+      name: "Ezekiel",
+      birthYear: 3302,
+      age: 55,
+      scale: this.scale,
+      note: "Estimate based upon Google search"
+    });
+    this.personList.push({
+      name: "Daniel",
+      birthYear: 3304,
+      age: 95,
+      scale: this.scale,
+      note: "Estimate based upon Google search"
+    });
+    this.personList.push({
+      name: "Alexander The Great",
+      birthYear: 3648,
+      age: 33,
+      scale: this.scale,
+      note: "Estimate based upon Google search"
+    });
+    this.personList.push({
+      name: "Jesus",
+      birthYear: 3922,
+      age: 33,
+      scale: this.scale,
+      note: "Estimate based upon dates from the DSSCalendar.com"
+    });
 
     this.markerList = [];
     this.markerList.push({
       name: "1000 AM",
       eventYear: 1000 * this.scale,
       height: this.markerHeight,
-      label: {left: -2.2, top: -4.4, labelColor: "white",
-      note: "End Day One"}
+      label: {
+        left: -2.2, top: -4.4, labelColor: "white",
+        note: "End Day One"
+      }
     });
     this.markerList.push({
       name: "Construct Ark",
       eventYear: 1556 * this.scale,
       height: this.markerHeight,
-      label: {left: -3.6, top: -5.6, labelColor: "#abe587",
-      note: "Noah started to build the Ark"}
+      label: {
+        left: -3.6, top: -5.6, labelColor: "#abe587",
+        note: "Noah started to build the Ark"
+      }
     });
     this.markerList.push({
       name: "Flood",
@@ -109,8 +184,10 @@ export class TimeLines extends BasePageWithSubtitle {
       name: "2000 AM",
       eventYear: 2000 * this.scale,
       height: this.markerHeight,
-      label: {left: -2.2, top: -4.4, labelColor: "white",
-      note: "End Day Two"}
+      label: {
+        left: -2.2, top: -4.4, labelColor: "white",
+        note: "End Day Two"
+      }
     });
     this.markerList.push({
       name: "Exodus",
@@ -134,8 +211,10 @@ export class TimeLines extends BasePageWithSubtitle {
       name: "3000 AM",
       eventYear: 3000 * this.scale,
       height: this.markerHeight,
-      label: {left: -2.2, top: -4.4, labelColor: "white",
-      note: "End Day Three"}
+      label: {
+        left: -2.2, top: -4.4, labelColor: "white",
+        note: "End Day Three"
+      }
     });
     this.markerList.push({
       name: "Babylon",
@@ -153,15 +232,19 @@ export class TimeLines extends BasePageWithSubtitle {
       name: "4000 AM",
       eventYear: 4000 * this.scale,
       height: this.markerHeight,
-      label: {left: -2.2, top: -4.4, labelColor: "white",
-      note: "End Day Four"}
+      label: {
+        left: -2.2, top: -4.4, labelColor: "white",
+        note: "End Day Four"
+      }
     });
     this.markerList.push({
       name: "5000 AM",
       eventYear: 5000 * this.scale,
       height: this.markerHeight,
-      label: {left: -2.2, top: -4.4, labelColor: "white",
-      note: "End Day Five"}
+      label: {
+        left: -2.2, top: -4.4, labelColor: "white",
+        note: "End Day Five"
+      }
     });
     this.markerList.push({
       name: "1948 AD",
@@ -181,15 +264,19 @@ export class TimeLines extends BasePageWithSubtitle {
       name: "6000 AM",
       eventYear: 6000 * this.scale,
       height: this.markerHeight,
-      label: {left: -2.2, top: -4.4, labelColor: "white",
-      note: "End Day Six"}
+      label: {
+        left: -2.2, top: -4.4, labelColor: "white",
+        note: "End Day Six"
+      }
     });
     this.markerList.push({
       name: "7000 AM",
       eventYear: 7000 * this.scale,
       height: this.markerHeight,
-      label: {left: -2.2, top: -4.4, labelColor: "white",
-      note: "End Day Seven"}
+      label: {
+        left: -2.2, top: -4.4, labelColor: "white",
+        note: "End Day Seven"
+      }
     });
   }
 }
