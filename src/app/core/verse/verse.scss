@@ -1,5 +1,31 @@
 @use 'mixins';
 
+.slide-open {
+  animation: slide-open 10s ease-in;
+}
+
+@keyframes slide-open {
+  from {
+    background-color: gray;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.slide-close {
+  animation: slide-close 10s ease-out;
+}
+
+@keyframes slide-close {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 0;
+  }
+}
+
 .verse-container {
   display: inline-block;
   background-color: var(--color-verse-background);
@@ -18,63 +44,73 @@
   }
 
   &:hover {
-    width: fit-content;
-    min-width: var(--verse-min-width);
-    max-width: var(--verse-width);
-
-    .verse-reference {
-      width: fit-content;
-      border-radius: 6px 6px 0 0;
-    }
-
     .verse-block {
       display: block;
+      width: fit-content;
+      min-width: var(--verse-min-width);
+      max-width: var(--verse-width);
     }
   }
+}
 
-  .verse-reference,
-  .verse-text,
-  .verse-source {
-    padding: 0.1em 0.5em;
+.verse-reference,
+.verse-block-reference {
+  background-color: var(--color-verse-header-background);
+  color: var(--color-verse-header-text);
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.verse-block {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  width: fit-content;
+  max-width: var(--verse-width);
+  border-radius: 0 0 6px 6px;
+}
+
+.verse-text {
+  color: var(--color-verse-text);
+  background-color: var(--color-verse-text-background);
+  margin: 0.5em 0;
+}
+
+.verse-reference,
+.verse-text,
+.verse-source {
+  padding: 0.2em 0.5em;
+}
+
+.verse-block-reference {
+  padding: 0.3em 0.5em;
+}
+
+.verse-reference,
+.verse-block-reference,
+.verse-text {
+  font-size: 10pt;
+}
+
+.verse-source {
+  font-size: 0.4em;
+  color: var(--color-verse-source);
+  background-color: var(--color-footer-background);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+
+  &:hover {
+    font-size: 9pt;
   }
+}
 
-  .verse-reference,
-  .verse-text {
-    font-size: 10pt;
-  }
+.verse-block-container {
+  background-color: var(--color-verse-text-background);
+  border-radius: 6px;
+  position: relative;
+  top: -1.25em;
 
-  .verse-reference {
-    background-color: var(--color-verse-header-background);
-    color: var(--color-verse-header-text);
-    border-radius: 6px;
-    white-space: nowrap;
-  }
-
-  .verse-block {
-    display: none;
-    position: absolute;
-    z-index: 10;
-    width: fit-content;
-    max-width: var(--verse-width);
-    background-color: var(--color-verse-text-background);
-    border-radius: 0 0 6px 6px;
-  }
-
-  .verse-text {
-    color: var(--color-verse-text);
-    background-color: var(--color-verse-text-background);
-    margin: 0.5em 0;
-  }
-
-  .verse-source {
-    font-size: 0.4em;
-    color: var(--color-verse-source);
-    background-color: var(--color-footer-background);
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-
-    &:hover {
-      font-size: 9pt;
-    }
+  .verse-block-reference {
+    border-radius: 6px 6px 0 0;
   }
 }
