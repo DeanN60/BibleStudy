@@ -1,6 +1,7 @@
 import {Component, input} from '@angular/core';
 import {Verse} from '@core/verse';
 import {VerseData} from '@core/verse-data';
+import {KeepInViewport} from '@core/directive/keep-in-viewport';
 
 export interface iPerson {
   name: string;
@@ -14,7 +15,8 @@ export interface iPerson {
 @Component({
   selector: 'app-person',
   imports: [
-    Verse
+    Verse,
+    KeepInViewport
   ],
   templateUrl: './person.html',
   styleUrl: './person.scss'
