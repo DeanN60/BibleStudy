@@ -1,6 +1,6 @@
 import {VerseData} from '@core/verse-data';
 
-export const john_1 = new VerseData(
+export const john_1_1_5 = new VerseData(
   "John 1:1-5 LSB",
   "1 In the beginning was the Word, and the Word was with God, and the Word was God. " +
   "2 He was in the beginning with God. " +
