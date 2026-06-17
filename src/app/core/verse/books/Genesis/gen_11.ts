@@ -1,5 +1,19 @@
 import {VerseData} from '@core/verse-data';
 
+export const gen_11_1_9 = new VerseData(
+  "Genesis 11:1-9 LSB",
+  "1 Now the whole earth had the same language and the same words. " +
+  "2 And it happened as they journeyed east, that they found a plain in the land of Shinar and settled there. " +
+  "3 Then they said to one another, “Come, let us make bricks and burn them thoroughly.” And they had brick for stone, and they had tar for mortar. " +
+  "4 And they said, “Come, let us build for ourselves a city, and a tower whose top will reach into heaven, and let us make for ourselves a name, lest we be scattered over the face of the whole earth.” " +
+  "5 Then Yahweh came down to see the city and the tower which the sons of men had built. " +
+  "6 And Yahweh said, “Behold, they are one people, and they all have the same language. And this is what they have begun to do. So now nothing which they purpose to do will be impossible for them. " +
+  "7 Come, let Us go down and there confuse their language, so that they will not understand one another’s alanguage.” " +
+  "8 So Yahweh scattered them from there over the face of the whole earth; and they stopped building the city. " +
+  "9 Therefore its name was called Babel, because there Yahweh confused the blanguage of the whole earth; and from there Yahweh scattered them over the face of the whole earth.",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 118). 316 Publishing, Inc.. Kindle Edition."
+)
+
 export const gen_11_10_11 = new VerseData(
   "Genesis 11:10-11 LSB",
   "10 These are the generations of Shem. Shem was 100 years old and became the father of Arpachshad two years after the flood; " +
