@@ -20,8 +20,8 @@ export class Doctrine extends BasePageWithSubtitle {
     term: "Doctrine",
     type: "noun",
     definitions: [
-      {def: "a principle of position of the body of principles in a branch of knowledge of system of belief: DOGMA", sub: "Catholic doctrine"},
-      {def: "a statement of fundamental government policy especially in international relations", sub: "the Truman Doctrine"},
+      {def: "a principle of position of the body of principles in a branch of knowledge of system of belief: DOGMA", sub: ["Catholic doctrine"]},
+      {def: "a statement of fundamental government policy especially in international relations", sub: ["the Truman Doctrine"]},
       {def: "a principle of law established through past decisions", type: "law"},
       {def: "a military principle or set of strategies"},
       {def: "something that is taught"}
