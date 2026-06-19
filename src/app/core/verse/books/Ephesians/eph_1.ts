@@ -8,6 +8,12 @@ export const eph_1_1_11 = new VerseData(
 
 export const eph_1_10 = new VerseData(
   "Ephesians 1:10 KJV",
-  "10 That in the dispensation of the fulness of times he might gather together in one all things in Christ, both which are in heaven, and which are on earth; even in him:",
+  "10 That in the dispensation of the fullness of times he might gather together in one all things in Christ, both which are in heaven, and which are on earth; even in him:",
   "King James Version"
 );
+
+export const eph_1_13_14 = new VerseData(
+  "Ephesians 1:13,14 LSB",
+  "13In aHim, you also, after listening to the word of truth, the gospel of your salvation—having also bbelieved, you were sealed in aHim with the Holy Spirit of promise, 14who is agiven as a pledge of our inheritance, unto the redemption of God’s own possession, to the praise of His glory.",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3916). 316 Publishing, Inc.. Kindle Edition."
+)
