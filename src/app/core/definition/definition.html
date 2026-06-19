@@ -20,7 +20,9 @@
             }
             {{ definition.def }}
             @if (definition.sub) {
-              <br/><span class="definition-sub">{{ definition.sub }}</span>
+              @for (sub of definition.sub; track sub) {
+                <br/><span class="definition-sub">{{ sub }}</span>
+              }
             }
           </li>
         }
