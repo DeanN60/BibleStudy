@@ -5,6 +5,7 @@ import {Verse} from '@core/verse';
 import {daniel_8_5_8} from '@core/books/Daniel/daniel_8';
 import {gen_1_1_5} from '@core/books/Genesis/gen_1';
 import {ezekiel_1_4_14} from '@core/books/Ezekiel/ezekiel_1';
+import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 
 @Component({
   selector: 'app-interpretation',
@@ -16,7 +17,8 @@ import {ezekiel_1_4_14} from '@core/books/Ezekiel/ezekiel_1';
   templateUrl: './interpretation.html',
   styleUrls: ['../home.scss', './interpretation.scss'],
 })
-export class Interpretation {
+export class Interpretation extends BasePageWithSubtitle {
+  override pageSubtitle = "Interpretation";
 
   allegoryDefinition = {
     source: "Merriam-Webster",
