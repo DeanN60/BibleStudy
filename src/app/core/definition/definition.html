@@ -1,27 +1,33 @@
-<div class="card">
-  <div class="card-header">
-    Definition
+<div class="definition-container">
+  <div class="definition-word">
+    <span class="label">Definition:</span>
+    {{ this.data().term }}
   </div>
-  <div class="card-body">
-    <div class="term">
-      {{ this.data().term }}
-      <span class="term-type">{{ this.data().type }}</span>
+  <div class="card definition-card">
+    <div class="card-header">
+      Definition
     </div>
-    <ol class="definition-list">
-      @for (definition of this.data().definitions; track definition.def) {
-        <li class="definition-container">
-          @if (definition.type) {
-            <span class="definition-type">{{ definition.type }}</span> :
-          }
-          {{ definition.def }}
-          @if (definition.sub) {
-            <br/><span class="definition-sub">{{ definition.sub }}</span>
-          }
-        </li>
-      }
-    </ol>
-    <div class="source">
-      <span class="label">Source:</span> {{ this.data().source }}
+    <div class="card-body">
+      <div class="term">
+        {{ this.data().term }}
+        <span class="term-type">{{ this.data().type }}</span>
+      </div>
+      <ol class="definition-list">
+        @for (definition of this.data().definitions; track definition.def) {
+          <li class="definition-item">
+            @if (definition.type) {
+              <span class="definition-type">{{ definition.type }}</span> :
+            }
+            {{ definition.def }}
+            @if (definition.sub) {
+              <br/><span class="definition-sub">{{ definition.sub }}</span>
+            }
+          </li>
+        }
+      </ol>
+      <div class="source">
+        <span class="label">Source:</span> {{ this.data().source }}
+      </div>
     </div>
   </div>
 </div>

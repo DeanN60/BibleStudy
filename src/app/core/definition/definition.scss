@@ -1,13 +1,14 @@
 @use "card";
 
-.card {
+.card.definition-card {
   width: fit-content;
   font-size: 12pt;
 
   &-header {
     padding: 5px;
     text-align: center;
-    color: #333333;
+    color: var(--color-def-header-text);
+    font-size: 14pt;
     font-weight: bold;
   }
 
@@ -21,8 +22,11 @@
   }
 
   .term {
+    color: var(--color-def-text);
+    font-weight: bold;
+
     .term-type {
-      color: #5a948e;
+      color: var(--color-def-term);
       font-weight: bolder;
     }
   }
@@ -37,13 +41,44 @@
 
 .definition-type {
   font-weight: bold;
-  background-color: #c2c1c1;
+  background-color: var(--color-def-type);
   padding: 2px 5px;
   border-radius: 6px;
 }
 
 .definition-sub {
-  color: #666666;
-  border-left: 2px solid #666666;
+  color: var(--color-def-sub);
+  border-left: 2px solid var(--color-def-sub);
   padding-left: 0.5em;
+}
+
+.definition-container {
+  width: fit-content;
+
+  .definition-word {
+    background-color: var(--color-def-header-background);
+    color: var(--color-def-header-text);
+    padding: 0 0.4rem;
+    font-size: 12pt;
+    width: fit-content;
+    border-radius: 10px;
+
+    .label {
+      color: var(--color-def-label);
+    }
+  }
+
+  &:hover {
+    .definition-card {
+      display: block;
+    }
+  }
+}
+
+.definition-card {
+  --offset: -1.53rem;
+  display: none;
+  position: relative;
+  top: var(--offset);
+  margin-bottom: var(--offset);
 }
