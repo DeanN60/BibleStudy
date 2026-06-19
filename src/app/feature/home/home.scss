@@ -1,4 +1,9 @@
 @use "tight-paragraph";
+@use "mixins";
+
+.page-content-container {
+  @include mixins.mix-left-side-menu();
+}
 
 .page-content {
   padding: 1em;
