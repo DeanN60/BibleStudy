@@ -1,31 +1,5 @@
 @use 'mixins';
 
-.slide-open {
-  animation: slide-open 10s ease-in;
-}
-
-@keyframes slide-open {
-  from {
-    background-color: gray;
-  }
-  to {
-    background-color: white;
-  }
-}
-
-.slide-close {
-  animation: slide-close 10s ease-out;
-}
-
-@keyframes slide-close {
-  from {
-    scale: 1;
-  }
-  to {
-    scale: 0;
-  }
-}
-
 .verse-container {
   display: inline-block;
   background-color: var(--color-verse-background);
@@ -36,7 +10,7 @@
   letter-spacing: 0.05em;
   line-height: 1.1em;
   position: relative;
-  transition: all 2s ease;
+  //transition: all 2s ease;
   @include mixins.mix-box-shadow;
 
   &:first-child {
