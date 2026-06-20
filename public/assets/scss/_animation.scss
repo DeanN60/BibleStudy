@@ -1,0 +1,29 @@
+.slide-open {
+  animation: slide-open 100ms ease-in;
+}
+
+@keyframes slide-open {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.slide-close {
+  animation: slide-close 100ms ease-out;
+}
+
+@keyframes slide-close {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+}
