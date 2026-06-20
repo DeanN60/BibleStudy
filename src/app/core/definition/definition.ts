@@ -1,6 +1,7 @@
 import {Component, input} from '@angular/core';
 import {wordType} from '@core/definition/word-type';
 import {iDefinitionInfo} from '@core/definition/definition-info';
+import {OpenTrigger} from '@core/directive/open-trigger';
 
 export interface iDefinition {
   source: string;
@@ -11,7 +12,9 @@ export interface iDefinition {
 
 @Component({
   selector: 'app-definition',
-  imports: [],
+  imports: [
+    OpenTrigger
+  ],
   templateUrl: './definition.html',
   styleUrl: './definition.scss',
 })
