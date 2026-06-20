@@ -2,6 +2,7 @@ import {Component, input} from '@angular/core';
 import {VerseData} from './verse-data';
 import {VerseBlock} from '@core/verse-block/verse-block';
 import {KeepInViewport} from '@core/directive/keep-in-viewport';
+import {OpenTrigger} from '@core/directive/open-trigger';
 
 export const fallbackVerse: VerseData = {
   reference: "unknown",
@@ -13,7 +14,8 @@ export const fallbackVerse: VerseData = {
   selector: 'app-verse, app-book',
   imports: [
     VerseBlock,
-    KeepInViewport
+    KeepInViewport,
+    OpenTrigger
   ],
   templateUrl: './verse.html',
   styleUrl: './verse.scss',
