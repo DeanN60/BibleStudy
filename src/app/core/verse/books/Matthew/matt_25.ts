@@ -83,3 +83,34 @@ export const matt_25_29_30 = new VerseData(
   "in that place there will be weeping and gnashing of teeth.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (pp. 3324-3325). 316 Publishing, Inc.. Kindle Edition. "
 );
+
+export const matt_25_31_33 = new VerseData(
+  "Matthew 25:31-33 LSB",
+  "31 “But when the Son of Man comes in His glory, and all the angels with Him, then He will sit on His glorious throne. " +
+  "32 And all the nations will be gathered before Him; and He will separate them from one another, as the shepherd separates the sheep from the goats; " +
+  "33 and He will put the sheep on His right, and the goats on the left.",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3323). 316 Publishing, Inc.. Kindle Edition. "
+);
+
+export const matt_25_34_40 = new VerseData(
+  "Matthew 25:34-40 LSB",
+  "34 “Then the King will say to those on His right, ‘Come, you who are blessed of My Father, inherit the kingdom, which has been prepared for you from the foundation of the world. " +
+  "35 For I was hungry, and you gave Me something to eat; I was thirsty, and you gave Me something to drink; I was a stranger, and you invited Me in; " +
+  "36 naked, and you clothed Me; I was sick, and you visited Me; I was in prison, and you came to Me.’ " +
+  "37 Then the righteous will answer Him, saying, ‘Lord, when did we see You hungry, and feed You, or thirsty, and give You something to drink? " +
+  "38 And when did we see You a stranger, and invite You in, or naked, and clothe You? " +
+  "39 And when did we see You sick, or in prison, and come to You?’ " +
+  "40 And the King will answer and say to them, ‘Truly I say to you, to the extent that you did it to one of these brothers of Mine, even the least of them, you did it to Me.’",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3323). 316 Publishing, Inc.. Kindle Edition. "
+);
+
+export const matt_25_41_45 = new VerseData(
+  "Matthew 25:41-45 LSB",
+  "41 “Then He will also say to those on His left, ‘Depart from Me, accursed ones, into the eternal fire which has been prepared for the devil and his angels; " +
+  "42 for I was hungry, and you gave Me nothing to eat; I was thirsty, and you gave Me nothing to drink; " +
+  "43 I was a stranger, and you did not invite Me in; naked, and you did not clothe Me; sick, and in prison, and you did not visit Me.’ " +
+  "44 Then they themselves also will answer, saying, ‘Lord, when did we see You hungry, or thirsty, or a stranger, or naked, or sick, or in prison, and did not take care of You?’ " +
+  "45 Then He will answer them, saying, ‘Truly I say to you, to the extent that you did not do it to one of the least of these, you did not do it to Me.’ " +
+  "46 And these will go away into eternal punishment, but the righteous into eternal life.”",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3323). 316 Publishing, Inc.. Kindle Edition. "
+);
