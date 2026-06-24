@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {TheologySubMenu} from '../theology-sub-menu/theology-sub-menu';
-import {EcclesiologySubMenu} from './ecclesiology-sub-menu/ecclesiology-sub-menu';
+import {RightSubMenu} from './right-sub-menu/right-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {Definition, iDefinition} from '@core/definition/definition';
 
@@ -8,7 +8,7 @@ import {Definition, iDefinition} from '@core/definition/definition';
   selector: 'app-ecclesiology',
   imports: [
     TheologySubMenu,
-    EcclesiologySubMenu,
+    RightSubMenu,
     Definition
   ],
   templateUrl: './ecclesiology.html',

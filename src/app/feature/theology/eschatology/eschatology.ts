@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {TheologySubMenu} from '../theology-sub-menu/theology-sub-menu';
-import {EschatologyRightMenu} from './eschatology-right-menu/eschatology-right-menu';
+import {RightSubMenu} from './right-sub-menu/right-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {Definition, iDefinition} from '@core/definition/definition';
 
@@ -8,7 +8,7 @@ import {Definition, iDefinition} from '@core/definition/definition';
   selector: 'app-eschatology',
   imports: [
     TheologySubMenu,
-    EschatologyRightMenu,
+    RightSubMenu,
     Definition,
   ],
   templateUrl: './eschatology.html',

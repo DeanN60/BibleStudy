@@ -1,13 +1,17 @@
 import { Component } from '@angular/core';
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
-import {EschatologyRightMenu} from '../eschatology-right-menu/eschatology-right-menu';
+import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
+import {Verse} from '@core/verse';
+import {rom_11_17_24} from '@core/books/Romans/rom_11';
+import {john_15_1_11} from '@core/books/John/john_15';
 
 @Component({
   selector: 'app-post-trib',
   imports: [
     TheologySubMenu,
-    EschatologyRightMenu
+    RightSubMenu,
+    Verse
   ],
   templateUrl: './post-trib.html',
   styleUrl: '../eschatology.scss',
@@ -15,4 +19,6 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
 export class PostTrib extends BasePageWithSubtitle {
     override pageSubtitle = "Post-Tribulation";
 
+  protected readonly rom_11_17_24 = rom_11_17_24;
+  protected readonly john_15_1_11 = john_15_1_11;
 }
