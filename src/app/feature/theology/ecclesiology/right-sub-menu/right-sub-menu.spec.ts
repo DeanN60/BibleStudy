@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EcclesiologySubMenu } from './ecclesiology-sub-menu';
+import { RightSubMenu } from './right-sub-menu';
 
-describe('EcclesiologySubMenu', () => {
-  let component: EcclesiologySubMenu;
-  let fixture: ComponentFixture<EcclesiologySubMenu>;
+describe('RightSubMenu', () => {
+  let component: RightSubMenu;
+  let fixture: ComponentFixture<RightSubMenu>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [EcclesiologySubMenu]
+      imports: [RightSubMenu]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(EcclesiologySubMenu);
+    fixture = TestBed.createComponent(RightSubMenu);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

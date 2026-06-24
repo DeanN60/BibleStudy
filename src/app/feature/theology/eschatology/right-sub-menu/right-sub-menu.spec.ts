@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EschatologyRightMenu } from './eschatology-right-menu';
+import { RightSubMenu } from './right-sub-menu';
 
-describe('EschatologyRightMenu', () => {
-  let component: EschatologyRightMenu;
-  let fixture: ComponentFixture<EschatologyRightMenu>;
+describe('RightSubMenu', () => {
+  let component: RightSubMenu;
+  let fixture: ComponentFixture<RightSubMenu>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [EschatologyRightMenu]
+      imports: [RightSubMenu]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(EschatologyRightMenu);
+    fixture = TestBed.createComponent(RightSubMenu);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
