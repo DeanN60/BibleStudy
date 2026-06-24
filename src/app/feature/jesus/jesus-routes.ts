@@ -21,8 +21,8 @@ export const jesus_routes: Routes = [
   },
   {
     path: "ministry",
-    loadComponent: () => import('./ministry/ministry')
-      .then(m => m.Ministry),
+    loadChildren: () => import('./ministry/ministry-routes')
+      .then(m => m.ministry_routes),
     title: "Ministry"
   }
 ]
