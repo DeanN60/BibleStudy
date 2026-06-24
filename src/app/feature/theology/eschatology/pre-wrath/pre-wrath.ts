@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import {EschatologyRightMenu} from '../eschatology-right-menu/eschatology-right-menu';
+import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 
 @Component({
   selector: 'app-pre-wrath',
   imports: [
-    EschatologyRightMenu,
+    RightSubMenu,
     TheologySubMenu
   ],
   templateUrl: './pre-wrath.html',
