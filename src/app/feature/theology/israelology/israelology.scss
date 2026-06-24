@@ -1,0 +1,13 @@
+@use 'mixins' as mixins;
+
+.page-content-container {
+  @include mixins.mix-left-and-right-side-menu();
+}
+
+.page-content {
+  grid-area: sub-main-content-panel;
+}
+
+app-right-sub-menu {
+  grid-area: right-menu-panel;
+}
