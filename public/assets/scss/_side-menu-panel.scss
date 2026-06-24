@@ -24,21 +24,46 @@
       color: var(--color-side-menu-text);
       padding: 6px 10px;
       text-decoration: none;
+      border-radius: 5px;
 
       &:hover {
-        background-color: var(--color-menu-hover-background);
+        background-color: var(--color-side-menu-hover-background);
         color: var(--color-menu-hover-text);
-        border-radius: 5px;
       }
     }
 
     > li {
       list-style-type: none;
       padding: 6px;
-      font-size: 0.9em;
+      font-size: 12pt;
 
       &.primary-menu-item {
-        font-size: 1.2em;
+        font-size: 18pt;
+      }
+
+      &.secondary-menu-item {
+        font-size: 14pt;
+        font-weight: bold;
+        --color-menu-heading: #374d4f;
+        background-color: var(--color-menu-heading);
+        border-radius: 10px;
+        padding: 2px 0.5em;
+      }
+
+      ul li {
+        &:not(:first-child) {
+          display: none;
+        }
+
+        &:not(:first-of-type) {
+          list-style-type: none;
+          text-indent: 0.5em;
+          font-size: 12pt;
+        }
+      }
+
+      ul:has(> li:first-child.is-open) li {
+        display: block;
       }
     }
   }
