@@ -18,5 +18,11 @@ export const theology_routes: Routes = [
     loadChildren: () => import('./eschatology/eschatology-routes')
       .then(m => m.eschatology_routes),
     title: 'Eschatology',
+  },
+  {
+    path: 'israelology',
+    loadChildren: () => import('./israelology/israelology-routes')
+      .then(m => m.israelology_routes),
+    title: 'Israelology',
   }
 ]
