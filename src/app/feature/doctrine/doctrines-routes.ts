@@ -5,7 +5,7 @@ export const doctrines_routes: Routes = [
     path: '',
     loadComponent: () => import('./doctrine')
       .then(m => m.Doctrine),
-    title: 'doctrine'
+    title: 'Doctrine'
   },
   {
     path: 'calvinism',
