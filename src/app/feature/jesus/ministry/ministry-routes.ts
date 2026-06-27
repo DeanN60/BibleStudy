@@ -8,12 +8,6 @@ export const ministry_routes: Routes = [
     title: 'Ministry'
   },
   {
-    path: 'disciples',
-    loadComponent: () => import('./disciples/disciples')
-      .then(m => m.Disciples),
-    title: 'Disciples'
-  },
-  {
     path: 'healing',
     loadComponent: () => import('./healing/healing')
       .then(m => m.Healing),
