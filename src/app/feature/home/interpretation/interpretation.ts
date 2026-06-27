@@ -6,6 +6,7 @@ import {daniel_8_5_8} from '@core/books/Daniel/daniel_8';
 import {gen_1_1_5} from '@core/books/Genesis/gen_1';
 import {ezekiel_1_4_14} from '@core/books/Ezekiel/ezekiel_1';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
+import {rev_1_3} from '@core/books/Revelation/rev_1';
 
 @Component({
   selector: 'app-interpretation',
@@ -98,4 +99,5 @@ export class Interpretation extends BasePageWithSubtitle {
   protected readonly daniel_8_5_8 = daniel_8_5_8;
   protected readonly gen_1_1_5 = gen_1_1_5;
   protected readonly ezekiel_1_4_14 = ezekiel_1_4_14;
+  protected readonly rev_1_3 = rev_1_3;
 }
