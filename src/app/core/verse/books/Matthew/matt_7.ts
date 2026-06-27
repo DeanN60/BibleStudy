@@ -5,7 +5,7 @@ export const matt_7_13_14 = new VerseData(
   "13 “Enter through the narrow gate; for the gate is wide and the way is broad that leads to destruction, and there are many who enter through it. " +
   "14 For the gate is narrow and the way is constricted that leads to life, and there are few who find it.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3262). 316 Publishing, Inc.. Kindle Edition."
-)
+);
 
 export const matt_7_21_23 = new VerseData(
   "Matthew 7:21-23 KJV",
