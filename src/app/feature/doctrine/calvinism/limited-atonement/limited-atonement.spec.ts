@@ -4,6 +4,9 @@ import {LimitedAtonement} from './limited-atonement';
 import {provideRouter} from '@angular/router';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
+import {SubMenu} from '../../doctrine-sub-menu/sub-menu';
+import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
+import {Verse} from '@core/verse';
 
 describe('LimitedAtonement', () => {
   let component: LimitedAtonement;
@@ -12,6 +15,9 @@ describe('LimitedAtonement', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [
+        SubMenu,
+        RightSubMenu,
+        Verse,
         LimitedAtonement
       ],
       providers: [
