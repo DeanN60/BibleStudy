@@ -10,5 +10,5 @@ export const iCor_15_50_57 = new VerseData(
   "55 O DEATH, WHERE IS YOUR VICTORY? O DEATH, WHERE IS YOUR STING?” " +
   "56 Now the sting of death is sin, and the power of sin is the law; " +
   "57 but thanks be to God, who gives us the victory through our Lord Jesus Christ!",
-  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 2849). 316 Publishing, Inc.. Kindle Edition."
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3849). 316 Publishing, Inc.. Kindle Edition."
 )

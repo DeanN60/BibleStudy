@@ -16,4 +16,11 @@ export const eph_1_13_14 = new VerseData(
   "Ephesians 1:13,14 LSB",
   "13In aHim, you also, after listening to the word of truth, the gospel of your salvation—having also bbelieved, you were sealed in aHim with the Holy Spirit of promise, 14who is agiven as a pledge of our inheritance, unto the redemption of God’s own possession, to the praise of His glory.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3916). 316 Publishing, Inc.. Kindle Edition."
-)
+);
+
+export const eph_1_22_23 = new VerseData(
+  "Ephesians 1:22,23 LSB",
+  "22 And HE PUT ALL THINGS IN SUBJECTION UNDER HIS FEET, and gave Him as head over all things to the church, " +
+  "23 which is His body, the fullness of Him who fills all in all.",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3916). 316 Publishing, Inc.. Kindle Edition."
+);
