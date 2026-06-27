@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {JesusSubMenu} from '../../jesus-sub-menu/jesus-sub-menu';
-import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
+import {JesusSubMenu} from '../jesus-sub-menu/jesus-sub-menu';
+import {RightSubMenu} from './right-sub-menu/right-sub-menu';
 
 @Component({
   selector: 'app-disciples',
@@ -9,7 +9,7 @@ import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
     RightSubMenu
   ],
   templateUrl: './disciples.html',
-  styleUrl: '../ministry.scss',
+  styleUrl: '../ministry/ministry.scss',
 })
 export class Disciples {
 
