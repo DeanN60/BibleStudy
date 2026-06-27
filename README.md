@@ -1,6 +1,12 @@
 # BibleStudy
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.0.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.16.
+
+Node version 24.16.0
+
+## Note:
+
+Delete *package-lock.json* before you run *npm i*
 
 ## Development server
 
