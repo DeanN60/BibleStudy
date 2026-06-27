@@ -5,7 +5,7 @@ describe('VerseData', () => {
 
   beforeEach(() => {
     ephesians2_8 = new VerseData(
-      'Ephesians 2:8',
+      'Ephesians 2:8 LSB',
       '8 For by grace you have been saved through faith, and this not of yourselves, it is the gift of God;',
       'Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3918). 316 Publishing, Inc.. Kindle Edition.'
     );
