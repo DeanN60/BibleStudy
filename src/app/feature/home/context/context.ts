@@ -13,7 +13,7 @@ import {Definition, iDefinition} from '@core/definition/definition';
   styleUrl: '../home.scss',
 })
 export class Context extends BasePageWithSubtitle {
-  override pageSubtitle = "context";
+  override pageSubtitle = "Context";
 
   contextDefinition = {
     source: "Merriam-Webster",
