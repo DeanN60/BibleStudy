@@ -13,6 +13,6 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
   styleUrl: '../disciples.scss',
 })
 export class Philip extends BasePageWithSubtitle {
-    override pageSubtitle = "Philip";
+    override pageSubtitle = "Disciples - Philip";
 
 }
