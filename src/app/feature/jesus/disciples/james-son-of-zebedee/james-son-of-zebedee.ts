@@ -4,15 +4,15 @@ import {JesusSubMenu} from '../../jesus-sub-menu/jesus-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 
 @Component({
-  selector: 'app-james',
+  selector: 'app-james-son-of-zebedee',
   imports: [
     JesusSubMenu,
     RightSubMenu
   ],
-  templateUrl: './james.html',
+  templateUrl: './james-son-of-zebedee.html',
   styleUrl: '../disciples.scss',
 })
-export class James extends BasePageWithSubtitle {
-    override pageSubtitle = "Disciples - James";
+export class JamesSonOfZebedee extends BasePageWithSubtitle {
+    override pageSubtitle = "Disciples - James son of Zebedee";
 
 }
