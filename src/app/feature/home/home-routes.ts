@@ -8,6 +8,12 @@ export const home_routes: Route[] = [
     title: 'Home'
   },
   {
+    path: 'context',
+    loadComponent: () => import('./context/context')
+      .then(m => m.Context),
+    title: 'Context'
+  },
+  {
     path: 'interpretation',
     loadComponent: () => import('./interpretation/interpretation')
       .then(m => m.Interpretation),
