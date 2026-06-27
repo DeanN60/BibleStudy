@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 
 @Component({
   selector: 'app-about',
@@ -6,6 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './about.html',
   styleUrl: './about.scss',
 })
-export class About {
+export class About extends BasePageWithSubtitle {
+    override pageSubtitle = "About";
 
 }
