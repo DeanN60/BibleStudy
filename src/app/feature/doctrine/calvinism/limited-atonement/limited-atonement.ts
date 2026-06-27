@@ -5,6 +5,7 @@ import {Verse} from '@core/verse';
 import {john_10_11_15, john_10_26} from '@core/books/John/john_10';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {matt_7_13_14} from '@core/books/Matthew/matt_7';
+import {john_14_6} from '@core/books/John/john_14';
 
 @Component({
   selector: 'app-limited-atonement',
@@ -22,4 +23,5 @@ export class LimitedAtonement extends BasePageWithSubtitle {
   protected readonly john_10_11_15 = john_10_11_15;
   protected readonly john_10_26 = john_10_26;
   protected readonly matt_7_13_14 = matt_7_13_14;
+  protected readonly john_14_6 = john_14_6;
 }
