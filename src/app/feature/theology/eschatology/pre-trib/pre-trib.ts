@@ -7,6 +7,7 @@ import {againstHereChap29p1} from '@core/books/Against Heresies/Book 5/chapter_2
 import {iThessalonians_4_13_18} from '@core/books/I Thessalonians/iThessalonians_4';
 import {john_14_1_4} from '@core/books/John/john_14';
 import {isaiah_26_19_21} from '@core/books/Isaiah/isaiah_26';
+import {matt_25_34_40} from '@core/books/Matthew/matt_25';
 
 @Component({
   selector: 'app-pre-trib',
@@ -25,4 +26,5 @@ export class PreTrib extends BasePageWithSubtitle {
   protected readonly iThessalonians_4_13_18 = iThessalonians_4_13_18;
   protected readonly john_14_1_4 = john_14_1_4;
   protected readonly isaiah_26_19_21 = isaiah_26_19_21;
+  protected readonly matt_25_34_40 = matt_25_34_40;
 }
