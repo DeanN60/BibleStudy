@@ -36,5 +36,11 @@ export const salvation_routes: Routes = [
     loadComponent: () => import('./missing-the-kingdom/missing-the-kingdom')
       .then(m => m.MissingTheKingdom),
     title: 'Missing the Kingdom'
+  },
+  {
+    path: 'faith-and-works',
+    loadComponent: () => import('./faith-and-works/faith-and-works')
+      .then(m => m.FaithAndWorks),
+    title: 'Faith and Works'
   }
 ];
