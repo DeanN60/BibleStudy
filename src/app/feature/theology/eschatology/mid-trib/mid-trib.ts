@@ -5,7 +5,7 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
 import {Verse} from '@core/verse';
 import {rev_11_15_18} from '@core/books/Revelation/rev_11';
 import {daniel_9_27} from '@core/books/Daniel/daniel_9';
-import {matt_24_15_25} from '@core/books/Matthew/matt_24';
+import {matt_24_15_25, matt_24_36} from '@core/books/Matthew/matt_24';
 import {rev_12_6_14} from '@core/books/Revelation/rev_12';
 
 @Component({
@@ -25,4 +25,5 @@ export class MidTrib extends BasePageWithSubtitle {
   protected readonly daniel_9_27 = daniel_9_27;
   protected readonly matt_24_15_25 = matt_24_15_25;
   protected readonly rev_12_6_14 = rev_12_6_14;
+  protected readonly matt_24_36 = matt_24_36;
 }
