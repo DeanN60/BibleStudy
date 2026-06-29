@@ -8,5 +8,5 @@ export const iThessalonians_4_13_18 = new VerseData(
   "16 For the Lord Himself will descend from heaven with a shout, with the voice of the archangel and with the trumpet of God, and the dead in Christ will rise first. " +
   "17 Then we who are alive and remain will be caught up together with them in the clouds to meet the Lord in the air, and so we shall always be with the Lord. " +
   "18 Therefore comfort one another with these words.",
-  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 4174). 316 Publishing, Inc.. Kindle Edition."
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3965). 316 Publishing, Inc.. Kindle Edition."
 );
