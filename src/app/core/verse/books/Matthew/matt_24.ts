@@ -29,3 +29,9 @@ export const matt_24_29_31 = new VerseData(
   "31 And He will send forth His angels with A GREAT TRUMPET and THEY WILL GATHER TOGETHER His elect from the four winds, from one end of the sky to the bother.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3319). 316 Publishing, Inc.. Kindle Edition. "
 );
+
+export const matt_24_36 = new VerseData(
+  "Matthew 24:36 LSB",
+  "36 “But of that day and hour no one knows, not even the angels of heaven, nor the Son, but the Father alone.",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3319). 316 Publishing, Inc.. Kindle Edition. "
+);
