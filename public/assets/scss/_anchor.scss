@@ -1,0 +1,27 @@
+a {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 4px;
+
+  /* unvisited link */
+  &:link {
+    color: var(--color-link-unvisited);
+  }
+
+  /* visited link */
+  &:visited {
+    color: var(--color-link-visited);
+  }
+
+  /* mouse over link */
+  &:hover {
+    color: var(--color-link-hover);
+    background-color: var(--color-link-hover-background);
+  }
+
+  /* selected link */
+  &:active {
+    color: var(--color-link-selected);
+  }
+}
