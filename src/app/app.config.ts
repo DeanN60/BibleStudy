@@ -3,7 +3,8 @@ import {provideRouter} from '@angular/router';
 
 import {routes} from './app.routes';
 import {providePrimeNG} from 'primeng/config';
-import {MyThemePreset} from './theme/theme';
+import Aura from '@primeuix/themes/aura';
+
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -11,7 +12,7 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
     providePrimeNG({
       theme: {
-        preset: MyThemePreset,
+        preset: Aura,
         options: {
           darkModeSelector: '.dark-mode'
         }
