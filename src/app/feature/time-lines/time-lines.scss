@@ -3,10 +3,11 @@
 }
 
 .page-content-container {
+  --panel-width-adjustment: 2em;
   display: grid;
   grid-template-areas:
     "left-menu-panel page-content";
-  grid-template-columns: var(--left-side-panel-menu-width) auto;
+  grid-template-columns: var(--left-side-panel-menu-width) calc(100vw - var(--left-side-panel-menu-width) - var(--panel-width-adjustment));
   background-color: var(--color-content-background-color);
 
   app-time-lines-sub-menu {
