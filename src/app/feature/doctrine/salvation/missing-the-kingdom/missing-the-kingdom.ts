@@ -1,10 +1,11 @@
-import {Component, inject, OnDestroy, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 import {SubMenu} from '../../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
 import {
   matt_25_14_29,
-  matt_25_19_21, matt_25_1_13,
+  matt_25_19_21,
+  matt_25_1_13,
   matt_25_22_23,
   matt_25_24_25,
   matt_25_26_28,
@@ -12,7 +13,6 @@ import {
 } from '@core/books/Matthew/matt_25';
 import {Accordion, AccordionContent, AccordionHeader, AccordionPanel} from 'primeng/accordion';
 import {matt_7_21_23} from '@core/books/Matthew/matt_7';
-import {HeaderService} from '@core/header.service';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 
 @Component({
