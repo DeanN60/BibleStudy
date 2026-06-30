@@ -8,6 +8,7 @@ export interface iPerson {
   birthYear: number;
   age: number;
   scale: number;
+  show?: boolean
   reference?: VerseData;
   note?: string;
 }
