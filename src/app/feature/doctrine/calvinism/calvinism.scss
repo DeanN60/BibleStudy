@@ -26,17 +26,6 @@ ul {
     &::first-letter {
       font-weight: bolder;
     }
-
-    a {
-      cursor: pointer;
-      text-decoration: none;
-
-      &:hover {
-        background-color: #BFDBFE;
-        border-radius: 4px;
-        padding: 2px;
-      }
-    }
   }
 }
 

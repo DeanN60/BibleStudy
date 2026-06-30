@@ -1,4 +1,10 @@
 :root {
+  --color-link-unvisited: hsl(188, 60%, 40%);
+  --color-link-visited: hsl(188, 73%, 60%);
+  --color-link-hover: hsl(188, 73%, 60%);
+  --color-link-hover-background: hsl(188, 19%, 11%);
+  --color-link-selected: hsl(188, 95%, 80%);
+
   --color-h1: hsl(188, 85%, 71%);
 
   --color-header-text: hsl(188, 0%, 10%);

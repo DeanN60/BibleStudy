@@ -10,12 +10,13 @@
 @forward 'versepanel';
 
 :root {
-  --header-padding: 4px;
-  --base-line-height: 1em;
-  --header-height: 2em;
-  --nav-bar-height: 63px;
-  --footer-height: 3em;
-  --content-height: calc(100vh - var(--header-height) - var(--base-line-height) - var(--nav-bar-height) - var(--footer-height));
+  --header-padding: 1px;
+  --base-line-height-adjustment: 28px;
+  --header-height: 70px;
+  --nav-bar-height: 40px;
+  --footer-height: 20px;
+  //--content-height: calc(100vh - var(--header-height) - var(--nav-bar-height) - var(--footer-height));
+  --content-height: calc(100vh - var(--header-height) - var(--base-line-height-adjustment) - var(--nav-bar-height) - var(--footer-height));
   --left-side-panel-menu-width: 12em;
   --right-side-panel-menu-width: 17em;
   --p-select-padding-y: 0.1em !important;
@@ -29,4 +30,32 @@ h1 {
   font-size: 0.75em;
   font-variant: all-small-caps;
   letter-spacing: 0.05em;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 4px;
+
+  /* unvisited link */
+  &:link {
+    color: var(--color-link-unvisited);
+  }
+
+  /* visited link */
+  &:visited {
+    color: var(--color-link-visited);
+  }
+
+  /* mouse over link */
+  &:hover {
+    color: var(--color-link-hover);
+    background-color: var(--color-link-hover-background);
+  }
+
+  /* selected link */
+  &:active {
+    color: var(--color-link-selected);
+  }
 }
