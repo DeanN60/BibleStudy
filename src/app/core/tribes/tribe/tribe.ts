@@ -1,13 +1,11 @@
 import {Component, EventEmitter, input, OnInit, Output} from '@angular/core';
 import {TribeInfo} from '../model/tribe-info';
 import {tribesData} from './tribes-data';
-import {Select} from 'primeng/select';
 import {FormsModule} from '@angular/forms';
 
 @Component({
   selector: 'app-tribe',
   imports: [
-    Select,
     FormsModule
   ],
   templateUrl: './tribe.html',

@@ -1,8 +1,10 @@
 <div class="tribe-container">
   <div>Name: {{ name() }}</div>
   <div>
-    <p-select
-      [options]="this.meanings"
-      [(ngModel)]="selectedMeaning"/>
+    <select name=name() id=name()>
+      @for (meaning of this.meanings; track meaning) {
+        <option value=meaning>{{ meaning }}</option>
+      }
+    </select>
   </div>
 </div>
