@@ -2,12 +2,15 @@
   display: flex;
   color: var(--color-menu-text);
   background-color: var(--color-menu-background);
+  height: var(--nav-bar-height);
   max-height: var(--nav-bar-height);
 
   ul {
     display: flex;
     list-style-type: none;
-    padding: 0;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    padding-inline-start: 0;
 
     li:first-child {
       margin-left: 0.5em;
@@ -15,7 +18,7 @@
 
     a {
       color: inherit;
-      padding: 14px 20px;
+      padding: 6px 20px;
       text-decoration: none;
       text-align: center;
 

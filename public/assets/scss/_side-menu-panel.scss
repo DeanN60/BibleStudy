@@ -4,17 +4,17 @@
 }
 
 .right-side-menu-panel {
-  position: absolute;
   width: var(--right-side-panel-menu-width);
   text-align: left;
 }
 
 .left-side-menu-panel,
 .right-side-menu-panel {
-  height: var(--content-height);
+  position: fixed;
+  height: calc(var(--content-height) - var(--nav-bar-height));
   background-color: var(--color-side-menu-background);
   padding: 1em 0;
-  line-height: 1.5em;
+  line-height: 1rem;
 
   ul {
     margin: 0;
