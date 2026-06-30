@@ -6,6 +6,7 @@ import {Verse} from '@core/verse';
 import {rom_11_17_24} from '@core/books/Romans/rom_11';
 import {john_15_1_11} from '@core/books/John/john_15';
 import {matt_25_41_45} from '@core/books/Matthew/matt_25';
+import {matt_24_36} from '@core/books/Matthew/matt_24';
 
 @Component({
   selector: 'app-post-trib',
@@ -23,4 +24,5 @@ export class PostTrib extends BasePageWithSubtitle {
   protected readonly rom_11_17_24 = rom_11_17_24;
   protected readonly john_15_1_11 = john_15_1_11;
   protected readonly matt_25_41_45 = matt_25_41_45;
+  protected readonly matt_24_36 = matt_24_36;
 }
