@@ -11,7 +11,6 @@ import {
   matt_25_26_28,
   matt_25_29_30
 } from '@core/books/Matthew/matt_25';
-import {Accordion, AccordionContent, AccordionHeader, AccordionPanel} from 'primeng/accordion';
 import {matt_7_21_23} from '@core/books/Matthew/matt_7';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 
@@ -20,11 +19,7 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
   imports: [
     SubMenu,
     RightSubMenu,
-    Verse,
-    Accordion,
-    AccordionPanel,
-    AccordionHeader,
-    AccordionContent
+    Verse
   ],
   templateUrl: './missing-the-kingdom.html',
   styleUrl: '../salvation.scss',
