@@ -2,16 +2,53 @@
   <app-time-lines-sub-menu/>
 
   <div class="page-content">
-    <div [style.margin-top.em]="marginTop">
-      @for (person of personList; track person.name) {
-        <app-person [per]=person></app-person>
-      }
-    </div>
+    <p>
+      <app-definition [data]="annoMundiDefinition"/>
+    </p>
 
-    <div class="marker-layer">
-      @for (marker of markerList; track marker.name) {
-        <app-tl-marker [marker]=marker></app-tl-marker>
-      }
-    </div>
+    <p>
+      Timelines are based upon Anno Mundi (the beginning of the world).
+      Thousand year markers are placed to show where a thousand year falls.
+    </p>
+
+    <p>
+      The world history shown here reflects the Dead Sea Scroll calendar dates.
+      The DSS calendar documentation says that there are 7,000 year of world history.
+      Each 1,000 year mark represents one day of creation, thus 7,000 year history.
+      At the end of the 7,000 year, the world will be destroyed and a new earth will be created.
+    </p>
+
+    <p>
+      Each year is represented by a pixel on the screen in the X-axis.
+    </p>
+
+    <p>
+      The goal of the timeline is to be able to physically view the events in history as they occurred.
+    </p>
+
+    <p>
+      A marker for the current year is programmatically generated so we can always see the current year on the timeline.
+    </p>
+
+    <h3>Goals</h3>
+    <p>
+      To be able to filter people shown on the History graph by hiding them.
+      As the first people from Adam on are hidden, the goal is to adjust the timeline to begin with the first shown
+      person.
+    </p>
+
+    <p>
+      Add more historical people to provide a relationship to the historical person and the timeline of the Bible.
+    </p>
+
+    <p>
+      Currently the tl-marker heading scrolls up the screen and out of view.
+      It would be preferred that the heading stays fixed in place and does not scroll up the screen.
+    </p>
+
+    <p>
+      The ability to scale the image will eventually be completed.
+      Some of the logic has been setup to handle scaling.
+    </p>
   </div>
 </div>
