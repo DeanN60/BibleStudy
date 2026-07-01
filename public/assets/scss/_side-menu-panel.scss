@@ -49,6 +49,18 @@
         background-color: var(--color-menu-heading);
         border-radius: 10px;
         padding: 2px 0.5em;
+
+        &:not(.is-open)::before,
+        &:not(.is-open)::after {
+          content: "\25BD";
+          font-size: 9pt;
+        }
+
+        &:is(.is-open)::before,
+        &:is(.is-open)::after {
+          content: "\25B3";
+          font-size: 9pt;
+        }
       }
 
       ul li {
