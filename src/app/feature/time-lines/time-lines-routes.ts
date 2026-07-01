@@ -8,6 +8,12 @@ export const time_lines_routes: Routes = [
     title: 'Time Lines'
   },
   {
+    path: 'history-time-line',
+    loadComponent: () => import('./history-time-line/history-time-line')
+      .then(m => m.HistoryTimeLine),
+    title: 'History Time Line'
+  },
+  {
     path: 'life-of-jesus',
     loadComponent: () => import('./life-of-jesus/life-of-jesus')
       .then(m => m.LifeOfJesus),
