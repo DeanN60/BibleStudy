@@ -1,0 +1,12 @@
+.tribe-group {
+  margin-bottom: 1em;
+
+  >div:not(:first-child) {
+    margin-left: 1em;
+  }
+
+  .tabernacle-position {
+    font-size: 16pt;
+    font-weight: bold;
+  }
+}
