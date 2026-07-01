@@ -13,8 +13,10 @@ import {FormsModule} from '@angular/forms';
 })
 export class Tribe implements OnInit {
   name = input<string>();
+  showStandard = input<boolean>(false);
   data: TribeInfo | undefined;
   meanings: string[] = [];
+  standard: string | undefined;
   @Output() selectedMeaning = new EventEmitter<string>();
 
   ngOnInit() {
@@ -22,6 +24,9 @@ export class Tribe implements OnInit {
       return tribe.name === this.name();
     })[0];
     this.meanings = this.data?.meanings || [];
+    if (this.showStandard() && this.data?.standard) {
+      this.standard = this.data?.standard;
+    }
   }
 
   selectMeaning(meaning: string) {
