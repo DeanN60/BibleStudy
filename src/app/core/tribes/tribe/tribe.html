@@ -1,5 +1,5 @@
 <div class="tribe-container">
-  <div>Name: {{ name() }}</div>
+  <div><b>Name:</b> {{ name() }}</div>
   <div>
     <select name=name() id=name()>
       @for (meaning of this.meanings; track meaning) {
@@ -7,4 +7,9 @@
       }
     </select>
   </div>
+  @if (this.standard) {
+    <div class="standard">
+      <b>Standard:</b> {{ this.standard }}
+    </div>
+  }
 </div>

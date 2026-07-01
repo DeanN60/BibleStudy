@@ -14,4 +14,10 @@ export const ezekiel_1_4_14 = new VerseData(
   "13 As for the likeness of the living creatures, their appearance was like burning coals of fire, like the appearance of torches going back and forth among the living creatures. The fire was bright, and lightning was flashing from the fire. " +
   "14 And the living creatures ran to and fro with the appearance of lightning.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (pp. 2813-2814). 316 Publishing, Inc.. Kindle Edition."
-)
+);
+
+export const ezekiel_1_10 = new VerseData(
+  "Ezekiel 1:10 LSB",
+  "10 And as for the likeness of their faces, each had the face of a man; all four had the face of a lion on the right and the face of a bull on the left, and all four had the face of an eagle.",
+"Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (pp. 2813-2814). 316 Publishing, Inc.. Kindle Edition."
+);

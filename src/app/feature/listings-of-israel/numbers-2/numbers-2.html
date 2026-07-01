@@ -2,48 +2,87 @@
   <app-loi-sub-menu/>
 
   <div class="page-content">
-    <div>Toward the east of the tabernacle</div>
-    <div>
-      <app-tribe name="Judah"/>
-    </div>
-    <div>
-      <app-tribe name="Issachar"/>
-    </div>
-    <div>
-      <app-tribe name="Zebulun"/>
-    </div>
-
-    <div>Toward the south of the tabernacle</div>
-    <div>
-      <app-tribe name="Ruben"/>
-    </div>
-    <div>
-      <app-tribe name="Simeon"/>
-    </div>
-    <div>
-      <app-tribe name="Gad"/>
+    <div class="tribe-group">
+      <div class="tabernacle-position">
+        Toward the east of the tabernacle
+        <app-verse [data]="num_2_3_9"/>
+      </div>
+      <div>
+        <app-tribe name="Judah" [showStandard]="true"/>
+      </div>
+      <div>
+        <app-tribe name="Issachar" [showStandard]="true"/>
+      </div>
+      <div>
+        <app-tribe name="Zebulun" [showStandard]="true"/>
+      </div>
     </div>
 
-    <div>Toward the west of the tabernacle</div>
-    <div>
-      <app-tribe name="Ephraim"/>
-    </div>
-    <div>
-      <app-tribe name="Manasseh"/>
-    </div>
-    <div>
-      <app-tribe name="Benjamin"/>
+    <div class="tribe-group">
+      <div class="tabernacle-position">
+        Toward the south of the tabernacle
+        <app-verse [data]="num_2_10_16"/>
+      </div>
+      <div>
+        <app-tribe name="Ruben" [showStandard]="true"/>
+      </div>
+      <div>
+        <app-tribe name="Simeon" [showStandard]="true"/>
+      </div>
+      <div>
+        <app-tribe name="Gad" [showStandard]="true"/>
+      </div>
     </div>
 
-    <div>Toward the north of the tabernacle</div>
-    <div>
-      <app-tribe name="Dan"/>
+    <div class="tribe-group">
+      <div class="tabernacle-position">
+        Toward the west of the tabernacle
+        <app-verse [data]="num_2_17_24"/>
+      </div>
+      <div>
+        <app-tribe name="Ephraim" [showStandard]="true"/>
+      </div>
+      <div>
+        <app-tribe name="Manasseh" [showStandard]="true"/>
+      </div>
+      <div>
+        <app-tribe name="Benjamin" [showStandard]="true"/>
+      </div>
     </div>
-    <div>
-      <app-tribe name="Asher"/>
+
+    <div class="tribe-group">
+      <div class="tabernacle-position">
+        Toward the north of the tabernacle
+        <app-verse [data]="num_2_25_31"/>
+      </div>
+      <div>
+        <app-tribe name="Dan" [showStandard]="true"/>
+      </div>
+      <div>
+        <app-tribe name="Asher" [showStandard]="true"/>
+      </div>
+      <div>
+        <app-tribe name="Naphtali" [showStandard]="true"/>
+      </div>
     </div>
+
     <div>
-      <app-tribe name="Naphtali"/>
+      <h3>Side Note:</h3>
+
+      <p>
+        <app-verse [data]="ezekiel_1_10"/>
+        describes the four living creatures each having the face of a Lion, a Man, a Bull, and an Eagle.
+      </p>
+
+      <p>
+        <app-verse [data]="rev_4_6_7"/>
+        describes the four living creatures having the face of a Lion, a Calf, a Man, and an Eagle.
+      </p>
+
+      <p>
+        It is interesting how the standards of the tribes of Israel closest to the tabernacle match the living creatures
+        around the throne of God.
+      </p>
     </div>
   </div>
 </div>
