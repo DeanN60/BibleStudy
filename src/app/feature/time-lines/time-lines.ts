@@ -1,10 +1,6 @@
-import {Component, ChangeDetectionStrategy} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {TimeLinesSubMenu} from './time-lines-sub-menu/time-lines-sub-menu';
-import {iPerson, Person} from './person/person';
-import {iMarker, TlMarker} from './tl-marker/tl-marker';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
-import {persons} from './persons';
-import {dateMarkers} from './date-markers';
 import {Definition, iDefinition} from '@core/definition/definition';
 
 @Component({
