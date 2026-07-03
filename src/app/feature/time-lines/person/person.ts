@@ -1,4 +1,4 @@
-import {Component, input} from '@angular/core';
+import {Component, input, ChangeDetectionStrategy} from '@angular/core';
 import {Verse} from '@core/verse';
 import {VerseData} from '@core/verse-data';
 import {KeepInViewport} from '@core/directive/keep-in-viewport';
@@ -20,6 +20,7 @@ export interface iPerson {
     KeepInViewport
   ],
   templateUrl: './person.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './person.scss'
 })
 export class Person {

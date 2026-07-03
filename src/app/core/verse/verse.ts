@@ -1,4 +1,4 @@
-import {Component, input} from '@angular/core';
+import {Component, input, ChangeDetectionStrategy} from '@angular/core';
 import {VerseData} from './verse-data';
 import {VerseBlock} from '@core/verse-block/verse-block';
 import {KeepInViewport} from '@core/directive/keep-in-viewport';
@@ -18,6 +18,7 @@ export const fallbackVerse: VerseData = {
     OpenTrigger
   ],
   templateUrl: './verse.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './verse.scss',
 })
 export class Verse {

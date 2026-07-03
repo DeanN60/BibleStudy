@@ -1,4 +1,4 @@
-import {Component, input} from '@angular/core';
+import {Component, input, ChangeDetectionStrategy} from '@angular/core';
 import {wordType} from '@core/definition/word-type';
 import {iDefinitionInfo} from '@core/definition/definition-info';
 import {OpenTrigger} from '@core/directive/open-trigger';
@@ -16,6 +16,7 @@ export interface iDefinition {
     OpenTrigger
   ],
   templateUrl: './definition.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './definition.scss',
 })
 export class Definition {

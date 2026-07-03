@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
@@ -16,6 +16,7 @@ import {rev_12_6_14} from '@core/books/Revelation/rev_12';
     Verse
   ],
   templateUrl: './mid-trib.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../eschatology.scss',
 })
 export class MidTrib extends BasePageWithSubtitle {

@@ -1,4 +1,4 @@
-import {Component, input} from '@angular/core';
+import {Component, input, ChangeDetectionStrategy} from '@angular/core';
 import {VerseData} from '@core/verse-data';
 import {fallbackVerse} from '@core/verse';
 
@@ -6,6 +6,7 @@ import {fallbackVerse} from '@core/verse';
   selector: 'app-verse-block',
   imports: [],
   templateUrl: './verse-block.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../verse.scss',
 })
 export class VerseBlock {

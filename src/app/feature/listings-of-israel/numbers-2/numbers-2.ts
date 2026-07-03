@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {LoiSubMenu} from '../loi-sub-menu/loi-sub-menu';
 import {Tribe} from '@core/tribe/tribe';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
@@ -15,6 +15,7 @@ import {rev_4_6_7} from '@core/books/Revelation/rev_4';
     Verse
   ],
   templateUrl: './numbers-2.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrls: ['../listings-of-israel.scss','./numbers-2.scss'],
 })
 export class Numbers2 extends BasePageWithSubtitle {

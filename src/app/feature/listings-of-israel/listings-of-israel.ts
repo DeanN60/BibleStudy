@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {LoiSubMenu} from './loi-sub-menu/loi-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 
@@ -8,6 +8,7 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
     LoiSubMenu
   ],
   templateUrl: './listings-of-israel.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './listings-of-israel.scss',
 })
 export class ListingsOfIsrael extends BasePageWithSubtitle {

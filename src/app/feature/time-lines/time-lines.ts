@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {TimeLinesSubMenu} from './time-lines-sub-menu/time-lines-sub-menu';
 import {iPerson, Person} from './person/person';
 import {iMarker, TlMarker} from './tl-marker/tl-marker';
@@ -14,6 +14,7 @@ import {Definition, iDefinition} from '@core/definition/definition';
     Definition
   ],
   templateUrl: './time-lines.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './time-lines.scss',
 })
 export class TimeLines extends BasePageWithSubtitle {

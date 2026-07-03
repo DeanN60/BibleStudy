@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {SubMenu} from '../../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
@@ -18,6 +18,7 @@ import {iCor_15_50_57} from '@core/books/I Corinthians/iCor_15';
     Verse
   ],
   templateUrl: './eternal-salvation.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../salvation.scss',
 })
 export class EternalSalvation extends BasePageWithSubtitle {

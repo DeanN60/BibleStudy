@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {iPerson, Person} from '../person/person';
 import {iMarker, TlMarker} from '../tl-marker/tl-marker';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
@@ -14,6 +14,7 @@ import {TimeLinesSubMenu} from '../time-lines-sub-menu/time-lines-sub-menu';
     TlMarker
   ],
   templateUrl: './history-time-line.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../time-lines.scss',
 })
 export class HistoryTimeLine extends BasePageWithSubtitle {

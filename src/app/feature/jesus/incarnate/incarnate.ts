@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {JesusSubMenu} from '../jesus-sub-menu/jesus-sub-menu';
 import {Verse} from '@core/verse';
 import {john_1_14} from '@core/books/John/john_1';
@@ -11,6 +11,7 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
     Verse
   ],
   templateUrl: './incarnate.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../jesus.scss',
 })
 export class Incarnate extends BasePageWithSubtitle {

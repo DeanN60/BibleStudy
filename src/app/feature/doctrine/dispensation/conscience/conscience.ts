@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {SubMenu} from "../../doctrine-sub-menu/sub-menu";
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
@@ -14,6 +14,7 @@ import {gen_4_17_22, gen_4_1_8, gen_4_23_24, gen_4_25_26, gen_4_9_16} from '@cor
     Verse
   ],
   templateUrl: './conscience.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../dispensation.scss',
 })
 export class Conscience extends BasePageWithSubtitle {

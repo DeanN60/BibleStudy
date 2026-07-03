@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {HomeSubMenu} from '../home-sub-menu/home-sub-menu';
 import {Definition, iDefinition} from '@core/definition/definition';
 import {Verse} from '@core/verse';
@@ -16,6 +16,7 @@ import {rev_1_3} from '@core/books/Revelation/rev_1';
     Verse
   ],
   templateUrl: './interpretation.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrls: ['../home.scss', './interpretation.scss'],
 })
 export class Interpretation extends BasePageWithSubtitle {

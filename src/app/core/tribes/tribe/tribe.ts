@@ -1,4 +1,4 @@
-import {Component, EventEmitter, input, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, input, OnInit, Output, ChangeDetectionStrategy} from '@angular/core';
 import {TribeInfo} from '../model/tribe-info';
 import {tribesData} from './tribes-data';
 import {FormsModule} from '@angular/forms';
@@ -9,6 +9,7 @@ import {FormsModule} from '@angular/forms';
     FormsModule
   ],
   templateUrl: './tribe.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './tribe.scss',
 })
 export class Tribe implements OnInit {

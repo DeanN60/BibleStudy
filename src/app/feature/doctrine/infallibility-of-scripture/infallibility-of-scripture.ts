@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, ChangeDetectionStrategy} from '@angular/core';
 import {SubMenu} from '../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from './right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
@@ -15,6 +15,7 @@ import {Definition, iDefinition} from '@core/definition/definition';
     Definition
   ],
   templateUrl: './infallibility-of-scripture.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './infallibility-of-scripture.scss',
 })
 export class InfallibilityOfScripture extends BasePageWithSubtitle {

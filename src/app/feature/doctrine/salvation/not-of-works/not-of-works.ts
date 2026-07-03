@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {SubMenu} from "../../doctrine-sub-menu/sub-menu";
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
@@ -14,6 +14,7 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
     Verse
   ],
   templateUrl: './not-of-works.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../salvation.scss',
 })
 export class NotOfWorks extends BasePageWithSubtitle {

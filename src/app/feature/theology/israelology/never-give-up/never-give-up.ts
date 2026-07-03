@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
@@ -16,6 +16,7 @@ import {isaiah_54_10} from '@core/books/Isaiah/isaiah_54';
     Verse
   ],
   templateUrl: './never-give-up.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../israelology.scss',
 })
 export class NeverGiveUp extends BasePageWithSubtitle {

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {TheologySubMenu} from '../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from './right-sub-menu/right-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
@@ -10,6 +10,7 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
     RightSubMenu
   ],
   templateUrl: './israelology.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './israelology.scss',
 })
 export class Israelology extends BasePageWithSubtitle {
