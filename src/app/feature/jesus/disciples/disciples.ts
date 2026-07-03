@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {JesusSubMenu} from '../jesus-sub-menu/jesus-sub-menu';
 import {RightSubMenu} from './right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
@@ -19,6 +19,7 @@ import {luke_6_12_16} from '@core/books/Luke/luke_6';
     Verse
   ],
   templateUrl: './disciples.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './disciples.scss',
 })
 export class Disciples extends BasePageWithSubtitle {

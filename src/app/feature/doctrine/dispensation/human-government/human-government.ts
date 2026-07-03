@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {SubMenu} from "../../doctrine-sub-menu/sub-menu";
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
@@ -14,6 +14,7 @@ import {gen_11_1_9} from '@core/books/Genesis/gen_11';
     Verse
   ],
   templateUrl: './human-government.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../dispensation.scss',
 })
 export class HumanGovernment extends BasePageWithSubtitle {

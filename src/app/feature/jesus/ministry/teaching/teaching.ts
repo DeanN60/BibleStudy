@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {JesusSubMenu} from '../../jesus-sub-menu/jesus-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 
@@ -9,6 +9,7 @@ import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
     RightSubMenu
   ],
   templateUrl: './teaching.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../ministry.scss',
 })
 export class Teaching {

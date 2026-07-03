@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
@@ -13,6 +13,7 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
     Verse
   ],
   templateUrl: './sheep-and-goats.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../eschatology.scss',
 })
 export class SheepAndGoats extends BasePageWithSubtitle {

@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {TheologySubMenu} from '../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from './right-sub-menu/right-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
@@ -19,6 +19,7 @@ import {col_1_24_29} from '@core/books/Colossians/col_1';
     Verse
   ],
   templateUrl: './ecclesiology.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './ecclesiology.scss',
 })
 export class Ecclesiology extends BasePageWithSubtitle {

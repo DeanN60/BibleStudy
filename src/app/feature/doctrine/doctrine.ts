@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {SubMenu} from './doctrine-sub-menu/sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {Definition, iDefinition} from '@core/definition/definition';
@@ -10,6 +10,7 @@ import {Definition, iDefinition} from '@core/definition/definition';
     Definition
   ],
   templateUrl: './doctrine.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './doctrine.scss',
 })
 export class Doctrine extends BasePageWithSubtitle {

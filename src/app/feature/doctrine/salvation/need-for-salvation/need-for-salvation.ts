@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {SubMenu} from '../../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
@@ -15,6 +15,7 @@ import {isaiah_53_5} from '@core/books/Isaiah/isaiah_53';
     Verse
   ],
   templateUrl: './need-for-salvation.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../salvation.scss',
 })
 export class NeedForSalvation extends BasePageWithSubtitle {

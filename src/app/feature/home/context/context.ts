@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {HomeSubMenu} from '../home-sub-menu/home-sub-menu';
 import {Definition, iDefinition} from '@core/definition/definition';
@@ -10,6 +10,7 @@ import {Definition, iDefinition} from '@core/definition/definition';
     Definition
   ],
   templateUrl: './context.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../home.scss',
 })
 export class Context extends BasePageWithSubtitle {

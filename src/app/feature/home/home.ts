@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {HomeSubMenu} from './home-sub-menu/home-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 
@@ -8,6 +8,7 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
     HomeSubMenu
   ],
   templateUrl: './home.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './home.scss',
 })
 export class Home extends BasePageWithSubtitle {

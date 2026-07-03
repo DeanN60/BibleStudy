@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {SubMenu} from '../../doctrine-sub-menu/sub-menu';
@@ -14,6 +14,7 @@ import {james_2_18_26} from '@core/books/James/james_2';
     Verse
   ],
   templateUrl: './faith-and-works.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../salvation.scss',
 })
 export class FaithAndWorks extends BasePageWithSubtitle {

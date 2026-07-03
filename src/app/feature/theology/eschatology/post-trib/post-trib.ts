@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
@@ -16,6 +16,7 @@ import {matt_24_36} from '@core/books/Matthew/matt_24';
     Verse
   ],
   templateUrl: './post-trib.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../eschatology.scss',
 })
 export class PostTrib extends BasePageWithSubtitle {

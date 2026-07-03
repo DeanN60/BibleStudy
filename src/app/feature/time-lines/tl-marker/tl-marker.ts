@@ -1,4 +1,4 @@
-import {Component, HostBinding, HostListener, input} from '@angular/core';
+import {Component, HostBinding, HostListener, input, ChangeDetectionStrategy} from '@angular/core';
 
 export interface iMarker {
   name: string;
@@ -15,6 +15,7 @@ export interface iMarker {
 @Component({
   selector: 'app-tl-marker',
   templateUrl: './tl-marker.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './tl-marker.scss',
 })
 export class TlMarker {

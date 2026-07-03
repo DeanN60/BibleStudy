@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, ChangeDetectionStrategy} from '@angular/core';
 import {iPerson, Person} from '../person/person';
 import {TimeLinesSubMenu} from '../time-lines-sub-menu/time-lines-sub-menu';
 import {iMarker, TlMarker} from '../tl-marker/tl-marker';
@@ -12,6 +12,7 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
     TlMarker
   ],
   templateUrl: './life-of-jesus.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../time-lines.scss',
 })
 export class LifeOfJesus extends BasePageWithSubtitle implements OnInit {

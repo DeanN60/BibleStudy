@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {SubMenu} from '../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from './right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
@@ -21,6 +21,7 @@ import {Definition, iDefinition} from '@core/definition/definition';
     Definition
   ],
   templateUrl: './salvation.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './salvation.scss',
 })
 export class Salvation extends BasePageWithSubtitle {

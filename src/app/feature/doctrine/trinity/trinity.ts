@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {SubMenu} from "../doctrine-sub-menu/sub-menu";
 import {Verse} from '@core/verse';
 import {john_1_1_5, john_1_14} from '@core/books/John/john_1';
@@ -15,6 +15,7 @@ import {Definition, iDefinition} from '@core/definition/definition';
     Definition
   ],
   templateUrl: './trinity.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './trinity.scss',
 })
 export class Trinity extends BasePageWithSubtitle {

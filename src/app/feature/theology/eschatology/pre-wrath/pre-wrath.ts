@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
@@ -18,6 +18,7 @@ import {zeph_2_2_3} from '@core/books/Zephaniah/zeph_2';
     Verse
   ],
   templateUrl: './pre-wrath.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../eschatology.scss',
 })
 export class PreWrath extends BasePageWithSubtitle {

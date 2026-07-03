@@ -1,4 +1,4 @@
-import {Component, input} from '@angular/core';
+import {Component, input, ChangeDetectionStrategy} from '@angular/core';
 import {ClickOpen} from '@core/directive/click-open';
 
 @Component({
@@ -8,6 +8,7 @@ import {ClickOpen} from '@core/directive/click-open';
   ],
   templateUrl: './right-sub-menu.html',
   styleUrl: '../eschatology.scss',
+  changeDetection: ChangeDetectionStrategy.Eager,
   standalone: true
 })
 export class RightSubMenu {

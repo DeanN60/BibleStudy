@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {SubMenu} from "../../doctrine-sub-menu/sub-menu";
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
@@ -15,6 +15,7 @@ import {john_14_6} from '@core/books/John/john_14';
     Verse
   ],
   templateUrl: './limited-atonement.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../calvinism.scss',
 })
 export class LimitedAtonement extends BasePageWithSubtitle {
