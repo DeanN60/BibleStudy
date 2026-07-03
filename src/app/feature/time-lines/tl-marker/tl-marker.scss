@@ -34,10 +34,15 @@
   border-radius: 5px;
 
   .name {
-    padding: 3px;
+    padding: 3px 0;
     text-align: center;
     white-space: nowrap;
     min-width: 11em;
+  }
+
+  .year {
+    padding: 5px;
+    font-size: 8pt;
   }
 
   .note {

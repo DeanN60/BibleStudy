@@ -11,6 +11,7 @@
     @if (isHovered) {
       <div class="detail-info">
         <div class="name">{{ marker().name }}</div>
+        <div class="year">Year: {{ marker().eventYear }}<span class="era">AM</span></div>
         @if (marker().label.note) {
           <div class="note">{{ marker().label.note }}</div>
         }
