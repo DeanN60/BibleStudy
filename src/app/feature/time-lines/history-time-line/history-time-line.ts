@@ -2,8 +2,8 @@ import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {iPerson, Person} from '../person/person';
 import {iMarker, TlMarker} from '../tl-marker/tl-marker';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
-import {persons} from '../persons';
-import {dateMarkers} from '../date-markers';
+import {persons} from '../data/persons';
+import {dateMarkers} from '../data/date-markers';
 import {TimeLinesSubMenu} from '../time-lines-sub-menu/time-lines-sub-menu';
 
 @Component({
@@ -25,6 +25,7 @@ export class HistoryTimeLine extends BasePageWithSubtitle {
   marginTop = 5;
   scale = 1;
   yearOfOurLord = 3925;
+  baseYear = 0;
 
   override init(): void {
     // Load Persons
@@ -35,19 +36,29 @@ export class HistoryTimeLine extends BasePageWithSubtitle {
       }
     })
 
+    this.baseYear = this.personList[0].birthYear;
+
+    // Adjust birth year only if baseYear != 0
+    if (this.baseYear > 0) {
+      this.personList.forEach(person => {
+        person.birthYear -= this.baseYear;
+      })
+    }
+
     // Automatically set the height of the timeline marker lines
-    this.markerHeight = 40 * this.personList.length;
+    this.markerHeight = (40 * this.personList.length);
 
     // Load Date Markers
     this.markerList = [];
     dateMarkers.forEach(marker => {
+      marker.eventYear -= this.baseYear;
       marker.eventYear *= this.scale;
       marker.height = this.markerHeight;
       this.markerList.push(marker);
     })
     this.markerList.push({
       name: "YOL",
-      eventYear: this.yearOfOurLord * this.scale,
+      eventYear: (this.yearOfOurLord - this.baseYear) * this.scale,
       height: this.markerHeight,
       label: {left: -1, top: -3, labelColor: "#abe587", note: "Year of Our Lord"}
     });
@@ -55,7 +66,7 @@ export class HistoryTimeLine extends BasePageWithSubtitle {
     const amYear = year + this.yearOfOurLord;
     this.markerList.push({
       name: "" + year + " AD",
-      eventYear: amYear * this.scale,
+      eventYear: (amYear - this.baseYear) * this.scale,
       height: this.markerHeight,
       label: {left: -2.2, top: -4.4, labelColor: "#cd87e5", note: "Current year " + amYear + " AM"}
     });
