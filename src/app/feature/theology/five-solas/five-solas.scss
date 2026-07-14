@@ -1,0 +1,16 @@
+@use 'tight-paragraph';
+@use 'mixins';
+
+.page-content-container {
+  @include mixins.mix-left-side-menu();
+}
+
+ol {
+  margin-left: 1.5rem;
+  padding: 0;
+  line-height: 1.5em;
+
+  li {
+    letter-spacing: 1px;
+  }
+}
