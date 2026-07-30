@@ -1,5 +1,4 @@
 import {Component, ChangeDetectionStrategy} from '@angular/core';
-import {SubMenu} from "../doctrine-sub-menu/sub-menu";
 import {RightSubMenu} from './right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
 import {iCor_9_17} from '@core/books/I Corinthians/iCor_9';
@@ -13,14 +12,15 @@ import {
   dispensation_1_19,
   dispensation_1_7
 } from '@core/books/Dispensationalism Before Darby/chap_1';
+import {TheologySubMenu} from '../theology-sub-menu/theology-sub-menu';
 
 @Component({
   selector: 'app-dispensation',
   imports: [
-    SubMenu,
     RightSubMenu,
     Verse,
-    Definition
+    Definition,
+    TheologySubMenu
   ],
   templateUrl: './dispensation.html',
   changeDetection: ChangeDetectionStrategy.Eager,

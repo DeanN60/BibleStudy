@@ -8,6 +8,12 @@ export const theology_routes: Routes = [
     title: 'Theology',
   },
   {
+    path: 'dispensation',
+    loadChildren: () => import('./dispensation/dispensation-routes')
+      .then(m => m.dispensation_routes),
+    title: 'Dispensation',
+  },
+  {
     path: 'ecclesiology',
     loadChildren: () => import('./ecclesiology/ecclesiology-routes')
       .then(m => m.ecclesiology_routes),
