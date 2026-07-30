@@ -1,12 +1,12 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
-import {SubMenu} from "../../doctrine-sub-menu/sub-menu";
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
+import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 
 @Component({
   selector: 'app-promise',
   imports: [
-    SubMenu,
+    TheologySubMenu,
     RightSubMenu
   ],
   templateUrl: './dispensation-promise.html',

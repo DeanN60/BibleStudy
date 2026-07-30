@@ -14,12 +14,6 @@ export const doctrines_routes: Routes = [
     title: 'Calvinism'
   },
   {
-    path: 'dispensation',
-    loadChildren: () => import('./dispensation/dispensation-routes')
-      .then(m => m.dispensation_routes),
-    title: 'Dispensation'
-  },
-  {
     path: 'infallibility',
     loadChildren: () => import('./infallibility-of-scripture/infallibility-of-scripture-routes')
       .then(m => m.infallibility_of_scriptureRoutes),
