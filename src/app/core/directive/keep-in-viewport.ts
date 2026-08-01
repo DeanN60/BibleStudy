@@ -41,7 +41,7 @@ export class KeepInViewport {
 
     // Check Top boundary
     if (rect.top < 0) {
-      offsetTop += (Math.abs(rect.top) + 20);
+      offsetTop += (Math.abs(rect.top));
     }
 
     // Apply the corrected positions
