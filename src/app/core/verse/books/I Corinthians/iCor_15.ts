@@ -1,5 +1,12 @@
 import {VerseData} from '@core/verse-data';
 
+export const iCor_15_51_52 = new VerseData(
+  "I Corinthians 15:51-52 LSB",
+  "51 Behold, I tell you a mystery: we will not all sleep, but we will all be changed, " +
+  "52 in a moment, in the twinkling of an eye, at the last trumpet. For the trumpet will sound, and the dead will be raised incorruptible, and we will be changed. ",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3849). 316 Publishing, Inc.. Kindle Edition."
+);
+
 export const iCor_15_50_57 = new VerseData(
   "I Corinthians 15:50-57 LSB",
   "50 Now I say this, brothers, that flesh and blood cannot inherit the kingdom of God, nor does the corruptible inherit the incorruptible. " +
