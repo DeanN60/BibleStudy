@@ -10,7 +10,6 @@
   letter-spacing: 0.05em;
   line-height: 1.1em;
   position: relative;
-  //transition: all 2s ease;
   @include mixins.mix-box-shadow;
 
   &:first-child {

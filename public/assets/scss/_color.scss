@@ -2,6 +2,8 @@
   --base-hue: 188;
   --highlight-hue: 49;
 
+  --color-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+
   --color-link-unvisited: hsl(var(--base-hue), 60%, 40%);
   --color-link-visited: hsl(var(--base-hue), 73%, 60%);
   --color-link-hover: hsl(var(--base-hue), 73%, 60%);
@@ -74,6 +76,8 @@
   --color-select-text: hsl(var(--base-hue), 20%, 90%);
 
   &[class*="app-dark-theme"] {
+    --color-box-shadow: 3px 3px 10px rgba(250, 250, 250, 0.5);
+
     --color-link-unvisited: hsl(var(--base-hue), 60%, 40%);
     --color-link-visited: hsl(var(--base-hue), 73%, 60%);
     --color-link-hover: hsl(var(--base-hue), 73%, 60%);
