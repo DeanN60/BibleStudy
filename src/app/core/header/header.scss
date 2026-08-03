@@ -18,4 +18,11 @@
     font-size: 0.6em;
     text-shadow: 2px 1px 0 #717171;
   }
+
+  &-theme-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    scale: 70%;
+  }
 }

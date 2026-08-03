@@ -20,7 +20,7 @@ import {rev_12_6_14} from '@core/books/Revelation/rev_12';
   styleUrl: '../eschatology.scss',
 })
 export class MidTrib extends BasePageWithSubtitle {
-  override pageSubtitle = "Mid-Tribulation";
+  override pageSubtitle = "Eschatology - Mid-Tribulation";
 
   protected readonly rev_11_15_18 = rev_11_15_18;
   protected readonly daniel_9_27 = daniel_9_27;

@@ -1,68 +1,142 @@
 :root {
-  --color-link-unvisited: hsl(188, 60%, 40%);
-  --color-link-visited: hsl(188, 73%, 60%);
-  --color-link-hover: hsl(188, 73%, 60%);
-  --color-link-hover-background: hsl(188, 19%, 11%);
-  --color-link-selected: hsl(188, 95%, 80%);
+  --base-hue: 188;
+  --highlight-hue: 49;
 
-  --color-h1: hsl(188, 85%, 71%);
+  --color-link-unvisited: hsl(var(--base-hue), 60%, 40%);
+  --color-link-visited: hsl(var(--base-hue), 73%, 60%);
+  --color-link-hover: hsl(var(--base-hue), 73%, 60%);
+  --color-link-hover-background: hsl(var(--base-hue), 19%, 11%);
+  --color-link-selected: hsl(var(--base-hue), 95%, 80%);
 
-  --color-header-text: hsl(188, 0%, 10%);
-  --color-header-background: hsl(188, 73%, 63%);
+  --color-h1: hsl(var(--base-hue), 85%, 71%);
 
-  --color-menu-text: hsl(188, 0%, 100%);
-  --color-menu-hover-text: hsl(188, 14%, 65%);
-  --color-menu-background: hsl(188, 19%, 11%);
-  --color-menu-hover-background: hsl(188, 18%, 34%);
+  --color-header-text: hsl(var(--base-hue), 0%, 10%);
+  --color-header-background: hsl(var(--base-hue), 73%, 63%);
 
-  --color-side-menu-text: hsl(188, 0%, 100%);
-  --color-side-menu-hover-text: hsl(188, 14%, 15%);
-  --color-side-menu-background: hsl(188, 19%, 11%);
-  --color-side-menu-hover-background: hsl(188, 49%, 11%);
+  --color-menu-text: hsl(var(--base-hue), 0%, 100%);
+  --color-menu-hover-text: hsl(var(--base-hue), 14%, 65%);
+  --color-menu-background: hsl(var(--base-hue), 19%, 11%);
+  --color-menu-hover-background: hsl(var(--base-hue), 18%, 34%);
 
-  --color-content-text: hsl(188, 0%, 87%);
-  --color-content-background-color: hsl(188, 18%, 24%);
+  --color-side-menu-text: hsl(var(--base-hue), 0%, 0%); //updated
+  --color-side-menu-hover-text: hsl(var(--base-hue), 1%, 5%); //updated
+  --color-side-menu-background: hsl(var(--base-hue), 100%, 80%); // updated
+  --color-side-menu-hover-background: hsl(var(--base-hue), 90%, 45%); // updated
 
-  --color-footer-text: hsl(188, 0%, 100%);
-  --color-footer-background: hsl(188, 17%, 5%);
+  --color-content-text: hsl(var(--base-hue), 0%, 1%);
+  --color-content-background-color: hsl(var(--base-hue), 18%, 100%);
 
-  --color-overlay-panel-background: hsl(188, 96%, 78%);
-  --color-overlay-panel-text: hsl(188, 7%, 23%);
+  --color-footer-text: hsl(var(--base-hue), 5%, 1%); // updated
+  --color-footer-background: hsl(var(--base-hue), 50%, 60%); //updated
 
-  --color-verse-header-text: hsl(188, 0%, 100%);
-  --color-verse-header-background: hsl(188, 0%, 10%);
-  --color-verse-background: hsl(188, 0%, 48%);
-  --color-verse-reference: hsl(188, 10%, 81%);
-  --color-verse-text: hsl(188, 0%, 0%);
-  --color-verse-text-background: hsl(188, 20%, 100%);
-  --color-verse-source: hsl(188, 0%, 86%);
+  --color-overlay-panel-background: hsl(var(--base-hue), 96%, 78%);
+  --color-overlay-panel-text: hsl(var(--base-hue), 7%, 23%);
 
-  --color-def-header-text: hsl(49, 100%, 0%);
-  --color-def-label: hsl(49, 40%, 20%);
-  --color-def-header-background: hsl(49, 80%, 90%);
-  --color-def-background: hsl(49, 0%, 48%);
-  --color-def-term: hsl(174, 24%, 47%);
-  --color-def-text: hsl(49, 0%, 0%);
-  --color-def-sub: hsl(0, 0%, 40%);
-  --color-def-type: hsl(0, 1%, 76%);
-  --color-def-text-background: hsl(49, 20%, 100%);
-  --color-def-source: hsl(49, 0%, 86%);
+  --color-verse-header-text: hsl(var(--base-hue), 100%, 1%); // updated
+  --color-verse-header-background: hsl(var(--base-hue), 30%, 80%); // updated
+  --color-verse-background: hsl(var(--base-hue), 0%, 48%);
+  --color-verse-reference: hsl(var(--base-hue), 10%, 81%);
+  --color-verse-text: hsl(var(--base-hue), 0%, 0%);
+  --color-verse-text-background: hsl(var(--base-hue), 20%, 100%);
+  --color-verse-source: hsl(var(--base-hue), 0%, 1%);
+  --color-verse-footer-background: hsl(var(--base-hue), 30%, 80%); // updated
 
-  --color-highlight-background: hsl(49, 98%, 81%);
-  --color-highlight-text: hsl(49, 0%, 9%);
+  --color-def-header-text: hsl(var(--highlight-hue), 0%, 0%);
+  --color-def-label: hsl(var(--highlight-hue), 0%, 0%); // updated
+  --color-def-header-background: hsl(var(--highlight-hue), 80%, 80%); //updated
+  --color-def-background: hsl(var(--highlight-hue), 0%, 48%);
+  --color-def-term: hsl(var(--base-hue), 24%, 47%);
+  --color-def-text: hsl(var(--highlight-hue), 0%, 0%);
+  --color-def-sub: hsl(var(--highlight-hue), 0%, 40%);
+  --color-def-type: hsl(var(--highlight-hue), 1%, 76%);
+  --color-def-text-background: hsl(var(--highlight-hue), 20%, 100%);
+  --color-def-source: hsl(var(--highlight-hue), 0%, 86%);
 
-  --color-time-line-bar: hsl(188, 52%, 42%);
-  --color-time-line-grid: hsl(188, 40%, 80%);
+  --color-highlight-background: hsl(var(--highlight-hue), 98%, 81%);
+  --color-highlight-text: hsl(var(--highlight-hue), 0%, 9%);
 
-  --color-time-line-info-border: hsl(188, 10%, 81%);
-  --color-time-line-info-font: hsl(188, 10%, 90%);
-  --color-time-line-info-background: hsl(188, 0%, 18%);
+  --color-time-line-bar: hsl(var(--base-hue), 52%, 42%);
+  --color-time-line-grid: hsl(var(--base-hue), 40%, 80%);
 
-  --card-header-background: hsl(33, 57%, 70%);
-  --card-header-text: hsl(33, 80%, 4%);
-  --card-body-background: hsl(33, 50%, 80%);
-  --card-body-text: hsl(33, 8%, 4%);
+  --color-time-line-info-border: hsl(var(--base-hue), 10%, 81%);
+  --color-time-line-info-font: hsl(var(--base-hue), 10%, 90%);
+  --color-time-line-info-background: hsl(var(--base-hue), 0%, 18%);
 
-  --color-select-background: hsl(188, 0%, 18%);
-  --color-select-text: hsl(188, 20%, 90%);
+  --card-header-background: hsl(var(--highlight-hue), 57%, 70%);
+  --card-header-text: hsl(var(--highlight-hue), 80%, 4%);
+  --card-body-background: hsl(var(--highlight-hue), 50%, 80%);
+  --card-body-text: hsl(var(--highlight-hue), 8%, 4%);
+
+  --color-select-background: hsl(var(--base-hue), 0%, 18%);
+  --color-select-text: hsl(var(--base-hue), 20%, 90%);
+
+  &[class*="app-dark-theme"] {
+    --color-link-unvisited: hsl(var(--base-hue), 60%, 40%);
+    --color-link-visited: hsl(var(--base-hue), 73%, 60%);
+    --color-link-hover: hsl(var(--base-hue), 73%, 60%);
+    --color-link-hover-background: hsl(var(--base-hue), 19%, 11%);
+    --color-link-selected: hsl(var(--base-hue), 95%, 80%);
+
+    --color-h1: hsl(var(--base-hue), 85%, 71%);
+
+    --color-header-text: hsl(var(--base-hue), 90%, 100%); // updated
+    --color-header-background: hsl(var(--base-hue), 73%, 20%); // updated
+
+    --color-menu-text: hsl(var(--base-hue), 0%, 100%);
+    --color-menu-hover-text: hsl(var(--base-hue), 14%, 65%);
+    --color-menu-background: hsl(var(--base-hue), 19%, 11%);
+    --color-menu-hover-background: hsl(var(--base-hue), 18%, 34%);
+
+    --color-side-menu-text: hsl(var(--base-hue), 0%, 100%);
+    --color-side-menu-hover-text: hsl(var(--base-hue), 14%, 100%);
+    --color-side-menu-background: hsl(var(--base-hue), 19%, 11%);
+    --color-side-menu-hover-background: hsl(var(--base-hue), 49%, 20%); // updated
+
+    --color-content-text: hsl(var(--base-hue), 0%, 87%);
+    --color-content-background-color: hsl(var(--base-hue), 18%, 24%);
+
+    --color-footer-text: hsl(var(--base-hue), 0%, 100%);
+    --color-footer-background: hsl(var(--base-hue), 17%, 5%);
+
+    --color-overlay-panel-background: hsl(var(--base-hue), 96%, 78%);
+    --color-overlay-panel-text: hsl(var(--base-hue), 7%, 23%);
+
+    --color-verse-header-text: hsl(var(--base-hue), 0%, 100%);
+    --color-verse-header-background: hsl(var(--base-hue), 0%, 10%);
+    --color-verse-background: hsl(var(--base-hue), 0%, 48%);
+    --color-verse-reference: hsl(var(--base-hue), 10%, 81%);
+    --color-verse-text: hsl(var(--base-hue), 0%, 0%);
+    --color-verse-text-background: hsl(var(--base-hue), 20%, 100%);
+    --color-verse-source: hsl(var(--base-hue), 0%, 86%);
+    --color-verse-footer-background: hsl(var(--base-hue), 0%, 10%); // updated
+
+    --color-def-header-text: hsl(var(--base-hue), 100%, 0%);
+    --color-def-label: hsl(var(--highlight-hue), 40%, 20%);
+    --color-def-header-background: hsl(var(--highlight-hue), 80%, 90%);
+    --color-def-background: hsl(var(--base-hue), 0%, 48%);
+    --color-def-term: hsl(var(--base-hue), 24%, 47%);
+    --color-def-text: hsl(var(--base-hue), 0%, 0%);
+    --color-def-sub: hsl(var(--base-hue), 0%, 40%);
+    --color-def-type: hsl(var(--base-hue), 1%, 76%);
+    --color-def-text-background: hsl(var(--base-hue), 20%, 100%);
+    --color-def-source: hsl(var(--base-hue), 0%, 86%);
+
+    --color-highlight-background: hsl(var(--highlight-hue), 98%, 81%);
+    --color-highlight-text: hsl(var(--highlight-hue), 0%, 9%);
+
+    --color-time-line-bar: hsl(var(--base-hue), 52%, 42%);
+    --color-time-line-grid: hsl(var(--base-hue), 40%, 80%);
+
+    --color-time-line-info-border: hsl(var(--base-hue), 10%, 81%);
+    --color-time-line-info-font: hsl(var(--base-hue), 10%, 90%);
+    --color-time-line-info-background: hsl(var(--base-hue), 0%, 18%);
+
+    --card-header-background: hsl(var(--highlight-hue), 57%, 70%);
+    --card-header-text: hsl(var(--highlight-hue), 80%, 4%);
+    --card-body-background: hsl(var(--highlight-hue), 50%, 80%);
+    --card-body-text: hsl(var(--highlight-hue), 8%, 4%);
+
+    --color-select-background: hsl(var(--base-hue), 0%, 18%);
+    --color-select-text: hsl(var(--base-hue), 20%, 90%);
+  }
 }

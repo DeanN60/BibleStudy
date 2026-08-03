@@ -22,7 +22,7 @@ import {zeph_2_2_3} from '@core/books/Zephaniah/zeph_2';
   styleUrl: '../eschatology.scss',
 })
 export class PreWrath extends BasePageWithSubtitle {
-    override pageSubtitle = "Pre-Wrath";
+    override pageSubtitle = "Eschatology - Pre-Wrath";
 
   protected readonly matt_24_29_31 = matt_24_29_31;
   protected readonly matt_24_15_25 = matt_24_15_25;
