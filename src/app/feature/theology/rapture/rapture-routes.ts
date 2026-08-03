@@ -48,5 +48,11 @@ export const rapture_routes: Routes = [
     loadComponent: () => import('./witnesses/witnesses')
       .then(m => m.Witnesses),
     title: 'Witnesses'
+  },
+  {
+    path: 'not-second-coming',
+    loadComponent: () => import('./not-second-coming/not-second-coming')
+      .then(m => m.NotSecondComing),
+    title: 'Not Second Coming'
   }
 ]
