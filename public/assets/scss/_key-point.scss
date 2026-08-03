@@ -1,0 +1,12 @@
+.key-point {
+  font-size: 11.5pt;
+}
+
+ol.key-point,
+ul.key-point {
+  background-color: var(--key-point-background);
+  color: var(--key-point-text);
+  border-radius: 10pt;
+  padding: 0.5em 1em 0.5em 2.5em;
+  width: fit-content;
+}

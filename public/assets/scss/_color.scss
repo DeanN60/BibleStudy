@@ -67,6 +67,9 @@
   --card-body-background: hsl(var(--highlight-hue), 50%, 80%);
   --card-body-text: hsl(var(--highlight-hue), 8%, 4%);
 
+  --key-point-background: hsl(var(--base-hue), 2%, 90%);
+  --key-point-text: hsl(var(--base-hue), 0%, 0%);
+
   --color-select-background: hsl(var(--base-hue), 0%, 18%);
   --color-select-text: hsl(var(--base-hue), 20%, 90%);
 
@@ -135,6 +138,9 @@
     --card-header-text: hsl(var(--highlight-hue), 80%, 4%);
     --card-body-background: hsl(var(--highlight-hue), 50%, 80%);
     --card-body-text: hsl(var(--highlight-hue), 8%, 4%);
+
+    --key-point-background: hsl(var(--base-hue), 30%, 15%);
+    --key-point-text: hsl(var(--base-hue), 80%, 100%);
 
     --color-select-background: hsl(var(--base-hue), 0%, 18%);
     --color-select-text: hsl(var(--base-hue), 20%, 90%);
