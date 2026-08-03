@@ -57,6 +57,12 @@ export const gen_5_21_24 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 105). 316 Publishing, Inc.. Kindle Edition."
 );
 
+export const gen_5_24 = new VerseData(
+  "Genesis 5:24 LSB",
+  "24 Enoch walked with God; and he was not, for God took him.",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 105). 316 Publishing, Inc.. Kindle Edition."
+);
+
 export const gen_5_25_27 = new VerseData(
   "Genesis 5:25-27 LSB",
   "25 And Methuselah lived 187 years and became the father of Lamech. " +
