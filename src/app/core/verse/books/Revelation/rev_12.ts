@@ -1,5 +1,11 @@
 import {VerseData} from '@core/verse-data';
 
+export const rev_12_5 = new VerseData(
+  "Revelation 12:5",
+  "5 And she gave birth to a son, a male child, who is to rule all the nations with a rod of iron; and her child was caught up to God and to His throne.",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 4135). 316 Publishing, Inc.. Kindle Edition."
+);
+
 export const rev_12_6_14 = new VerseData(
   "Revelation 12:6-14 LSB",
   "6 Then the woman fled into the wilderness where she had a place prepared by God, so that there ashe would be nourished for 1,260 days. " +
