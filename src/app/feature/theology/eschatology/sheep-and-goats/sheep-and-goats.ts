@@ -17,7 +17,7 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
   styleUrl: '../eschatology.scss',
 })
 export class SheepAndGoats extends BasePageWithSubtitle {
-  override pageSubtitle = "Sheep And Goats";
+  override pageSubtitle = "Eschatology - Sheep And Goats";
 
   protected readonly matt_25_31_33 = matt_25_31_33;
   protected readonly matt_25_34_40 = matt_25_34_40;

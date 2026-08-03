@@ -20,7 +20,7 @@ import {matt_24_36} from '@core/books/Matthew/matt_24';
   styleUrl: '../eschatology.scss',
 })
 export class PostTrib extends BasePageWithSubtitle {
-    override pageSubtitle = "Post-Tribulation";
+    override pageSubtitle = "Eschatology - Post-Tribulation";
 
   protected readonly rom_11_17_24 = rom_11_17_24;
   protected readonly john_15_1_11 = john_15_1_11;
