@@ -4,6 +4,7 @@ import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
 import {iThessalonians_4_16_17} from '@core/books/I Thessalonians/iThessalonians_4';
+import {iThessalonians_1_10} from '@core/books/I Thessalonians/iThessalonians_1';
 
 @Component({
   selector: 'app-not-second-coming',
@@ -18,4 +19,5 @@ import {iThessalonians_4_16_17} from '@core/books/I Thessalonians/iThessalonians
 export class NotSecondComing extends BasePageWithSubtitle {
   override pageSubtitle = 'Rapture - Not Second Coming';
   protected readonly iThessalonians_4_16_17 = iThessalonians_4_16_17;
+  protected readonly iThessalonians_1_10 = iThessalonians_1_10;
 }
