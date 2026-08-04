@@ -42,5 +42,11 @@ export const eschatology_routes: Routes = [
     loadComponent: () => import('./jacobs-trouble/jacobs-trouble')
       .then(m => m.JacobsTrouble),
     title: 'Jacob`s Trouble'
+  },
+  {
+    path: 'day-of-the-lord',
+    loadComponent: () => import('./day-of-the-lord/day-of-the-lord')
+      .then(m => m.DayOfTheLord),
+    title: 'Day of the Lord'
   }
 ];
