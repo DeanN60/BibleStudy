@@ -10,7 +10,6 @@
   letter-spacing: 0.05em;
   line-height: 1.1em;
   position: relative;
-  //transition: all 2s ease;
   @include mixins.mix-box-shadow;
 
   &:first-child {
@@ -18,11 +17,14 @@
   }
 
   &.is-open {
+    .verse-reference {
+      display: none;
+    }
+
     .verse-block {
       display: block;
       width: fit-content;
       min-width: var(--verse-min-width);
-      max-width: var(--verse-width);
     }
   }
 }
@@ -38,7 +40,7 @@
 .verse-block {
   display: none;
   position: absolute;
-  z-index: 10;
+  z-index: 100;
   width: fit-content;
   max-width: var(--verse-width);
   border-radius: 0 0 6px 6px;
@@ -47,7 +49,6 @@
 .verse-text {
   color: var(--color-verse-text);
   background-color: var(--color-verse-text-background);
-  margin: 0.5em 0;
 }
 
 .verse-reference,

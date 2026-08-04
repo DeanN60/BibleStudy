@@ -7,7 +7,7 @@ import {fallbackVerse} from '@core/verse';
   imports: [],
   templateUrl: './verse-block.html',
   changeDetection: ChangeDetectionStrategy.Eager,
-  styleUrl: '../verse.scss',
+  styleUrls: ['../verse.scss', './verse-block.scss'],
 })
 export class VerseBlock {
   data = input.required<VerseData, VerseData | undefined>({

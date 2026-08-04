@@ -30,6 +30,12 @@ export const matt_24_29_31 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3319). 316 Publishing, Inc.. Kindle Edition. "
 );
 
+export const matt_24_30  = new VerseData(
+  "Matthew 24:30 LSB",
+  "30 And then the sign of the Son of Man will appear in the sky, and then all the tribes of the earth will mourn, and they will see the SON OF MAN COMING ON THE CLOUDS OF THE SKY with power and great glory.",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3319). 316 Publishing, Inc.. Kindle Edition. "
+);
+
 export const matt_24_36 = new VerseData(
   "Matthew 24:36 LSB",
   "36 “But of that day and hour no one knows, not even the angels of heaven, nor the Son, but the Father alone.",
