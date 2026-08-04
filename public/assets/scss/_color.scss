@@ -76,7 +76,7 @@
   --color-select-text: hsl(var(--base-hue), 20%, 90%);
 
   &[class*="app-dark-theme"] {
-    --color-box-shadow: 3px 3px 10px rgba(250, 250, 250, 0.5);
+    --color-box-shadow: 2px 2px 8px rgba(250, 250, 250, 0.5);
 
     --color-link-unvisited: hsl(var(--base-hue), 60%, 40%);
     --color-link-visited: hsl(var(--base-hue), 73%, 60%);
