@@ -7,3 +7,9 @@ export const acts_1_9_11 = new VerseData(
   "11 They also said, “Men of Galilee, why do you stand looking toward heaven? This Jesus, who has been taken up from you into heaven, will come in just the same way as you have watched Him go into heaven.”",
 "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3643). 316 Publishing, Inc.. Kindle Edition. "
 );
+
+export const acts_1_11 = new VerseData(
+  "Acts 1:11 LSB",
+  "11 They also said, “Men of Galilee, why do you stand looking toward heaven? This Jesus, who has been taken up from you into heaven, will come in just the same way as you have watched Him go into heaven.”",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3643). 316 Publishing, Inc.. Kindle Edition. "
+);
