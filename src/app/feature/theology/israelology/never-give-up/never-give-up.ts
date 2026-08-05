@@ -20,7 +20,7 @@ import {isaiah_54_10} from '@core/books/Isaiah/isaiah_54';
   styleUrl: '../israelology.scss',
 })
 export class NeverGiveUp extends BasePageWithSubtitle {
-    override pageSubtitle = "Israelology - never give up";
+    override pageSubtitle = "Israelology - Never Give Up";
 
   protected readonly deut_31_6 = deut_31_6;
   protected readonly hos_11_8_9 = hos_11_8_9;
