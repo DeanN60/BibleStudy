@@ -1,11 +1,8 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
-import {RouterLink} from '@angular/router';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
   selector: 'app-theology-sub-menu',
-  imports: [
-    RouterLink
-  ],
+  imports: [],
   templateUrl: './theology-sub-menu.html',
   changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: '../theology.scss',

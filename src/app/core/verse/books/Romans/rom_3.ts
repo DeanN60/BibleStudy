@@ -22,6 +22,15 @@ export const rom_3_23 = new VerseData(
 
 export const rom_3_23_26 = new VerseData(
   "Romans 3:23-26 LSB",
-  "23 for all have sinned and fall short of the glory of God, 24 being justified as a gift by His grace through the redemption which is in Christ Jesus; 25 whom God displayed publicly as a propitiation in His blood through faith, for a demonstration of His righteousness, because in the forbearance of God He passed over the sins previously committed; 26 for the demonstration of His righteousness at the present time, so that He would be just and the justifier of the one who has faith in Jesus.",
+  "23 for all have sinned and fall short of the glory of God, " +
+  "24 being justified as a gift by His grace through the redemption which is in Christ Jesus; " +
+  "25 whom God displayed publicly as a propitiation in His blood through faith, for a demonstration of His righteousness, because in the forbearance of God He passed over the sins previously committed; " +
+  "26 for the demonstration of His righteousness at the present time, so that He would be just and the justifier of the one who has faith in Jesus.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3772). 316 Publishing, Inc.. Kindle Edition."
+);
+
+export const rom_3_28 = new VerseData(
+  "Romans 3:28 LSB",
+  "28 For we maintain that a man is justified by faith apart from works of the Law.",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3771). 316 Publishing, Inc.. Kindle Edition."
 );

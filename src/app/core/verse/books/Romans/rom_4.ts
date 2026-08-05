@@ -24,3 +24,10 @@ export const rom_4_5 = new VerseData(
   "5 But to the one who does not work, but believes upon Him who justifies the ungodly, his faith is counted as righteousness,",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3774). 316 Publishing, Inc.. Kindle Edition."
 );
+
+export const rom_4_4_5 = new VerseData(
+  "Romans 4:4-5 LSB",
+  "4 Now to the one who works, his wage is not counted according to grace, but according to what is due. " +
+  "5 But to the one who does not work, but believes upon Him who justifies the ungodly, his faith is counted as righteousness,",
+  "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3774). 316 Publishing, Inc.. Kindle Edition."
+);
