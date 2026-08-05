@@ -102,5 +102,17 @@ export const eschatology_routes: Routes = [
     loadComponent: () => import('./rapture-not-second-coming/rapture-not-second-coming')
       .then(m => m.RaptureNotSecondComing),
     title: 'Rapture Not Second Coming'
+  },
+  {
+    path: 'second-coming',
+    loadComponent: () => import('./second-coming/second-coming')
+      .then(m => m.SecondComing),
+    title: 'Second Coming'
+  },
+  {
+    path: 'second-coming-not-rapture',
+    loadComponent: () => import('./second-coming-not-rapture/second-coming-not-rapture')
+      .then(m => m.SecondComingNotRapture),
+    title: 'Second Coming Not Rapture'
   }
 ];

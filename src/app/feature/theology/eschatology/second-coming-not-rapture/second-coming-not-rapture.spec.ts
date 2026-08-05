@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NotRapture } from './not-rapture';
+import { SecondComingNotRapture } from './second-coming-not-rapture';
 
-describe('NotRapture', () => {
-  let component: NotRapture;
-  let fixture: ComponentFixture<NotRapture>;
+describe('SecondComingNotRapture', () => {
+  let component: SecondComingNotRapture;
+  let fixture: ComponentFixture<SecondComingNotRapture>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NotRapture]
+      imports: [SecondComingNotRapture]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(NotRapture);
+    fixture = TestBed.createComponent(SecondComingNotRapture);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

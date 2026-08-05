@@ -36,11 +36,5 @@ export const theology_routes: Routes = [
     loadComponent: () => import('./five-solas/five-solas')
       .then(m => m.FiveSolas),
     title: 'Five Solas',
-  },
-  {
-    path: 'second-coming',
-    loadChildren: () => import('./second-coming/second-coming-routes')
-      .then(m => m.second_coming_routes),
-    title: 'Second Coming',
   }
 ]
