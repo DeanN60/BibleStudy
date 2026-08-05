@@ -13,4 +13,6 @@ import {ClickOpen} from '@core/directive/click-open';
 })
 export class RightSubMenu {
   showViews = input<boolean>(false);
+  showRapture = input<boolean>(false);
+  showSecondComing = input<boolean>(false);
 }
