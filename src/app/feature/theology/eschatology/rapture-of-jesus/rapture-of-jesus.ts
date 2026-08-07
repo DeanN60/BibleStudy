@@ -3,8 +3,8 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
-import {rev_12_5} from '@core/books/Revelation/rev_12';
-import {acts_1_9_11} from '@core/books/Acts/acts_1';
+import {rev_12_5} from '../../../../../../public/assets/data/books/Revelation/rev_12';
+import {acts_1_9_11} from '../../../../../../public/assets/data/books/Acts/acts_1';
 
 @Component({
   selector: 'app-rapture-of-jesus',

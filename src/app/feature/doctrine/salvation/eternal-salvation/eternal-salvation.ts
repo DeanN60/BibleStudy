@@ -2,13 +2,13 @@ import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {SubMenu} from '../../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
-import {rev_3_1_6, rev_3_5} from '@core/books/Revelation/rev_3';
+import {rev_3_1_6, rev_3_5} from '../../../../../../public/assets/data/books/Revelation/rev_3';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
-import {hebrews_6_4_6} from '@core/books/Hebrews/hebrews_6';
-import {eph_1_13_14} from '@core/books/Ephesians/eph_1';
-import {rom_8_38_39} from '@core/books/Romans/rom_8';
-import {iJohn_1_8_10} from '@core/books/I John/iJohn_1';
-import {iCor_15_50_57} from '@core/books/I Corinthians/iCor_15';
+import {hebrews_6_4_6} from '../../../../../../public/assets/data/books/Hebrews/hebrews_6';
+import {eph_1_13_14} from '../../../../../../public/assets/data/books/Ephesians/eph_1';
+import {rom_8_38_39} from '../../../../../../public/assets/data/books/Romans/rom_8';
+import {iJohn_1_8_10} from '../../../../../../public/assets/data/books/I John/iJohn_1';
+import {iCor_15_50_57} from '../../../../../../public/assets/data/books/I Corinthians/iCor_15';
 
 @Component({
   selector: 'app-eternal-salvation',

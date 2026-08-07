@@ -1,7 +1,7 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {JesusSubMenu} from '../jesus-sub-menu/jesus-sub-menu';
 import {Verse} from '@core/verse';
-import {john_1_1_5} from '@core/books/John/john_1';
+import {john_1_1_5} from '../../../../../public/assets/data/books/John/john_1';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 
 @Component({

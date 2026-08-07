@@ -3,10 +3,10 @@ import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {Verse} from '@core/verse';
-import {rom_11_17_24} from '@core/books/Romans/rom_11';
-import {john_15_1_11} from '@core/books/John/john_15';
-import {matt_25_41_45} from '@core/books/Matthew/matt_25';
-import {matt_24_36} from '@core/books/Matthew/matt_24';
+import {rom_11_17_24} from '../../../../../../public/assets/data/books/Romans/rom_11';
+import {john_15_1_11} from '../../../../../../public/assets/data/books/John/john_15';
+import {matt_25_41_45} from '../../../../../../public/assets/data/books/Matthew/matt_25';
+import {matt_24_36} from '../../../../../../public/assets/data/books/Matthew/matt_24';
 
 @Component({
   selector: 'app-post-trib',

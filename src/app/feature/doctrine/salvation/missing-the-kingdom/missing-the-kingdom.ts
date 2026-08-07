@@ -10,8 +10,8 @@ import {
   matt_25_24_25,
   matt_25_26_28,
   matt_25_29_30
-} from '@core/books/Matthew/matt_25';
-import {matt_7_21_23} from '@core/books/Matthew/matt_7';
+} from '../../../../../../public/assets/data/books/Matthew/matt_25';
+import {matt_7_21_23} from '../../../../../../public/assets/data/books/Matthew/matt_7';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 
 @Component({

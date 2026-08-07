@@ -3,8 +3,8 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {SubMenu} from '../../doctrine-sub-menu/sub-menu';
 import {Verse} from '@core/verse';
-import {gal_2_15_21} from '@core/books/Galatians/gal_2';
-import {james_2_18_26} from '@core/books/James/james_2';
+import {gal_2_15_21} from '../../../../../../public/assets/data/books/Galatians/gal_2';
+import {james_2_18_26} from '../../../../../../public/assets/data/books/James/james_2';
 
 @Component({
   selector: 'app-faith-and-works',

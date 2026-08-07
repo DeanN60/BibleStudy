@@ -1,15 +1,15 @@
 import {Component} from '@angular/core';
 import {TheologySubMenu} from '../theology-sub-menu/theology-sub-menu';
 import {Verse} from '@core/verse';
-import {iiTim_3_16_17} from '@core/books/II Timothy/iiTim_3';
-import {eph_2_8_9} from '@core/books/Ephesians/eph_2';
-import {rom_3_28} from '@core/books/Romans/rom_3';
-import {rom_4_4_5} from '@core/books/Romans/rom_4';
-import {titus_3_4_5} from '@core/books/Titus/titus_3';
-import {john_14_6} from '@core/books/John/john_14';
-import {iJohn_5_11_12} from '@core/books/I John/iJohn_5';
-import {isaiah_42_8} from '@core/books/Isaiah/isaiah_42';
-import {isaiah_48_11} from '@core/books/Isaiah/isaiah_48';
+import {iiTim_3_16_17} from '../../../../../public/assets/data/books/II Timothy/iiTim_3';
+import {eph_2_8_9} from '../../../../../public/assets/data/books/Ephesians/eph_2';
+import {rom_3_28} from '../../../../../public/assets/data/books/Romans/rom_3';
+import {rom_4_4_5} from '../../../../../public/assets/data/books/Romans/rom_4';
+import {titus_3_4_5} from '../../../../../public/assets/data/books/Titus/titus_3';
+import {john_14_6} from '../../../../../public/assets/data/books/John/john_14';
+import {iJohn_5_11_12} from '../../../../../public/assets/data/books/I John/iJohn_5';
+import {isaiah_42_8} from '../../../../../public/assets/data/books/Isaiah/isaiah_42';
+import {isaiah_48_11} from '../../../../../public/assets/data/books/Isaiah/isaiah_48';
 
 @Component({
   selector: 'app-five-solas',

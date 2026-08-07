@@ -2,8 +2,8 @@ import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {Verse} from '@core/verse';
-import {gen_8_20_21} from '@core/books/Genesis/gen_8';
-import {gen_11_1_9} from '@core/books/Genesis/gen_11';
+import {gen_8_20_21} from '../../../../../../public/assets/data/books/Genesis/gen_8';
+import {gen_11_1_9} from '../../../../../../public/assets/data/books/Genesis/gen_11';
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 
 @Component({

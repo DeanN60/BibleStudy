@@ -3,8 +3,8 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
-import {iCor_15_51_52} from '@core/books/I Corinthians/iCor_15';
-import {iThessalonians_4_16_17} from '@core/books/I Thessalonians/iThessalonians_4';
+import {iCor_15_51_52} from '../../../../../../public/assets/data/books/I Corinthians/iCor_15';
+import {iThessalonians_4_16_17} from '../../../../../../public/assets/data/books/I Thessalonians/iThessalonians_4';
 
 @Component({
   selector: 'app-rapture',

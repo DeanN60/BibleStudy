@@ -2,7 +2,7 @@ import {Component, OnInit, ChangeDetectionStrategy} from '@angular/core';
 import {SubMenu} from '../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from './right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
-import {iiTim_3_16_17} from '@core/books/II Timothy/iiTim_3';
+import {iiTim_3_16_17} from '../../../../../public/assets/data/books/II Timothy/iiTim_3';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {Definition, iDefinition} from '@core/definition/definition';
 

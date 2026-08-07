@@ -3,8 +3,8 @@ import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {Verse} from '@core/verse';
-import {jer_30_10_11, jer_30_1_6, jer_30_7} from '@core/books/Jeremiah/jer_30';
-import {matt_24_21} from '@core/books/Matthew/matt_24';
+import {jer_30_10_11, jer_30_1_6, jer_30_7} from '../../../../../../public/assets/data/books/Jeremiah/jer_30';
+import {matt_24_21} from '../../../../../../public/assets/data/books/Matthew/matt_24';
 
 @Component({
   selector: 'app-jacobs-trouble',

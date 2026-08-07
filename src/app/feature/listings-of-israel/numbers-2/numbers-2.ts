@@ -3,9 +3,9 @@ import {LoiSubMenu} from '../loi-sub-menu/loi-sub-menu';
 import {Tribe} from '@core/tribe/tribe';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {Verse} from '@core/verse';
-import {num_2_10_16, num_2_17_24, num_2_25_31, num_2_3_9} from '@core/books/Numbers/num_2';
-import {ezekiel_1_10} from '@core/books/Ezekiel/ezekiel_1';
-import {rev_4_6_7} from '@core/books/Revelation/rev_4';
+import {num_2_10_16, num_2_17_24, num_2_25_31, num_2_3_9} from '../../../../../public/assets/data/books/Numbers/num_2';
+import {ezekiel_1_10} from '../../../../../public/assets/data/books/Ezekiel/ezekiel_1';
+import {rev_4_6_7} from '../../../../../public/assets/data/books/Revelation/rev_4';
 
 @Component({
   selector: 'app-numbers-2',

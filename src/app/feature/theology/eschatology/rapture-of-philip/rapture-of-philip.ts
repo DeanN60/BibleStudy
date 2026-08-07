@@ -3,7 +3,7 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {Verse} from '@core/verse';
-import {acts_8_39_40} from '@core/books/Acts/acts_8';
+import {acts_8_39_40} from '../../../../../../public/assets/data/books/Acts/acts_8';
 
 @Component({
   selector: 'app-rapture-of-philip',

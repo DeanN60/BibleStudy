@@ -3,7 +3,7 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
-import {iiKings_2_11_12} from '@core/books/II Kings/iiKings_2';
+import {iiKings_2_11_12} from '../../../../../../public/assets/data/books/II Kings/iiKings_2';
 
 @Component({
   selector: 'app-rapture-of-elijah',

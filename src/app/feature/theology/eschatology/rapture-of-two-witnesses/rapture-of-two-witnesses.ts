@@ -3,7 +3,7 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {Verse} from '@core/verse';
-import {rev_11_11_12} from '@core/books/Revelation/rev_11';
+import {rev_11_11_12} from '../../../../../../public/assets/data/books/Revelation/rev_11';
 
 @Component({
   selector: 'app-rapture-of-two-witnesses',

@@ -3,7 +3,7 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
 import {JesusSubMenu} from '../../jesus-sub-menu/jesus-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
-import {matt_10_2_4} from '@core/books/Matthew/matt_10';
+import {matt_10_2_4} from '../../../../../../public/assets/data/books/Matthew/matt_10';
 
 @Component({
   selector: 'app-thomas',

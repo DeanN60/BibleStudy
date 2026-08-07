@@ -3,15 +3,15 @@ import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
 import {Verse} from '@core/verse';
-import {amos_5_18_20} from '@core/books/Amos/amos_5';
-import {joel_2_11, joel_2_1_2, joel_2_31_32} from '@core/books/Joel/joel_2';
-import {isaiah_13_6, isaiah_13_9} from '@core/books/Isaiah/isaiah_13';
-import {zeph_1_14_15} from '@core/books/Zephaniah/zeph_1';
-import {malachi_4_1_3, malachi_4_5} from '@core/books/Malachi/malachi_4';
-import {iThessalonians_5_1_3, iThessalonians_5_9} from '@core/books/I Thessalonians/iThessalonians_5';
-import {iiThessalonians_2_1_3} from '@core/books/II Thessalonians/iiThessalonians_2';
-import {iiPeter_3_10, iiPeter_3_13} from '@core/books/II Peter/iiPeter_3';
-import {acts_2_20_21} from '@core/books/Acts/acts_2';
+import {amos_5_18_20} from '../../../../../../public/assets/data/books/Amos/amos_5';
+import {joel_2_11, joel_2_1_2, joel_2_31_32} from '../../../../../../public/assets/data/books/Joel/joel_2';
+import {isaiah_13_6, isaiah_13_9} from '../../../../../../public/assets/data/books/Isaiah/isaiah_13';
+import {zeph_1_14_15} from '../../../../../../public/assets/data/books/Zephaniah/zeph_1';
+import {malachi_4_1_3, malachi_4_5} from '../../../../../../public/assets/data/books/Malachi/malachi_4';
+import {iThessalonians_5_1_3, iThessalonians_5_9} from '../../../../../../public/assets/data/books/I Thessalonians/iThessalonians_5';
+import {iiThessalonians_2_1_3} from '../../../../../../public/assets/data/books/II Thessalonians/iiThessalonians_2';
+import {iiPeter_3_10, iiPeter_3_13} from '../../../../../../public/assets/data/books/II Peter/iiPeter_3';
+import {acts_2_20_21} from '../../../../../../public/assets/data/books/Acts/acts_2';
 
 @Component({
   selector: 'app-day-of-the-lord',

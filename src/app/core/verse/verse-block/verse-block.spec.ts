@@ -5,7 +5,7 @@ import {provideRouter} from '@angular/router';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
 import {provideZonelessChangeDetection} from '@angular/core';
-import {matt_24_21} from '@core/books/Matthew/matt_24';
+import {matt_24_21} from '../../../../../public/assets/data/books/Matthew/matt_24';
 
 describe('VerseBlock', () => {
   let component: VerseBlock;
