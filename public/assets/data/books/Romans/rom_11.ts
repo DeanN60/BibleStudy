@@ -1,12 +1,12 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const rom_11_6 = new VerseData(
+export const rom_11_6 = new BookData(
   "Romans 11:6 KJV",
   "6 And if by grace, then is it no more of works: otherwise grace is no more grace. But if it be of works, then is it no more grace: otherwise work is no more work.",
   "King James Version"
 );
 
-export const rom_11_17_24 = new VerseData(
+export const rom_11_17_24 = new BookData(
   "Romans 11:17-24 LSB",
   "17 But if some of the branches were broken off, and you, being a wild olive, were grafted in among them and became a partaker with them of the rich root of the olive tree, " +
   "18 do not boast against the branches. But if you do boast against them, remember that it is not you who supports the root, but the root supports you. " +

@@ -1,13 +1,13 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const iThessalonians_4_16_17 = new VerseData(
+export const iThessalonians_4_16_17 = new BookData(
   "I Thessalonians 4:16-17 LSB",
   "16 For the Lord Himself will descend from heaven with a shout, with the voice of the archangel and with the trumpet of God, and the dead in Christ will rise first. " +
   "17 Then we who are alive and remain will be caught up together with them in the clouds to meet the Lord in the air, and so we shall always be with the Lord. ",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3965). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const iThessalonians_4_13_18 = new VerseData(
+export const iThessalonians_4_13_18 = new BookData(
   "I Thessalonians 4:13-18 LSB",
   "13 But we do not want you to be uninformed, brothers, about those who are asleep, so that you will not grieve as do the rest who have no hope. " +
   "14 For if we believe that Jesus died and rose again, even so God will bring with Him those who have fallen asleep in Jesus. " +

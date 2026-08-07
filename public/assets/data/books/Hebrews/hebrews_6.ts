@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const hebrews_6_4_6 = new VerseData(
+export const hebrews_6_4_6 = new BookData(
   "Hebrews 6:4-6 LSB",
   "4 For in the case of those once having been enlightened and having tasted of the heavenly gift and having become partakers of the Holy Spirit, " +
   "5 and having tasted the good word of God and the powers of the age to come, " +

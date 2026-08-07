@@ -4,12 +4,12 @@ import {Verse} from './verse';
 import {provideRouter} from '@angular/router';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
-import {VerseData} from '@core/verse-data';
+import {BookData} from '@core/book-data';
 
 describe('Verse', () => {
   let component: Verse;
   let fixture: ComponentFixture<Verse>;
-  const ephesians2_8 = new VerseData(
+  const ephesians2_8 = new BookData(
     'Ephesians 2:8 LSB',
     '8 For by grace you have been saved through faith, and this not of yourselves, it is the gift of God;',
     'Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3918). 316 Publishing, Inc.. Kindle Edition.'

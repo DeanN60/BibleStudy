@@ -1,12 +1,12 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const matt_24_21 = new VerseData(
+export const matt_24_21 = new BookData(
   "Matthew 24:21 LSB",
   "21 For then there will be a great tribulation, such as has not occurred since the beginning of the world until now, nor ever will.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3319). 316 Publishing, Inc.. Kindle Edition. "
 );
 
-export const matt_24_15_25 = new VerseData(
+export const matt_24_15_25 = new BookData(
   "Matthew 24:15-25 LSB",
   "15 “Therefore when you see the ABOMINATION OF DESOLATION which was spoken of through Daniel the prophet, standing in the holy place (let the reader understand), " +
   "16 then those who are in Judea must flee to the mountains. " +
@@ -22,7 +22,7 @@ export const matt_24_15_25 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3319). 316 Publishing, Inc.. Kindle Edition. "
 );
 
-export const matt_24_29_31 = new VerseData(
+export const matt_24_29_31 = new BookData(
   "Matthew 24:29-31 LSB",
   "29 “But immediately after the tribulation of those days THE SUN WILL BE DARKENED, AND THE MOON WILL NOT GIVE ITS LIGHT, AND THE STARS WILL FALL from the sky, and the POWERS OF THE HEAVENS will be shaken. " +
   "30 And then the sign of the Son of Man will appear in the sky, and then all the tribes of the earth will mourn, and they will see the SON OF MAN COMING ON THE CLOUDS OF THE SKY with power and great glory. " +
@@ -30,13 +30,13 @@ export const matt_24_29_31 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3319). 316 Publishing, Inc.. Kindle Edition. "
 );
 
-export const matt_24_30  = new VerseData(
+export const matt_24_30  = new BookData(
   "Matthew 24:30 LSB",
   "30 And then the sign of the Son of Man will appear in the sky, and then all the tribes of the earth will mourn, and they will see the SON OF MAN COMING ON THE CLOUDS OF THE SKY with power and great glory.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3319). 316 Publishing, Inc.. Kindle Edition. "
 );
 
-export const matt_24_36 = new VerseData(
+export const matt_24_36 = new BookData(
   "Matthew 24:36 LSB",
   "36 “But of that day and hour no one knows, not even the angels of heaven, nor the Son, but the Father alone.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3319). 316 Publishing, Inc.. Kindle Edition. "

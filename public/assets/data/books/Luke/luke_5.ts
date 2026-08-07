@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const luke_5_1_11 = new VerseData(
+export const luke_5_1_11 = new BookData(
   "Luke 5:1-11 LSB",
   "1 Now it happened that while the crowd was pressing around Him and listening to the word of God, He was standing at the edge of the lake of Gennesaret; " +
   "2 and He saw two boats lying at the edge of the lake, and the fishermen, having gotten out of them, were washing their nets. " +

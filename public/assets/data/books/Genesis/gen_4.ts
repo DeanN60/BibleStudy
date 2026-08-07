@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const gen_4_1_8 = new VerseData(
+export const gen_4_1_8 = new BookData(
   "Genesis 4:1-8 LSB",
   "1 Now the man knew his wife Eve, and she conceived and gave birth to Cain, and she said, “I have gotten a man with the help of Yahweh.” " +
   "2 And again, she agave birth to his brother Abel. Abel was a keeper of flocks, but Cain was a cultivator of the ground. " +
@@ -13,7 +13,7 @@ export const gen_4_1_8 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 101). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const gen_4_9_16 = new VerseData(
+export const gen_4_9_16 = new BookData(
   "Genesis 4:9-16 LSB",
   "9 Then Yahweh said to Cain, “Where is Abel your brother?” And he said, “I do not know. Am I my brother’s keeper?” " +
   "10 And He said, “What have you done? The voice of your brother’s blood is crying out to Me from the ground. " +
@@ -26,7 +26,7 @@ export const gen_4_9_16 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (pp. 101-102). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const gen_4_17_22 = new VerseData(
+export const gen_4_17_22 = new BookData(
   "Genesis 4:17-22 LSB",
   "17 Then Cain knew his wife, and she conceived and gave birth to Enoch; and he built a city and called the name of the city Enoch, after the name of his son. " +
   "18 Now to Enoch was born Irad, and Irad was the father of Mehujael, and Mehujael was the father of Methushael, and Methushael was the father of Lamech. " +
@@ -37,13 +37,13 @@ export const gen_4_17_22 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 102). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const gen_4_23_24 = new VerseData(
+export const gen_4_23_24 = new BookData(
   "Genesis 4:23,24 LSB",
   "23 And Lamech said to his wives, “Adah and Zillah, Hear my voice, You wives of Lamech, Give ear to my word, For I ahave killed a man for bstriking me; And a boy for wounding me; 24 If Cain is avenged sevenfold, Then Lamech seventy-sevenfold.”",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 102). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const gen_4_25_26 = new VerseData(
+export const gen_4_25_26 = new BookData(
   "Genesis 4:25,26 LSB",
   "25 Then Adam knew his wife again; and she gave birth to a son and named him Seth, for she said, “God dhas set for me another seed in place of Abel, for Cain killed him.” " +
   "26 And to Seth, to him also, a son was born; and he called his name Enosh. Then men began to call upon the name of Yahweh.",

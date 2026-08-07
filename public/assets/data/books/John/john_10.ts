@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const john_10_11_15 = new VerseData(
+export const john_10_11_15 = new BookData(
   "John 10:11-15 LSB",
   "10 The thief comes only to steal and kill and destroy; I came that they may have life, and have it abundantly. " +
   "11 “I am the good shepherd; the good shepherd lays down His life for the sheep. " +
@@ -11,13 +11,13 @@ export const john_10_11_15 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3594). 316 Publishing, Inc.. Kindle Edition. "
 );
 
-export const john_10_26 = new VerseData(
+export const john_10_26 = new BookData(
   "John 10:26 LSB",
   "26 But you do not believe because you are not of My sheep.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3595). 316 Publishing, Inc.. Kindle Edition. "
 )
 
-export const john_10_27_29 = new VerseData(
+export const john_10_27_29 = new BookData(
   "John 10:27-29 LSB",
   "27 My sheep hear My voice, and I know them, and they follow Me; " +
   "28 and I give eternal life to them, and they will never perish—ever; and no one will snatch them out of My hand. " +

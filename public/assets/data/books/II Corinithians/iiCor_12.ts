@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const iiCor_12_2_4 = new VerseData(
+export const iiCor_12_2_4 = new BookData(
   "II Corinthians 12:2-4 LSB",
   "2 I know a man in Christ who fourteen years ago—whether in the body I do not know, or out of the body I do not know, God knows—such a man was caught up to the third heaven. " +
   "3 And I know how such a man—whether in the body or apart from the body I do not know, God knows— " +

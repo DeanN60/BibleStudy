@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const rom_12_4_8 = new VerseData(
+export const rom_12_4_8 = new BookData(
   "Romans 12:4-8 LSB",
   "4 For just as we have many members in one body and all the members do not have the same function, " +
   "5 so we, who are many, are one body in Christ, and individually members one of another, " +

@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const mark_3_13_19 = new VerseData(
+export const mark_3_13_19 = new BookData(
   "Mark 3:13-19 LSB",
   "13 And He went up on the mountain and summoned those whom He Himself wanted, and they came to Him. " +
   "14 And He appointed twelve (whom He also named apostles) to be with Him and to send them out to preach, " +

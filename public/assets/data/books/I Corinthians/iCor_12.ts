@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const iCor_12_27_30 = new VerseData(
+export const iCor_12_27_30 = new BookData(
   "I Corinthians 12:27-30 LSB",
   "27 Now you are Christ’s body, and individually members of it. " +
   "28 And God has appointed in the church, first apostles, second prophets, third teachers, then bmiracles, then gifts of healings, helps, administrations, various kinds of tongues. " +

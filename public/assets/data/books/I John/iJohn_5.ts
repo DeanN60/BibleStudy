@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const iJohn_5_11_12 = new VerseData(
+export const iJohn_5_11_12 = new BookData(
   "I John 5:11-12 LSB",
   "11 And the witness is this, that God gave us eternal life, and this life is in His Son. " +
   "12 He who has the Son has the life; he who does not have the Son of God does not have that life.",

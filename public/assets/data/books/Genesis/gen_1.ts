@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const gen_1_1_5 = new VerseData(
+export const gen_1_1_5 = new BookData(
   "Genesis 1:1-5 LSB",
   "1 In the beginning God created the heavens and the earth. " +
   "2 And the earth was formless and void, and darkness was over the surface of the deep, and the Spirit of God was hovering over the bsurface of the waters. " +
@@ -10,7 +10,7 @@ export const gen_1_1_5 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 93). 316 Publishing, Inc.. Kindle Edition."
 )
 
-export const gen_1_28_31 = new VerseData(
+export const gen_1_28_31 = new BookData(
   "Genesis 1:28-31 LSB",
   "28 God blessed them, and God said to them, “Be fruitful and multiply, and fill the earth, and subdue it; and have dominion over the fish of the sea and over the birds of the asky and over every living thing that creeps on the earth.” " +
   "29 Then God said, “Behold, I have given to you every plant yielding seed that is on the asurface of all the earth, and every tree which has the fruit of the tree yielding seed; it shall be food for you; " +

@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const gen_3_1_19 = new VerseData(
+export const gen_3_1_19 = new BookData(
   "Genesis 3:1-19 LSB",
   "1 Now the serpent was more crafty than any beast of the field which Yahweh God had made. And he said to the woman, “Indeed, has God said, ‘You shall not eat from any tree of the garden’?” " +
   "2 And the woman said to the serpent, “From the fruit of the trees of the garden we may eat; " +
@@ -24,7 +24,7 @@ export const gen_3_1_19 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (pp. 98-100). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const gen_3_23_24 = new VerseData(
+export const gen_3_23_24 = new BookData(
   "Genesis 3:23,24 LSB",
   "23 therefore Yahweh God sent him out from the garden of Eden, to acultivate the ground from which he was taken. " +
   "24 So He drove the man out; and at the east of the garden of Eden He stationed the cherubim and the flaming sword which turned every direction to guard the way to the tree of life.",

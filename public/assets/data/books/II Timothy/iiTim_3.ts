@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const iiTim_3_16_17 = new VerseData(
+export const iiTim_3_16_17 = new BookData(
   "II Timothy 3:16-17 LSB",
   "16 All Scripture is God-breathed and profitable for teaching, for reproof, for correction, for training in righteousness, " +
   "17 so that the man of God may be equipped, having been thoroughly equipped for every good work.",

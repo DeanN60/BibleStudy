@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const gen_2_1_25 = new VerseData(
+export const gen_2_1_25 = new BookData(
   "Genesis 2:1-25 LSB",
   "1 Thus the heavens and the earth were completed, and all their hosts. " +
   "2 And aon the seventh day God completed His work which He had done, and He rested on the seventh day from all His work which He had done. " +

@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const matt_10_2_4 = new VerseData(
+export const matt_10_2_4 = new BookData(
   "Matthew 10:2-4 LSB",
   "2 Now the names of the twelve apostles are these: The first, Simon, who is called Peter, and Andrew his brother; and James the son of Zebedee, and John his brother; " +
   "3 Philip and Bartholomew; Thomas and Matthew the tax collector; James the son of Alphaeus, and Thaddaeus; " +

@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const matt_4_18_22 = new VerseData(
+export const matt_4_18_22 = new BookData(
   "Matthew 4:18-22 LSB",
   "18 Now as Jesus was walking by the Sea of Galilee, He saw two brothers, Simon who was called Peter, and Andrew his brother, casting a net into the sea; for they were fishermen. " +
   "19 And He *said to them, “Follow Me, and I will make you fishers of men.” " +

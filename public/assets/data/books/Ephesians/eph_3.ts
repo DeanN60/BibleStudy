@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const eph_3_2 = new VerseData(
+export const eph_3_2 = new BookData(
   "Ephesians 3:2 KJV",
   "2 If ye have heard of the dispensation of the grace of God which is given me to you-ward:",
   "King James Version"

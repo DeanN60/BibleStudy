@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const zeph_1_14_15 = new VerseData(
+export const zeph_1_14_15 = new BookData(
   "Zephaniah 1:14-15 LSB",
   "14 Near is the great day of Yahweh, Near and coming very quickly; O the sound, the day of Yahweh! In it the mighty man cries out bitterly. " +
   "15 A day of fury is that day, A day of trouble and distress, A day of destruction and desolation, A day of darkness and thick darkness, A day of clouds and dense gloom,",

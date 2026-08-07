@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const num_2_3_9 = new VerseData(
+export const num_2_3_9 = new BookData(
   "Numbers 2:3-9 LSB",
   "3 Now those who camp on the east side toward the sunrise shall be of the standard of the camp of Judah, by their armies, and the leader of the sons of Judah: Nahshon the son of Amminadab, " +
   "4 and his army, even their numbered men, 74,600. " +
@@ -12,7 +12,7 @@ export const num_2_3_9 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 550). 316 Publishing, Inc.. Kindle Edition. "
 );
 
-export const num_2_10_16 = new VerseData(
+export const num_2_10_16 = new BookData(
   "Numbers 2:10-16 LSB",
   "10 “On the south side shall be the standard of the camp of Reuben by their armies, and the leader of the sons of Reuben: Elizur the son of Shedeur, " +
   "11 and his army, even his numbered men, 46,500. " +
@@ -24,7 +24,7 @@ export const num_2_10_16 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 550). 316 Publishing, Inc.. Kindle Edition. "
 );
 
-export const num_2_17_24 = new VerseData(
+export const num_2_17_24 = new BookData(
   "Numbers 2:17-24 LSB",
   "17 “Then the tent of meeting shall set out with the camp of the Levites in the midst of the camps; just as they camp, so they shall set out, every man in his place by their standards. " +
   "18 “On the west side shall be the standard of the camp of Ephraim by their armies, and the leader of the sons of Ephraim: Elishama the son of Ammihud, " +
@@ -37,7 +37,7 @@ export const num_2_17_24 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 550). 316 Publishing, Inc.. Kindle Edition. "
 );
 
-export const num_2_25_31 = new VerseData(
+export const num_2_25_31 = new BookData(
   "Numbers 2:25-31 LSB",
   "25 “On the north side shall be the standard of the camp of Dan by their armies, and the leader of the sons of Dan: Ahiezer the son of Ammishaddai, " +
   "26 and his army, even their numbered men, 62,700. " +

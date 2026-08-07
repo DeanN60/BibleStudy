@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const john_1_1_5 = new VerseData(
+export const john_1_1_5 = new BookData(
   "John 1:1-5 LSB",
   "1 In the beginning was the Word, and the Word was with God, and the Word was God. " +
   "2 He was in the beginning with God. " +
@@ -10,13 +10,13 @@ export const john_1_1_5 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3561). 316 Publishing, Inc.. Kindle Edition."
 )
 
-export const john_1_14 = new VerseData(
+export const john_1_14 = new BookData(
   "John 1:14 LSB",
   "14 And the Word became flesh, and dwelt among us, and we beheld His glory, glory as of the only begotten from the Father, full of grace and truth.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3561). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const john_1_35_51 = new VerseData(
+export const john_1_35_51 = new BookData(
   "John 1:35-51 LSB",
   "35 On the next day, John again was standing with two of his disciples, " +
   "36 and he looked at Jesus as He walked, and said, “Behold, the Lamb of God!” " +

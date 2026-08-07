@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const acts_2_20_21 = new VerseData(
+export const acts_2_20_21 = new BookData(
   "Acts 2:20-21 LSB",
   "20 THE SUN WILL BE TURNED INTO DARKNESS AND THE MOON INTO BLOOD, BEFORE THE GREAT AND AWESOME DAY OF THE LORD COMES. " +
   "21 AND IT WILL BE THAT EVERYONE WHO CALLS ON THE NAME OF THE aLORD WILL BE SAVED.’",

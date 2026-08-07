@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const eph_4_11_16 = new VerseData(
+export const eph_4_11_16 = new BookData(
   "Ephesians 4:11-16 LSB",
   "11 And He Himself gave some as apostles, and some as prophets, and some as evangelists, and some as pastors and teachers, " +
   "12 for the equipping of the saints for the work of service, to the building up of the body of Christ, " +

@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const gen_25_24_26 = new VerseData(
+export const gen_25_24_26 = new BookData(
   "Genesis 25:24-26 LSB",
   "24 And her days to give birth were fulfilled, and behold, there were twins in her womb. " +
   "25 And the first came forth red, all over like a hairy garment; and they named him Esau. " +

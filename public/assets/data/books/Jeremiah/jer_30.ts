@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const jer_30_1_6 = new VerseData(
+export const jer_30_1_6 = new BookData(
   "Jeremiah 30:1-6 LSB",
   "1 The word which came to Jeremiah from Yahweh, saying, " +
   "2 “Thus says Yahweh, the God of Israel, ‘Write all the words which I have spoken to you in a book. " +
@@ -11,13 +11,13 @@ export const jer_30_1_6 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 2668). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const jer_30_7 = new VerseData(
+export const jer_30_7 = new BookData(
   "Jeremiah 30:7 LSB",
   "7 Alas! For that day is great, There is none like it; And it is the time of Jacob’s distress, But he will be saved from it.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 2668). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const jer_30_10_11 = new VerseData(
+export const jer_30_10_11 = new BookData(
   "Jeremiah 30:10-11 LSB",
   "10 Fear not, O Jacob My servant,’ declares Yahweh, ‘And do not be dismayed, O Israel; For behold, I will save you from afar And your seed from the land of their captivity. And Jacob will return and will be quiet and at ease, And no one will make him tremble. " +
   "11 For I am with you,’ declares Yahweh, ‘to save you; For I will make a complete destruction of all the nations where I have scattered you, Only I will not make a complete destruction of you. But I will chasten you justly And will by no means leave you unpunished.’",

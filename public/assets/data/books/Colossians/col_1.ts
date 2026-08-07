@@ -1,12 +1,12 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const col_1_25 = new VerseData(
+export const col_1_25 = new BookData(
   "Colossians 1:25 KJV",
   "25 Whereof I am made a minister, according to the dispensation of God which is given to me for you, to fulfil the word of God;",
   "King James Version"
 );
 
-export const col_1_24_29 = new VerseData(
+export const col_1_24_29 = new BookData(
   "Colossians 1:24-29 LSB",
   "24 Now I rejoice in my sufferings for your sake, and I fill up what is lacking of Christ’s afflictions in my flesh, on behalf of His body, which is the church, " +
   "25 of which I was made a minister according to the stewardship from God given to me for you, so that I might bfully carry out the preaching of the word of God, " +

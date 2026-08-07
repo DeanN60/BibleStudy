@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const daniel_8_5_8 = new VerseData(
+export const daniel_8_5_8 = new BookData(
   "Daniel 8:5-8 LSB",
   "5 And while I was considering, behold, a male goat was coming from the west over the surface of the whole earth without touching the ground; and the goat had a conspicuous horn between its eyes. " +
   "6 Then it came up to the ram that had the two horns, which I had seen standing in front of the canal, and ran at it in his strong wrath. " +

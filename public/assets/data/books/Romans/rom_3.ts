@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const rom_3_10_18 = new VerseData(
+export const rom_3_10_18 = new BookData(
   "Romans 3:10-18 KJV",
   "10 As it is written, There is none righteous, no, not one:" +
   "11 There is none that understandeth, there is none that seeketh after God." +
@@ -14,13 +14,13 @@ export const rom_3_10_18 = new VerseData(
   "King James Version"
 );
 
-export const rom_3_23 = new VerseData(
+export const rom_3_23 = new BookData(
   "Romans 3:23 KJV",
   "23 For all have sinned, and come short of the glory of God;",
   "King James Version"
 );
 
-export const rom_3_23_26 = new VerseData(
+export const rom_3_23_26 = new BookData(
   "Romans 3:23-26 LSB",
   "23 for all have sinned and fall short of the glory of God, " +
   "24 being justified as a gift by His grace through the redemption which is in Christ Jesus; " +
@@ -29,7 +29,7 @@ export const rom_3_23_26 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3772). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const rom_3_28 = new VerseData(
+export const rom_3_28 = new BookData(
   "Romans 3:28 LSB",
   "28 For we maintain that a man is justified by faith apart from works of the Law.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3771). 316 Publishing, Inc.. Kindle Edition."

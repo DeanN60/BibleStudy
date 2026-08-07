@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const mark_1_16_20 = new VerseData(
+export const mark_1_16_20 = new BookData(
   "Mark 1:16-20 LSB",
   "16 As He was going along by the Sea of Galilee, He saw Simon and Andrew, the brother of Simon, casting a net in the sea; for they were fishermen. " +
   "17 And Jesus said to them, “Follow Me, and I will make you become fishers of men.” " +

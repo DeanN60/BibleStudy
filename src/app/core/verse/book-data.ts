@@ -1,4 +1,4 @@
-export class VerseData {
+export class BookData {
   reference: string;
   verse: string;
   source?: string;

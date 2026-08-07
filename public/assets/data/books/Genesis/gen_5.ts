@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const gen_5_3_5 = new VerseData(
+export const gen_5_3_5 = new BookData(
   "Genesis 5:3-5 LSB",
   "3 When Adam had lived 130 years, he became the father of a son in his own likeness, according to his image, and named him Seth. " +
   "4 Then the days of Adam after he became the father of Seth were 800 years, and he became the father of other sons and daughters. " +
@@ -8,7 +8,7 @@ export const gen_5_3_5 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 104). 316 Publishing, Inc.. Kindle Edition. "
 );
 
-export const gen_5_6_8 = new VerseData(
+export const gen_5_6_8 = new BookData(
   "Genesis 5:6-8 LSB",
   "6 And Seth lived 105 years and became the father of Enosh. " +
   "7 Then Seth lived 807 years after he became the father of Enosh, and he had other sons and daughters. " +
@@ -16,7 +16,7 @@ export const gen_5_6_8 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 104). 316 Publishing, Inc.. Kindle Edition. "
 );
 
-export const gen_5_9_11 = new VerseData(
+export const gen_5_9_11 = new BookData(
   "Genesis 5:9-11 LSB",
   "9 And Enosh lived 90 years and became the father of Kenan. " +
   "10 Then Enosh lived 815 years after he became the father of Kenan, and he became the father of other sons and daughters. " +
@@ -24,7 +24,7 @@ export const gen_5_9_11 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 104). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const gen_5_12_14 = new VerseData(
+export const gen_5_12_14 = new BookData(
   "Genesis 5:12-14 LSB",
   "12 And Kenan lived 70 years and became the father of Mahalalel. " +
   "13 Then Kenan lived 840 years after he became the father of Mahalalel, and he became the father of other sons and daughters. " +
@@ -32,7 +32,7 @@ export const gen_5_12_14 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 104). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const gen_5_15_17 = new VerseData(
+export const gen_5_15_17 = new BookData(
   "Genesis 5:15-17 LSB",
   "15 And Mahalalel lived 65 years and became the father of Jared. " +
   "16 Then Mahalalel lived 830 years after he became the father of Jared, and he became the father of other sons and daughters. " +
@@ -40,7 +40,7 @@ export const gen_5_15_17 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 105). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const gen_5_18_20 = new VerseData(
+export const gen_5_18_20 = new BookData(
   "Genesis 5:18-20 LSB",
   "18 And Jared lived 162 years and became the father of Enoch. " +
   "19 Then Jared lived 800 years after he became the father of Enoch, and he became the father of other sons and daughters. " +
@@ -48,7 +48,7 @@ export const gen_5_18_20 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 105). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const gen_5_21_24 = new VerseData(
+export const gen_5_21_24 = new BookData(
   "Genesis 5:21-24 LSB",
   "21 And Enoch lived 65 years and became the father of Methuselah. " +
   "22 Then Enoch walked with God 300 years after he became the father of Methuselah, and he became the father of other sons and daughters. " +
@@ -57,13 +57,13 @@ export const gen_5_21_24 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 105). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const gen_5_24 = new VerseData(
+export const gen_5_24 = new BookData(
   "Genesis 5:24 LSB",
   "24 Enoch walked with God; and he was not, for God took him.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 105). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const gen_5_25_27 = new VerseData(
+export const gen_5_25_27 = new BookData(
   "Genesis 5:25-27 LSB",
   "25 And Methuselah lived 187 years and became the father of Lamech. " +
   "26 Then Methuselah lived 782 years after he became the father of Lamech, and he became the father of other sons and daughters. " +
@@ -71,7 +71,7 @@ export const gen_5_25_27 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 105). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const gen_5_28_31 = new VerseData(
+export const gen_5_28_31 = new BookData(
   "Genesis 5:28-31 LSB",
   "28 And Lamech lived 182 years and became the father of a son. " +
   "29 Now he called his name Noah, saying, “This one will give us rest from our work and from the pain of our hands arising from the ground which Yahweh has cursed.” " +
@@ -80,7 +80,7 @@ export const gen_5_28_31 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 105). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const gen_5_32 = new VerseData(
+export const gen_5_32 = new BookData(
   "Genesis 5:32 LSB",
   "32 And Noah was 500 years old, and Noah became the father of Shem, Ham, and Japheth.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 106). 316 Publishing, Inc.. Kindle Edition."

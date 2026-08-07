@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const hos_11_8_9 = new VerseData(
+export const hos_11_8_9 = new BookData(
   "Hosea 11:8,9 LSB",
   "8 How can I give you up, O Ephraim? How can I surrender you, O Israel? How can I give you over to be like Admah? How can I make you like Zeboiim? My heart is turned over within Me; All My compassions are stirred. " +
   "9 I will not execute My burning anger; I will not make Ephraim a ruin again. For I am God and not man, the Holy One in your midst, And I will not come in wrath.",

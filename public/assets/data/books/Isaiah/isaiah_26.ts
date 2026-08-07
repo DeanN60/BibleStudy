@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const isaiah_26_19_21 = new VerseData(
+export const isaiah_26_19_21 = new BookData(
   "Isaiah 26:19-21 LSB",
   "19 Your dead will live; Their corpses will rise. You who dwell in the dust, awake and shout for joy, For your dew is as the dew of the dawn, And the earth will give birth to the departed spirits. " +
   "20 Come, my people, enter into your rooms And close your doors behind you; Hide for a little awhile Until indignation passes by. " +

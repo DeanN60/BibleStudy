@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const gal_2_15_21 = new VerseData(
+export const gal_2_15_21 = new BookData(
   "Galatians 2:15-21 LSB",
   "15 “We are Jews by nature and not sinners from among the Gentiles; " +
   "16 nevertheless knowing that a man is not justified by the works of the Law but through faith in Jesus Christ, even we have believed in Christ Jesus, so that we may be justified by faith in Christ and not by the works of the Law; since by the works of the Law no flesh will be justified. " +

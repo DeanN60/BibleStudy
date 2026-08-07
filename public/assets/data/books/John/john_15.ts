@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const john_15_1_11 = new VerseData(
+export const john_15_1_11 = new BookData(
   "John 15:1-11 LSB",
   "I Am the True Vine 1 “I am the true vine, and My Father is the vine-grower. " +
   "2 Every branch in Me that does not bear fruit, He takes away; and every branch that bears fruit, He cleans it so that it may bear more fruit. " +
@@ -16,7 +16,7 @@ export const john_15_1_11 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3611). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const john_15_16 = new VerseData(
+export const john_15_16 = new BookData(
   "John 15:16 LSB",
   "16 You did not choose Me but I chose you, and appointed you that you would go and bear fruit, and that your fruit would abide, so that whatever you ask of the Father in My name He may give to you.",
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 3612). 316 Publishing, Inc.. Kindle Edition."

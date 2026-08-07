@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const exodus_19_3_8 = new VerseData(
+export const exodus_19_3_8 = new BookData(
   "Exodus_19_3_8 LSB",
   "3 Now Moses went up to God, and Yahweh called to him from the mountain, saying, “Thus you shall say to the house of Jacob and tell the sons of Israel: " +
   "4 ‘You yourselves have seen what I did to the Egyptians, and how I lifted you up on eagles’ wings and brought you to Myself. " +

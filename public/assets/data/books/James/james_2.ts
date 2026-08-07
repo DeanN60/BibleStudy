@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const james_2_18_26 = new VerseData(
+export const james_2_18_26 = new BookData(
   "James 2:18-26 LSB",
   "18 But someone will say, “You have faith; and I have works. Show me your faith without the works, and I will show you my faith by my works.” " +
   "19 You believe that God is one. You do well; the demons also believe, and shudder. " +

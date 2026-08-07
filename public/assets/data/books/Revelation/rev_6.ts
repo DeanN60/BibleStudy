@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const rev_6_9_11 = new VerseData(
+export const rev_6_9_11 = new BookData(
   "Revelation 6:9-11 LSB",
   "9 And when He opened the fifth seal, I saw underneath the altar the souls of those who had been slain because of the word of God, and because of the witness which they had maintained; " +
   "10 and they cried out with a loud voice, saying, “How long, O Master, holy and true? aWill You not judge and avenge our blood on those who dwell on the earth?” " +
@@ -8,7 +8,7 @@ export const rev_6_9_11 = new VerseData(
   "Bibles, Steadfast; Foundation, The Lockman . The Legacy Standard Bible - LSB (p. 4122). 316 Publishing, Inc.. Kindle Edition."
 );
 
-export const rev_6_12_17 = new VerseData(
+export const rev_6_12_17 = new BookData(
   "Revelation 6:12-17 LSB",
   "12 Then I looked when He opened the sixth seal, and there was a great earthquake; and the sun became black as sackcloth made of hair, and the whole moon became like blood; " +
   "13 and the stars of the sky fell to the earth, as a fig tree casts its unripe figs when shaken by a great wind. " +

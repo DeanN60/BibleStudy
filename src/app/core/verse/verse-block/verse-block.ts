@@ -1,5 +1,5 @@
 import {Component, input, ChangeDetectionStrategy} from '@angular/core';
-import {VerseData} from '@core/verse-data';
+import {BookData} from '@core/book-data';
 import {fallbackVerse} from '@core/verse';
 
 @Component({
@@ -10,8 +10,8 @@ import {fallbackVerse} from '@core/verse';
   styleUrls: ['../verse.scss', './verse-block.scss'],
 })
 export class VerseBlock {
-  data = input.required<VerseData, VerseData | undefined>({
-    transform: (value: VerseData | undefined): VerseData => {
+  data = input.required<BookData, BookData | undefined>({
+    transform: (value: BookData | undefined): BookData => {
       return value ?? fallbackVerse;
     }
   });

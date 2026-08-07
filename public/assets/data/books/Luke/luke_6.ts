@@ -1,6 +1,6 @@
-import {VerseData} from 'src/app/core/verse/verse-data';
+import {BookData} from '@core/book-data';
 
-export const luke_6_12_16 = new VerseData(
+export const luke_6_12_16 = new BookData(
   "Luke 6:12-16 LSB",
   "12 Now it happened that at this time He went off to the mountain to pray, and He was spending the whole night in prayer to God. " +
   "13 And when day came, He called His disciples to Him and chose twelve of them, whom He also named as apostles: " +
