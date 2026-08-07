@@ -1,5 +1,5 @@
 import {Component, input, ChangeDetectionStrategy} from '@angular/core';
-import {BookData} from './book-data';
+import {BookData} from '../book-data';
 import {VerseBlock} from '@core/verse-block/verse-block';
 import {KeepInViewport} from '@core/directive/keep-in-viewport';
 import {OpenTrigger} from '@core/directive/open-trigger';
