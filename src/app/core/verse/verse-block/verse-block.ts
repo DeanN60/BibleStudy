@@ -1,6 +1,5 @@
 import {Component, input, ChangeDetectionStrategy} from '@angular/core';
-import {BookData} from '@core/book-data';
-import {fallbackBookData} from '@core/verse';
+import {BookData, fallbackBookData} from '@core/book-data';
 
 @Component({
   selector: 'app-verse-block',

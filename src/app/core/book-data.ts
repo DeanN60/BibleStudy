@@ -11,3 +11,9 @@ export class BookData {
     }
   }
 }
+
+export const fallbackBookData: BookData = {
+  reference: "unknown",
+  verse: "no verse available",
+  source: "unknown"
+}
