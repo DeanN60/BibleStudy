@@ -1,14 +1,17 @@
 import {Component, input, ChangeDetectionStrategy} from '@angular/core';
 import {BookData, fallbackBookData} from '@core/book-data';
+import {OpenTrigger} from '@core/directive/open-trigger';
 
 @Component({
-  selector: 'app-verse-block',
-  imports: [],
-  templateUrl: './verse-block.html',
+  selector: 'app-book',
+  imports: [
+    OpenTrigger
+  ],
+  templateUrl: './book.html',
   changeDetection: ChangeDetectionStrategy.Eager,
-  styleUrls: ['../verse.scss', './verse-block.scss'],
+  styleUrl: './book.scss',
 })
-export class VerseBlock {
+export class Book {
   data = input.required<BookData, BookData | undefined>({
     transform: (value: BookData | undefined): BookData => {
       return value ?? fallbackBookData;

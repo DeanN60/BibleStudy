@@ -1,7 +1,8 @@
-import {Component, ChangeDetectionStrategy} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {SubMenu} from '../../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
-import {Verse} from '@core/verse';
+import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
+import {Book} from '@core/book/book';
 import {
   matt_25_14_29,
   matt_25_19_21,
@@ -10,16 +11,15 @@ import {
   matt_25_24_25,
   matt_25_26_28,
   matt_25_29_30
-} from '../../../../../../public/assets/data/books/Matthew/matt_25';
-import {matt_7_21_23} from '../../../../../../public/assets/data/books/Matthew/matt_7';
-import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
+} from '@books/Matthew/matt_25';
+import {matt_7_21_23} from '@books/Matthew/matt_7';
 
 @Component({
   selector: 'app-missing-the-kingdom',
   imports: [
     SubMenu,
     RightSubMenu,
-    Verse
+    Book
   ],
   templateUrl: './missing-the-kingdom.html',
   changeDetection: ChangeDetectionStrategy.Eager,

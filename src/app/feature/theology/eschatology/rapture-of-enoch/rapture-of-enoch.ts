@@ -2,16 +2,16 @@ import {Component} from '@angular/core';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
-import {Verse} from '@core/verse';
-import {gen_5_24} from '../../../../../../public/assets/data/books/Genesis/gen_5';
-import {hebrews_11_5} from '../../../../../../public/assets/data/books/Hebrews/hebrews_11';
+import {Book} from '@core/book/book';
+import {gen_5_24} from '@books/Genesis/gen_5';
+import {hebrews_11_5} from '@books/Hebrews/hebrews_11';
 
 @Component({
   selector: 'app-rapture-of-enoch',
   imports: [
     TheologySubMenu,
     RightSubMenu,
-    Verse
+    Book
   ],
   templateUrl: './rapture-of-enoch.html',
   styleUrl: '../eschatology.scss',

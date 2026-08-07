@@ -1,16 +1,16 @@
-import {Component, ChangeDetectionStrategy} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {SubMenu} from "../../doctrine-sub-menu/sub-menu";
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
-import {Verse} from '@core/verse';
-import {john_6_37, john_6_44} from '../../../../../../public/assets/data/books/John/john_6';
+import {john_6_37, john_6_44} from '@books/John/john_6';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
+import {Book} from '@core/book/book';
 
 @Component({
   selector: 'app-irresistible-grace',
   imports: [
     SubMenu,
     RightSubMenu,
-    Verse
+    Book
   ],
   templateUrl: './irresistible-grace.html',
   changeDetection: ChangeDetectionStrategy.Eager,

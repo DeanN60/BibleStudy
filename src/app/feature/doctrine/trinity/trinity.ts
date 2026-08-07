@@ -1,18 +1,18 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {SubMenu} from "../doctrine-sub-menu/sub-menu";
-import {Verse} from '@core/verse';
-import {john_1_1_5, john_1_14} from '../../../../../public/assets/data/books/John/john_1';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
-import {psalms_33_6} from '../../../../../public/assets/data/books/Psalms/psalms_33';
-import {john_14_16_17, john_14_25_26, john_14_9_14} from '../../../../../public/assets/data/books/John/john_14';
 import {Definition, iDefinition} from '@core/definition/definition';
+import {Book} from '@core/book/book';
+import {john_1_14, john_1_1_5} from '@books/John/john_1';
+import {psalms_33_6} from '@books/Psalms/psalms_33';
+import {john_14_16_17, john_14_25_26, john_14_9_14} from '@books/John/john_14';
 
 @Component({
   selector: 'app-trinity',
   imports: [
     SubMenu,
-    Verse,
-    Definition
+    Definition,
+    Book
   ],
   templateUrl: './trinity.html',
   changeDetection: ChangeDetectionStrategy.Eager,

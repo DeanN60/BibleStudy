@@ -1,24 +1,24 @@
-import {Component, ChangeDetectionStrategy} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {SubMenu} from '../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from './right-sub-menu/right-sub-menu';
-import {Verse} from '@core/verse';
-import {rom_3_10_18, rom_3_23} from '../../../../../public/assets/data/books/Romans/rom_3';
-import {rom_10_13, rom_10_9} from '../../../../../public/assets/data/books/Romans/rom_10';
-import {rom_8_1, rom_8_38_39} from '../../../../../public/assets/data/books/Romans/rom_8';
-import {rom_11_6} from '../../../../../public/assets/data/books/Romans/rom_11';
-import {rom_5_1, rom_5_15, rom_5_8} from '../../../../../public/assets/data/books/Romans/rom_5';
-import {rom_6_23} from '../../../../../public/assets/data/books/Romans/rom_6';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
-import {eph_2_8} from '../../../../../public/assets/data/books/Ephesians/eph_2';
 import {Definition, iDefinition} from '@core/definition/definition';
+import {Book} from '@core/book/book';
+import {rom_3_10_18, rom_3_23} from '@books/Romans/rom_3';
+import {rom_10_13, rom_10_9} from '@books/Romans/rom_10';
+import {rom_8_1, rom_8_38_39} from '@books/Romans/rom_8';
+import {rom_11_6} from '@books/Romans/rom_11';
+import {rom_5_1, rom_5_15, rom_5_8} from '@books/Romans/rom_5';
+import {rom_6_23} from '@books/Romans/rom_6';
+import {eph_2_8} from '@books/Ephesians/eph_2';
 
 @Component({
   selector: 'app-salvation',
   imports: [
     SubMenu,
     RightSubMenu,
-    Verse,
-    Definition
+    Definition,
+    Book
   ],
   templateUrl: './salvation.html',
   changeDetection: ChangeDetectionStrategy.Eager,

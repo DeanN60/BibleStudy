@@ -1,18 +1,18 @@
-import {Component, ChangeDetectionStrategy} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {SubMenu} from '../../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
-import {Verse} from '@core/verse';
-import {rom_3_23_26} from '../../../../../../public/assets/data/books/Romans/rom_3';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
-import {john_14_6} from '../../../../../../public/assets/data/books/John/john_14';
-import {isaiah_53_5} from '../../../../../../public/assets/data/books/Isaiah/isaiah_53';
+import {Book} from '@core/book/book';
+import {rom_3_23_26} from '@books/Romans/rom_3';
+import {john_14_6} from '@books/John/john_14';
+import {isaiah_53_5} from '@books/Isaiah/isaiah_53';
 
 @Component({
   selector: 'app-need-for-salvation',
   imports: [
     SubMenu,
     RightSubMenu,
-    Verse
+    Book
   ],
   templateUrl: './need-for-salvation.html',
   changeDetection: ChangeDetectionStrategy.Eager,

@@ -23,6 +23,9 @@
         "./src/app/core/services/*",
         "./src/app/core/tribes/*",
         "./src/app/core/verse/*"
+      ],
+      "@books/*": [
+        "./public/assets/data/books/*"
       ]
     }
   },

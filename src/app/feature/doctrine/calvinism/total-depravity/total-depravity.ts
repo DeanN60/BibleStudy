@@ -1,21 +1,21 @@
-import {Component, ChangeDetectionStrategy} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {SubMenu} from "../../doctrine-sub-menu/sub-menu";
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
-import {Verse} from '@core/verse';
-import {rom_3_10_18} from '../../../../../../public/assets/data/books/Romans/rom_3';
-import {jer_17_9} from '../../../../../../public/assets/data/books/Jeremiah/jer_17';
-import {gen_6_5} from '../../../../../../public/assets/data/books/Genesis/gen_6';
-import {eph_2_1_3} from '../../../../../../public/assets/data/books/Ephesians/eph_2';
-import {rom_8_7_8} from '../../../../../../public/assets/data/books/Romans/rom_8';
-import {john_6_44} from '../../../../../../public/assets/data/books/John/john_6';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
+import {Book} from '@core/book/book';
+import {rom_3_10_18} from '@books/Romans/rom_3';
+import {jer_17_9} from '@books/Jeremiah/jer_17';
+import {gen_6_5} from '@books/Genesis/gen_6';
+import {eph_2_1_3} from '@books/Ephesians/eph_2';
+import {rom_8_7_8} from '@books/Romans/rom_8';
+import {john_6_44} from '@books/John/john_6';
 
 @Component({
   selector: 'app-total-depravity',
   imports: [
     SubMenu,
     RightSubMenu,
-    Verse
+    Book
   ],
   templateUrl: './total-depravity.html',
   changeDetection: ChangeDetectionStrategy.Eager,
