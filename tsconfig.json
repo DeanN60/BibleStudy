@@ -22,7 +22,7 @@
         "./src/app/core/menu/*",
         "./src/app/core/services/*",
         "./src/app/core/tribes/*",
-        "./src/app/core/verse/*"
+        "./src/app/core/book/*"
       ],
       "@books/*": [
         "./public/assets/data/books/*"
