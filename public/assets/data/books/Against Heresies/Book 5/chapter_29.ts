@@ -1,4 +1,4 @@
-import {VerseData} from '@core/verse-data';
+import {VerseData} from 'src/app/core/verse/verse-data';
 
 export const againstHereChap29p1 = new VerseData(
   "Against Heresies Chapter 29 p1",

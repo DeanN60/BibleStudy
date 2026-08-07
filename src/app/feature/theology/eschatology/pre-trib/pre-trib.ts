@@ -3,7 +3,7 @@ import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from "../right-sub-menu/right-sub-menu";
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {Verse} from '@core/verse';
-import {againstHereChap29p1} from '@core/books/Against Heresies/Book 5/chapter_29';
+import {againstHereChap29p1} from '../../../../../../public/assets/data/books/Against Heresies/Book 5/chapter_29';
 import {iThessalonians_4_13_18} from '../../../../../../public/assets/data/books/I Thessalonians/iThessalonians_4';
 import {john_14_1_4} from '../../../../../../public/assets/data/books/John/john_14';
 import {isaiah_26_19_21} from '../../../../../../public/assets/data/books/Isaiah/isaiah_26';
