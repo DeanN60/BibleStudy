@@ -6,7 +6,7 @@ import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
 import {SubMenu} from '../../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
-import {Verse} from '@core/verse';
+import {Book} from '@core/book';
 
 describe('LimitedAtonement', () => {
   let component: LimitedAtonement;
@@ -17,7 +17,7 @@ describe('LimitedAtonement', () => {
       imports: [
         SubMenu,
         RightSubMenu,
-        Verse,
+        Book,
         LimitedAtonement
       ],
       providers: [
