@@ -1,11 +1,11 @@
 export class BookData {
   reference: string;
-  verse: string;
+  text: string;
   source?: string;
 
-  constructor(reference: string, verse: string, source?: string) {
+  constructor(reference: string, text: string, source?: string) {
     this.reference = reference;
-    this.verse = verse;
+    this.text = text;
     if (source) {
       this.source = source;
     }
@@ -14,6 +14,6 @@ export class BookData {
 
 export const fallbackBookData: BookData = {
   reference: "unknown",
-  verse: "no verse available",
+  text: "no text available",
   source: "unknown"
 }
