@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { HistoryTimeLine } from './history-time-line';
+import {HistoryTimeLine} from './history-time-line';
+import {provideRouter} from '@angular/router';
+import {provideHttpClient} from '@angular/common/http';
+import {provideHttpClientTesting} from '@angular/common/http/testing';
 
 describe('HistoryTimeLine', () => {
   let component: HistoryTimeLine;
@@ -8,9 +11,15 @@ describe('HistoryTimeLine', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [HistoryTimeLine]
-    })
-    .compileComponents();
+      imports: [
+        HistoryTimeLine
+      ],
+      providers: [
+        provideRouter([]),
+        provideHttpClient(),
+        provideHttpClientTesting()
+      ],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(HistoryTimeLine);
     component = fixture.componentInstance;
