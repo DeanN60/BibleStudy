@@ -1,17 +1,17 @@
-import {Component, ChangeDetectionStrategy} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {SubMenu} from "../../doctrine-sub-menu/sub-menu";
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
-import {Verse} from '@core/verse';
-import {eph_2_9_10} from '@core/books/Ephesians/eph_2';
-import {rom_4_4, rom_4_5} from '@core/books/Romans/rom_4';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
+import {Book} from '@core/book/book';
+import {eph_2_9_10} from '@books/Ephesians/eph_2';
+import {rom_4_4, rom_4_5} from '@books/Romans/rom_4';
 
 @Component({
   selector: 'app-not-of-works',
   imports: [
     SubMenu,
     RightSubMenu,
-    Verse
+    Book
   ],
   templateUrl: './not-of-works.html',
   changeDetection: ChangeDetectionStrategy.Eager,

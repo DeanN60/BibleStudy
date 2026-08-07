@@ -1,19 +1,19 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {HomeSubMenu} from '../home-sub-menu/home-sub-menu';
 import {Definition, iDefinition} from '@core/definition/definition';
-import {Verse} from '@core/verse';
-import {daniel_8_5_8} from '@core/books/Daniel/daniel_8';
-import {gen_1_1_5} from '@core/books/Genesis/gen_1';
-import {ezekiel_1_4_14} from '@core/books/Ezekiel/ezekiel_1';
+import {Book} from '@core/book/book';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
-import {rev_1_3} from '@core/books/Revelation/rev_1';
+import {daniel_8_5_8} from '@books/Daniel/daniel_8';
+import {gen_1_1_5} from '@books/Genesis/gen_1';
+import {ezekiel_1_4_14} from '@books/Ezekiel/ezekiel_1';
+import {rev_1_3} from '@books/Revelation/rev_1';
 
 @Component({
   selector: 'app-interpretation',
   imports: [
     HomeSubMenu,
     Definition,
-    Verse
+    Book
   ],
   templateUrl: './interpretation.html',
   changeDetection: ChangeDetectionStrategy.Eager,

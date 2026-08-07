@@ -34,14 +34,13 @@
   --color-overlay-panel-background: hsl(var(--base-hue), 96%, 78%);
   --color-overlay-panel-text: hsl(var(--base-hue), 7%, 23%);
 
-  --color-verse-header-text: hsl(var(--base-hue), 100%, 1%); // updated
-  --color-verse-header-background: hsl(var(--base-hue), 30%, 80%); // updated
-  --color-verse-background: hsl(var(--base-hue), 0%, 48%);
-  --color-verse-reference: hsl(var(--base-hue), 10%, 81%);
-  --color-verse-text: hsl(var(--base-hue), 0%, 0%);
-  --color-verse-text-background: hsl(var(--base-hue), 20%, 100%);
-  --color-verse-source: hsl(var(--base-hue), 0%, 1%);
-  --color-verse-footer-background: hsl(var(--base-hue), 30%, 80%); // updated
+  --color-book-reference-background: hsl(var(--base-hue), 30%, 80%); // updated
+  --color-book-reference-text: hsl(var(--base-hue), 100%, 1%); // updated
+  --color-book-background: hsl(var(--base-hue), 0%, 48%);
+  --color-book-text: hsl(var(--base-hue), 0%, 0%);
+  --color-book-text-background: hsl(var(--base-hue), 20%, 100%);
+  --color-book-source-text: hsl(var(--base-hue), 0%, 1%);
+  --color-book-source-background: hsl(var(--base-hue), 30%, 80%); // updated
 
   --color-def-header-text: hsl(var(--highlight-hue), 0%, 0%);
   --color-def-label: hsl(var(--highlight-hue), 0%, 0%); // updated
@@ -108,14 +107,13 @@
     --color-overlay-panel-background: hsl(var(--base-hue), 96%, 78%);
     --color-overlay-panel-text: hsl(var(--base-hue), 7%, 23%);
 
-    --color-verse-header-text: hsl(var(--base-hue), 0%, 100%);
-    --color-verse-header-background: hsl(var(--base-hue), 0%, 10%);
-    --color-verse-background: hsl(var(--base-hue), 0%, 48%);
-    --color-verse-reference: hsl(var(--base-hue), 10%, 81%);
-    --color-verse-text: hsl(var(--base-hue), 0%, 0%);
-    --color-verse-text-background: hsl(var(--base-hue), 20%, 100%);
-    --color-verse-source: hsl(var(--base-hue), 0%, 86%);
-    --color-verse-footer-background: hsl(var(--base-hue), 0%, 10%); // updated
+    --color-book-reference-background: hsl(var(--base-hue), 0%, 4%);
+    --color-book-reference-text: hsl(var(--base-hue), 0%, 100%);
+    --color-book-background: hsl(var(--base-hue), 0%, 4%);
+    --color-book-text: hsl(var(--base-hue), 0%, 0%);
+    --color-book-text-background: hsl(var(--base-hue), 20%, 100%);
+    --color-book-source-text: hsl(var(--base-hue), 0%, 86%);
+    --color-book-source-background: hsl(var(--base-hue), 0%, 4%); // updated
 
     --color-def-header-text: hsl(var(--base-hue), 100%, 0%);
     --color-def-label: hsl(var(--highlight-hue), 40%, 20%);

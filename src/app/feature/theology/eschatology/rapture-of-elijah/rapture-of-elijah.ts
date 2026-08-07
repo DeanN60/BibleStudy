@@ -2,15 +2,15 @@ import {Component} from '@angular/core';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {TheologySubMenu} from '../../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
-import {Verse} from '@core/verse';
-import {iiKings_2_11_12} from '@core/books/II Kings/iiKings_2';
+import {Book} from '@core/book/book';
+import {iiKings_2_11_12} from '@books/II Kings/iiKings_2';
 
 @Component({
   selector: 'app-rapture-of-elijah',
   imports: [
     TheologySubMenu,
     RightSubMenu,
-    Verse
+    Book
   ],
   templateUrl: './rapture-of-elijah.html',
   styleUrl: '../eschatology.scss',

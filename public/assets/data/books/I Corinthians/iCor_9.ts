@@ -1,0 +1,7 @@
+import {BookData} from '@core/book-data';
+
+export const iCor_9_17 = new BookData(
+  "I Corinthians 9:17 KJV",
+  "17 For if I do this thing willingly, I have a reward: but if against my will, a dispensation of the gospel is committed unto me.",
+  "King James Version"
+);

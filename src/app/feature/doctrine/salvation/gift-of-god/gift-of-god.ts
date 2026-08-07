@@ -1,19 +1,19 @@
-import {Component, ChangeDetectionStrategy} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {SubMenu} from "../../doctrine-sub-menu/sub-menu";
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
-import {Verse} from '@core/verse';
-import {eph_2_8} from '@core/books/Ephesians/eph_2';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
-import {john_14_6} from '@core/books/John/john_14';
-import {rom_6_23} from '@core/books/Romans/rom_6';
-import {iiPeter_3_9} from '@core/books/II Peter/iiPeter_3';
+import {Book} from '@core/book/book';
+import {eph_2_8} from '@books/Ephesians/eph_2';
+import {john_14_6} from '@books/John/john_14';
+import {rom_6_23} from '@books/Romans/rom_6';
+import {iiPeter_3_9} from '@books/II Peter/iiPeter_3';
 
 @Component({
   selector: 'app-gift-of-god',
   imports: [
     SubMenu,
     RightSubMenu,
-    Verse
+    Book
   ],
   templateUrl: './gift-of-god.html',
   changeDetection: ChangeDetectionStrategy.Eager,

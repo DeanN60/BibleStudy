@@ -1,20 +1,20 @@
 import {Component, ChangeDetectionStrategy} from '@angular/core';
 import {SubMenu} from "../../doctrine-sub-menu/sub-menu";
 import {RightSubMenu} from '../right-sub-menu/right-sub-menu';
-import {rom_9_11_16} from '@core/books/Romans/rom_9';
-import {Verse} from '@core/verse';
-import {eph_1_1_11} from '@core/books/Ephesians/eph_1';
-import {iiTim_1_9} from '@core/books/II Timothy/iiTim_1';
-import {john_6_37} from '@core/books/John/john_6';
-import {john_15_16} from '@core/books/John/john_15';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
+import {Book} from '@core/book/book';
+import {rom_9_11_16} from '@books/Romans/rom_9';
+import {eph_1_1_11} from '@books/Ephesians/eph_1';
+import {iiTim_1_9} from '@books/II Timothy/iiTim_1';
+import {john_6_37} from '@books/John/john_6';
+import {john_15_16} from '@books/John/john_15';
 
 @Component({
   selector: 'app-unconditional-election',
   imports: [
     SubMenu,
     RightSubMenu,
-    Verse
+    Book
   ],
   templateUrl: './unconditional-election.html',
   changeDetection: ChangeDetectionStrategy.Eager,

@@ -9,7 +9,7 @@ import {
   gen_5_3_5,
   gen_5_6_8,
   gen_5_9_11
-} from '@core/books/Genesis/gen_5';
+} from '../../../../../public/assets/data/books/Genesis/gen_5';
 import {
   gen_11_10_11,
   gen_11_12_13,
@@ -20,9 +20,9 @@ import {
   gen_11_22_23,
   gen_11_24_25,
   gen_11_26_32
-} from '@core/books/Genesis/gen_11';
-import {gen_21_5} from '@core/books/Genesis/gen_21';
-import {gen_25_24_26} from '@core/books/Genesis/gen_25';
+} from '../../../../../public/assets/data/books/Genesis/gen_11';
+import {gen_21_5} from '../../../../../public/assets/data/books/Genesis/gen_21';
+import {gen_25_24_26} from '../../../../../public/assets/data/books/Genesis/gen_25';
 
 export const persons = [
   {

@@ -1,14 +1,14 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {JesusSubMenu} from '../jesus-sub-menu/jesus-sub-menu';
-import {Verse} from '@core/verse';
-import {john_1_1_5} from '@core/books/John/john_1';
+import {john_1_1_5} from '@books/John/john_1';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
+import {Book} from '@core/book/book';
 
 @Component({
   selector: 'app-deity',
   imports: [
     JesusSubMenu,
-    Verse
+    Book
   ],
   templateUrl: './deity.html',
   changeDetection: ChangeDetectionStrategy.Eager,

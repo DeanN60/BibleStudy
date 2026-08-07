@@ -1,14 +1,14 @@
-import {Component, ChangeDetectionStrategy} from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {TheologySubMenu} from '../theology-sub-menu/theology-sub-menu';
 import {RightSubMenu} from './right-sub-menu/right-sub-menu';
 import {BasePageWithSubtitle} from '@core/base-page-with-subtitle/base-page-with-subtitle';
 import {Definition, iDefinition} from '@core/definition/definition';
-import {Verse} from '@core/verse';
-import {iCor_12_27_30} from '@core/books/I Corinthians/iCor_12';
-import {rom_12_4_8} from '@core/books/Romans/rom_12';
-import {eph_1_22_23} from '@core/books/Ephesians/eph_1';
-import {eph_4_11_16} from '@core/books/Ephesians/eph_4';
-import {col_1_24_29} from '@core/books/Colossians/col_1';
+import {Book} from '@core/book/book';
+import {iCor_12_27_30} from '@books/I Corinthians/iCor_12';
+import {rom_12_4_8} from '@books/Romans/rom_12';
+import {eph_1_22_23} from '@books/Ephesians/eph_1';
+import {eph_4_11_16} from '@books/Ephesians/eph_4';
+import {col_1_24_29} from '@books/Colossians/col_1';
 
 @Component({
   selector: 'app-ecclesiology',
@@ -16,7 +16,7 @@ import {col_1_24_29} from '@core/books/Colossians/col_1';
     TheologySubMenu,
     RightSubMenu,
     Definition,
-    Verse
+    Book
   ],
   templateUrl: './ecclesiology.html',
   changeDetection: ChangeDetectionStrategy.Eager,

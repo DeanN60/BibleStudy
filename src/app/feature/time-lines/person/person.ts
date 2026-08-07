@@ -1,7 +1,7 @@
-import {Component, input, ChangeDetectionStrategy} from '@angular/core';
-import {Verse} from '@core/verse';
-import {VerseData} from '@core/verse-data';
+import {ChangeDetectionStrategy, Component, input} from '@angular/core';
+import {BookData} from '@core/book-data';
 import {KeepInViewport} from '@core/directive/keep-in-viewport';
+import {Book} from '@core/book/book';
 
 export interface iPerson {
   name: string;
@@ -9,15 +9,15 @@ export interface iPerson {
   age: number;
   scale: number;
   show?: boolean
-  reference?: VerseData;
+  reference?: BookData;
   note?: string;
 }
 
 @Component({
   selector: 'app-person',
   imports: [
-    Verse,
-    KeepInViewport
+    KeepInViewport,
+    Book
   ],
   templateUrl: './person.html',
   changeDetection: ChangeDetectionStrategy.Eager,
