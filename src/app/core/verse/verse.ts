@@ -4,7 +4,7 @@ import {VerseBlock} from '@core/verse-block/verse-block';
 import {KeepInViewport} from '@core/directive/keep-in-viewport';
 import {OpenTrigger} from '@core/directive/open-trigger';
 
-export const fallbackVerse: BookData = {
+export const fallbackBookData: BookData = {
   reference: "unknown",
   verse: "no verse available",
   source: "unknown"
@@ -24,7 +24,7 @@ export const fallbackVerse: BookData = {
 export class Verse {
   data = input.required<BookData, BookData | undefined>({
     transform: (value: BookData | undefined): BookData => {
-      return value ?? fallbackVerse;
+      return value ?? fallbackBookData;
     }
   });
 }

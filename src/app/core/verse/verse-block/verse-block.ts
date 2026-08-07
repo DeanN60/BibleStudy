@@ -1,6 +1,6 @@
 import {Component, input, ChangeDetectionStrategy} from '@angular/core';
 import {BookData} from '@core/book-data';
-import {fallbackVerse} from '@core/verse';
+import {fallbackBookData} from '@core/verse';
 
 @Component({
   selector: 'app-verse-block',
@@ -12,7 +12,7 @@ import {fallbackVerse} from '@core/verse';
 export class VerseBlock {
   data = input.required<BookData, BookData | undefined>({
     transform: (value: BookData | undefined): BookData => {
-      return value ?? fallbackVerse;
+      return value ?? fallbackBookData;
     }
   });
 }
