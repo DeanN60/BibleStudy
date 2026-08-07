@@ -13,7 +13,7 @@ export const gen_2_1_25 = new BookData(
   "9 And out of the ground Yahweh God caused to grow every tree that is desirable in appearance and good for food; the tree of life also in the midst of the garden, and the tree of the knowledge of good and evil. " +
   "10 Now a river went out of Eden to water the garden; and from there it divided and became four rivers. " +
   "11 The name of the first is Pishon; it is the one that went around the whole land of Havilah, where there is gold. " +
-  "12 Now the gold of that land is good; the bdellium and the onyx stone are there. " +
+  "12 Now the gold of that land is good; the dellium and the onyx stone are there. " +
   "13 And the name of the second river is Gihon; it is the one that went around the whole land of Cush. " +
   "14 And the name of the third river is Tigris; it is the one that went east of Asshur. And the fourth river is the Euphrates. " +
   "15 Then Yahweh God took the man and aset him in the garden of Eden to cultivate it and keep it. " +
