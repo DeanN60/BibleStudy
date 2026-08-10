@@ -1,15 +1,12 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Component, ComponentRef } from '@angular/core';
-import { describe, beforeEach, it, expect } from 'vitest';
-import { Person } from './person'; // Adjust path as needed
-import { Book } from '@core/book';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
+import {ComponentRef} from '@angular/core';
+import {beforeEach, describe, expect, it} from 'vitest';
+import {Person} from './person'; // Adjust path as needed
+import {Book} from '@core/book';
 import {provideRouter} from '@angular/router';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
-
-// Optional: Mock child directives/components if they are complex
-@Component({ selector: 'app-book', standalone: true, template: '' })
-class MockBookComponent {}
+import {MockBook} from '@mock/mock-book';
 
 describe('Person Component', () => {
   let component: Person;
@@ -29,8 +26,8 @@ describe('Person Component', () => {
     })
       // Override child components/directives if you prefer isolation:
       .overrideComponent(Person, {
-        remove: { imports: [Book] },
-        add: { imports: [MockBookComponent] }
+        remove: {imports: [Book]},
+        add: {imports: [MockBook]}
       })
       .compileComponents();
 
