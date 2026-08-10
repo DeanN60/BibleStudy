@@ -14,4 +14,17 @@ describe('BookData', () => {
   it('should create an instance', () => {
     expect(ephesians2_8).toBeTruthy();
   });
+
+  it('should set reference', () => {
+    expect(ephesians2_8.reference).toBe('Ephesians 2:8 LSB');
+  });
+
+  it('should set text', () => {
+    expect(ephesians2_8.text).toContain('For by grace you have been saved');
+  });
+
+  it('should set source', () => {
+    expect(ephesians2_8.source).toContain('Legacy Standard Bible');
+    expect(ephesians2_8.source).toContain('(p. 3918)');
+  })
 });
