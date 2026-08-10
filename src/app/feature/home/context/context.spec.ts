@@ -22,7 +22,6 @@ describe('Context Component', () => {
         provideHttpClientTesting()
       ]
     })
-      // Mock child components if you want to isolate the unit test:
       .overrideComponent(Context, {
         remove: {imports: [HomeSubMenu, Definition]},
         add: {imports: [MockHomeSubMenu, MockDefinition]},

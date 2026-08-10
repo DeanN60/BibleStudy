@@ -26,7 +26,6 @@ describe('Trinity Component', () => {
         provideHttpClientTesting()
       ]
     })
-      // Mock child components if needed to isolate the Trinity component test
       .overrideComponent(Trinity, {
         remove: {imports: [SubMenu, Definition, Book]},
         add: {imports: [MockDoctrineSubMenu, MockDefinition, MockBook]}
