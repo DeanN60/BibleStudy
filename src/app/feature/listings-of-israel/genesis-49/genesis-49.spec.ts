@@ -1,5 +1,4 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
-import {Component, input} from '@angular/core';
 import {beforeEach, describe, expect, it} from 'vitest';
 import {Genesis49} from './genesis-49';
 import {LoiSubMenu} from '../loi-sub-menu/loi-sub-menu';
@@ -7,25 +6,8 @@ import {Tribe} from '@core/tribe/tribe';
 import {provideRouter} from '@angular/router';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
-
-// Mock child components to isolate Genesis49 unit test
-@Component({
-  selector: 'app-loi-sub-menu',
-  standalone: true,
-  template: ''
-})
-class MockLoiSubMenu {
-}
-
-@Component({
-  selector: 'app-tribe',
-  standalone: true,
-  template: ''
-})
-class MockTribe {
-  name = input<string>();
-  showStandard = input<boolean>(false);
-}
+import {MockLoiSubMenu} from '@mock/mock-loi-sub-menu';
+import {MockTribe} from '@mock/mock-tribe'
 
 describe('Genesis49 Component', () => {
   let component: Genesis49;
