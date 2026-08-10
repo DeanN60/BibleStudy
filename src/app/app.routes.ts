@@ -19,6 +19,12 @@ export const routes: Routes = [
     title: 'About'
   },
   {
+    path: 'five-solas',
+    loadChildren: () => import('./feature/five-solas/five-solas-routes')
+      .then(m => m.fiveSolasRoutes),
+    title: 'Doctrine'
+  },
+  {
     path: 'doctrine',
     loadChildren: () => import('./feature/doctrine/doctrines-routes')
       .then(m => m.doctrines_routes),
