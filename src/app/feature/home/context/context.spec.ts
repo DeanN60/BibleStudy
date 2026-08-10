@@ -3,31 +3,12 @@ import {TestBed} from '@angular/core/testing';
 import {beforeEach, describe, expect, it} from 'vitest';
 import {Context} from './context';
 import {HomeSubMenu} from '../home-sub-menu/home-sub-menu';
-import {Definition, iDefinition} from '@core/definition/definition';
+import {Definition} from '@core/definition/definition';
 import {provideRouter} from '@angular/router';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
-import {Component, input} from '@angular/core';
-
-// Mock child components to keep unit tests isolated
-@Component({selector: 'app-home-sub-menu', template: ''})
-class MockSubMenu {
-}
-
-@Component({selector: 'app-definition', template: ''})
-class MockDefinition {
-  default = {
-    source: 'unknown',
-    term: 'Test',
-    type: "noun",
-    definitions: [
-      {def: "Test 1"},
-      {def: "Test 2"},
-      {def: "Test 3"}
-    ]
-  } as iDefinition;
-  data = input<iDefinition>(this.default);
-}
+import {MockHomeSubMenu} from '@mock/mock-home-sub-menu';
+import {MockDefinition} from '@mock/mock-definition';
 
 describe('Context Component', () => {
   beforeEach(async () => {
@@ -44,7 +25,7 @@ describe('Context Component', () => {
       // Mock child components if you want to isolate the unit test:
       .overrideComponent(Context, {
         remove: {imports: [HomeSubMenu, Definition]},
-        add: {imports: [MockSubMenu, MockDefinition]},
+        add: {imports: [MockHomeSubMenu, MockDefinition]},
       }).compileComponents();
   });
 
