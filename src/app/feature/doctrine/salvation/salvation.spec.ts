@@ -1,47 +1,16 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
-import {Component, input} from '@angular/core';
 import {Salvation} from './salvation';
 import {SubMenu} from '../doctrine-sub-menu/sub-menu';
 import {RightSubMenu} from './right-sub-menu/right-sub-menu';
-import {Definition, iDefinition} from '@core/definition/definition';
+import {Definition} from '@core/definition/definition';
 import {Book} from '@core/book';
 import {provideRouter} from '@angular/router';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
-import {BookData, fallbackBookData} from '@core/book-data';
-
-// Mock child components to keep unit tests isolated
-@Component({selector: 'app-doctrine-sub-menu', template: ''})
-class MockSubMenu {
-}
-
-@Component({selector: 'app-right-sub-menu', template: ''})
-class MockRightSubMenu {
-}
-
-@Component({selector: 'app-definition', template: ''})
-class MockDefinition {
-  default = {
-    source: 'unknown',
-    term: 'Test',
-    type: "noun",
-    definitions: [
-      {def: "Test 1"},
-      {def: "Test 2"},
-      {def: "Test 3"}
-    ]
-  } as iDefinition;
-  data = input<iDefinition>(this.default);
-}
-
-@Component({selector: 'app-book', template: ''})
-class MockBook {
-  data = input.required<BookData, BookData | undefined>({
-    transform: (value: BookData | undefined): BookData => {
-      return value ?? fallbackBookData;
-    }
-  });
-}
+import {MockDoctrineSubMenu} from '@mock/mock-doctrine-sub-menu';
+import {MockRightSubMenu} from '@mock/mock-right-sub-menu';
+import {MockDefinition} from '@mock/mock-definition'
+import {MockBook} from '@mock/mock-book';
 
 describe('Salvation Component', () => {
   let component: Salvation;
@@ -61,7 +30,7 @@ describe('Salvation Component', () => {
       // Override child component imports with mocks
       .overrideComponent(Salvation, {
         remove: {imports: [SubMenu, RightSubMenu, Definition, Book]},
-        add: {imports: [MockSubMenu, MockRightSubMenu, MockDefinition, MockBook]},
+        add: {imports: [MockDoctrineSubMenu, MockRightSubMenu, MockDefinition, MockBook]},
       })
       .compileComponents();
 
