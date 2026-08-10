@@ -1,39 +1,15 @@
-import {Component, input} from '@angular/core';
 import {ComponentFixture, TestBed} from '@angular/core/testing';
 import {beforeEach, describe, expect, it} from 'vitest';
 import {Interpretation} from './interpretation';
 import {HomeSubMenu} from '../home-sub-menu/home-sub-menu';
-import {Definition, iDefinition} from '@core/definition/definition';
+import {Definition} from '@core/definition/definition';
 import {Book} from '@core/book';
 import {provideRouter} from '@angular/router';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
-import {BookData, fallbackBookData} from '@core/book-data';
 import {MockHomeSubMenu} from '@mock/mock-home-sub-menu';
-
-@Component({selector: 'app-definition', template: ''})
-class MockDefinition {
-  default = {
-    source: 'unknown',
-    term: 'Test',
-    type: "noun",
-    definitions: [
-      {def: "Test 1"},
-      {def: "Test 2"},
-      {def: "Test 3"}
-    ]
-  } as iDefinition;
-  data = input<iDefinition>(this.default);
-}
-
-@Component({selector: 'app-book', template: ''})
-class MockBook {
-  data = input.required<BookData, BookData | undefined>({
-    transform: (value: BookData | undefined): BookData => {
-      return value ?? fallbackBookData;
-    }
-  });
-}
+import {MockDefinition} from '@mock/mock-definition';
+import {MockBook} from '@mock/mock-book';
 
 describe('Interpretation Component', () => {
   let component: Interpretation;
