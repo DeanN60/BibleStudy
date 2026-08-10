@@ -1,0 +1,10 @@
+@use "tight-paragraph";
+@use "mixins";
+
+.page-content-container {
+  @include mixins.mix-left-side-menu();
+}
+
+app-key-points-sub-menu {
+  grid-area: left-menu-panel;
+}

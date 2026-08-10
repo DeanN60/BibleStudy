@@ -31,6 +31,12 @@ export const routes: Routes = [
     title: 'Doctrine'
   },
   {
+    path: 'key-points',
+    loadChildren: () => import('./feature/key-points/key-points-routes')
+      .then(m => m.key_points_routes),
+    title: 'Key Points'
+  },
+  {
     path: 'theology',
     loadChildren: () => import('./feature/theology/theology-routes')
       .then(m => m.theology_routes),
