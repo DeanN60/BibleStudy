@@ -9,11 +9,7 @@ import {provideRouter} from '@angular/router';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
 import {BookData, fallbackBookData} from '@core/book-data';
-
-// Mock child components to isolate the test target
-@Component({selector: 'app-home-sub-menu', template: ''})
-class MockHomeSubMenu {
-}
+import {MockHomeSubMenu} from '@mock/mock-home-sub-menu';
 
 @Component({selector: 'app-definition', template: ''})
 class MockDefinition {
