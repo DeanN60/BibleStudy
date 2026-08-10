@@ -1,18 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { beforeEach, describe, expect, it } from 'vitest';
-import { HistoryTimeLine } from './history-time-line';
-
-// Mock child component implementations using Angular TestBed overrides
-import { Component } from '@angular/core';
-
-@Component({ selector: 'app-time-lines-sub-menu', template: '' })
-class MockTimeLinesSubMenu {}
-
-@Component({ selector: 'app-person', template: '' })
-class MockPerson {}
-
-@Component({ selector: 'app-tl-marker', template: '' })
-class MockTlMarker {}
+import {ComponentFixture, TestBed} from '@angular/core/testing';
+import {beforeEach, describe, expect, it} from 'vitest';
+import {HistoryTimeLine} from './history-time-line';
+import {MockTimeLinesSubMenu} from '@mock/mock-time-lines-sub-menu';
+import {MockPerson} from '@mock/mock-person';
+import {MockTlMarker} from '@mock/mock-tl-marker';
 
 describe('HistoryTimeLine', () => {
   let component: HistoryTimeLine;
