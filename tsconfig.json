@@ -26,6 +26,9 @@
       ],
       "@books/*": [
         "./public/assets/data/books/*"
+      ],
+      "@mock/*": [
+        "./src/test/mocks/*"
       ]
     }
   },
