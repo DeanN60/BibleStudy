@@ -1,22 +1,12 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
-import {LifeOfJesus} from './life-of-jesus'; // Adjust path as needed
+import {LifeOfJesus} from './life-of-jesus';
 import {beforeEach, describe, expect, it} from 'vitest';
 import {provideRouter} from '@angular/router';
 import {provideHttpClient} from '@angular/common/http';
 import {provideHttpClientTesting} from '@angular/common/http/testing';
-import {Component} from '@angular/core';
-
-@Component({selector: 'app-time-lines-sub-menu', template: ''})
-class MockTimeLinesSubMenu {
-}
-
-@Component({selector: 'app-person', template: ''})
-class MockPerson {
-}
-
-@Component({selector: 'app-tl-marker', template: ''})
-class MockTlMarker {
-}
+import {MockTimeLinesSubMenu} from '@mock/mock-time-lines-sub-menu';
+import {MockPerson} from '@mock/mock-person';
+import {MockTlMarker} from '@mock/mock-tl-marker';
 
 describe('LifeOfJesus', () => {
   let component: LifeOfJesus;
@@ -87,29 +77,3 @@ describe('LifeOfJesus', () => {
     ]);
   });
 });
-
-
-// import {ComponentFixture, TestBed} from '@angular/core/testing';
-//
-// import {LifeOfJesus} from './life-of-jesus';
-// import {provideRouter} from '@angular/router';
-//
-// describe('LifeOfJesus', () => {
-//   let component: LifeOfJesus;
-//   let fixture: ComponentFixture<LifeOfJesus>;
-//
-//   beforeEach(async () => {
-//     await TestBed.configureTestingModule({
-//       imports: [LifeOfJesus],
-//       providers: [provideRouter([])]
-//     }).compileComponents();
-//
-//     fixture = TestBed.createComponent(LifeOfJesus);
-//     component = fixture.componentInstance;
-//     await fixture.whenStable();
-//   });
-//
-//   it('should create', () => {
-//     expect(component).toBeTruthy();
-//   });
-// });
