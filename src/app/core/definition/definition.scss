@@ -9,8 +9,14 @@
     padding: 5px;
     text-align: center;
     color: var(--color-def-header-text);
+    background-color: var(--color-def-header-background);
     font-size: 14pt;
     font-weight: bold;
+  }
+
+  .card-body {
+    background-color: var(--color-def-background);
+    color: var(--color-def-text);
   }
 
   .source {
@@ -55,6 +61,7 @@
 
 .definition-container {
   width: fit-content;
+  background-color: transparent;
 
   .definition-word {
     background-color: var(--color-def-header-background);
@@ -73,6 +80,10 @@
     .definition-card {
       display: block;
       transition-behavior: allow-discrete;
+    }
+
+    .definition-word {
+      visibility: hidden;
     }
   }
 }
