@@ -9,8 +9,8 @@ export const key_points_routes: Routes = [
   },
   {
     path: 'temple-destruction-seventy-ad',
-    loadComponent: () => import('./temple-destruction-seventy-ad/temple-destruction-seventy-ad')
-      .then(m => m.TempleDestructionSeventyAd),
+    loadChildren: () => import('./temple-destruction-seventy-ad/temple-destruction-seventy-ad-routes')
+      .then(m => m.temple_destruction_seventy_ad),
     title: 'Temple destruction 70AD',
   }
 ]
