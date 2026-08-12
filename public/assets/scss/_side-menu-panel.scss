@@ -6,6 +6,15 @@
 .right-side-menu-panel {
   width: var(--right-side-panel-menu-width);
   text-align: left;
+
+  .label {
+    width: fit-content;
+    font-size: 0.8em;
+    margin: 10px 0 0 10px;
+    padding: 0 5px;
+    font-weight: bold;
+    border-bottom: 1px solid var(--color-side-menu-text);
+  }
 }
 
 .left-side-menu-panel,
