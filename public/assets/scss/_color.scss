@@ -5,10 +5,10 @@
 
   --color-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 
-  --color-link-unvisited: hsl(var(--base-hue), 60%, 40%);
-  --color-link-visited: hsl(var(--base-hue), 73%, 60%);
-  --color-link-hover: hsl(var(--base-hue), 73%, 60%);
-  --color-link-hover-background: hsl(var(--base-hue), 19%, 11%);
+  --color-link-unvisited: hsl(var(--base-hue), 50%, 50%); // updated
+  --color-link-visited: hsl(var(--base-hue), 70%, 60%); // updated
+  --color-link-hover: hsl(var(--base-hue), 80%, 90%); // updated
+  --color-link-hover-background: hsl(var(--base-hue), 80%, 30%); // updated
   --color-link-selected: hsl(var(--base-hue), 95%, 80%);
 
   --color-h1: hsl(var(--base-hue), 85%, 71%);
@@ -21,8 +21,8 @@
   --color-menu-background: hsl(var(--base-hue), 19%, 11%);
   --color-menu-hover-background: hsl(var(--base-hue), 18%, 34%);
 
-  --color-side-menu-text: hsl(var(--base-hue), 0%, 0%); //updated
-  --color-side-menu-hover-text: hsl(var(--base-hue), 1%, 5%); //updated
+  --color-side-menu-text: hsl(var(--base-hue), 0%, 0%); // updated
+  --color-side-menu-hover-text: hsl(var(--base-hue), 1%, 5%); // updated
   --color-side-menu-background: hsl(var(--base-hue), 100%, 80%); // updated
   --color-side-menu-hover-background: hsl(var(--base-hue), 90%, 45%); // updated
 
@@ -30,7 +30,7 @@
   --color-content-background-color: hsl(var(--base-hue), 18%, 100%);
 
   --color-footer-text: hsl(var(--base-hue), 5%, 1%); // updated
-  --color-footer-background: hsl(var(--base-hue), 50%, 60%); //updated
+  --color-footer-background: hsl(var(--base-hue), 50%, 60%); // updated
 
   --color-overlay-panel-background: hsl(var(--base-hue), 96%, 78%);
   --color-overlay-panel-text: hsl(var(--base-hue), 7%, 23%);
@@ -45,7 +45,7 @@
 
   --color-def-header-text: hsl(var(--definition-hue), 0%, 0%);
   --color-def-label: hsl(var(--definition-hue), 0%, 0%); // updated
-  --color-def-header-background: hsl(var(--definition-hue), 80%, 80%); //updated
+  --color-def-header-background: hsl(var(--definition-hue), 80%, 80%); // updated
   --color-def-background: hsl(var(--definition-hue), 40%, 80%);
   --color-def-term: hsl(var(--definition-hue), 30%, 30%);
   --color-def-text: hsl(var(--definition-hue), 0%, 0%);
