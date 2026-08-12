@@ -38,7 +38,7 @@
       &-reference {
         background-color: var(--color-book-reference-background);
         color: var(--color-book-reference-text);
-        padding: 0 0 4px 0;
+        padding: 4px 0 4px 5px;
       }
 
       &-content {
@@ -46,7 +46,7 @@
         font-size: 10pt;
         background-color: var(--color-book-text-background);
         color: var(--color-book-text);
-        padding: 0.5em 0;
+        padding: 0.5em 5px;
       }
 
       &-source {
@@ -54,7 +54,7 @@
         font-size: 7pt;
         background-color: var(--color-book-source-background);
         color: var(--color-book-source-text);
-        padding: 0.5em 0;
+        padding: 0.5em 5px;
 
         &:hover {
           font-size: 10pt;
